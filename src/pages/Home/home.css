@@ -83,30 +83,11 @@
   margin-top: 50px;
 }
 .service {
-  width: 100%;
+  
   height: 1200px;
   background: #ece8ef;
   margin-top: 100px;
   text-align: center;
-}
-.service h3 {
-  padding-top: 150px;
-  font-family: "Akshar";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 35px;
-  text-align: center;
-  color: #37383f;
-}
-.service p {
-  padding: 0 350px;
-  height: 82px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #37383f;
 }
 .serivesBox {
   display: flex;

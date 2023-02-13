@@ -1,0 +1,25 @@
+.serviceP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.serviceP h3 {
+    padding-top: 150px;
+    font-family: "Akshar";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #37383f;
+  }
+  .serviceP p {
+    width: 710px;
+    height: 82px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37383f;
+  }
