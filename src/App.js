@@ -1,11 +1,13 @@
-
+import React from 'react';
 import './App.css';
+import Software from './component/software/software'
+
 
 function App() {
   return (
-    <div>
-      ali 
-    </div>
+    <>
+     <Software /> 
+    </>
   );
 }
 
