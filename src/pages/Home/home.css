@@ -1,4 +1,4 @@
-.header-container {
+/* .header-container {
   width: 92%;
   height: 900px;
   background: linear-gradient(
@@ -33,11 +33,11 @@
 .header-bottom-img img {
   width: 700px;
   height: 750px;
-}
-.img-button {
+} */
+/* .img-button {
   display: flex;
   gap: 10px;
-}
+} */
 .description {
   display: flex;
   height: 600px;
