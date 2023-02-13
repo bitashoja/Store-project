@@ -1,14 +1,9 @@
-import React from 'react';
-import './App.css';
-import Software from './component/software/software'
-
+import React from "react";
+import Home from "./pages/Home/Home";
+import "./App.css";
 
 function App() {
-  return (
-    <>
-     <Software /> 
-    </>
-  );
+  return <Home />;
 }
 
 export default App;

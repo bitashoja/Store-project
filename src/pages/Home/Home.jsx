@@ -1,22 +1,20 @@
-import { useState, useEffect } from 'react'
-import './software.css'
-import HeaderContainer from '../header-container/header-container'
-import SerivesBox from '../service-Box/serivesBox'
+import "./home.css";
+// import HeaderContainer from "../components/HeaderContainer/HeaderContainer";
+// import ServicesBox from "../components/ServicesBox/ServicesBox";
 
-export default function software() {
-  let serivesIcon = [
-    { id: 1, src: './image/Union.svg', title: 'Websites' },
-    { id: 2, src: './image/Union(1).svg', title: 'Graphic Design' },
-    { id: 3, src: './image/Union(2).svg', title: 'Mobile Apps' },
-    { id: 4, src: './image/Union(3).svg', title: 'Digital Marketing' },
-    { id: 5, src: './image/Union(4).svg', title: 'Domains' },
-    { id: 6, src: './image/Union(5).svg', title: 'Hosting' }
-  ]
- 
+const serivesIcon = [
+  { id: 1, src: "./image/Union.svg", title: "Websites" },
+  { id: 2, src: "./image/Union(1).svg", title: "Graphic Design" },
+  { id: 3, src: "./image/Union(2).svg", title: "Mobile Apps" },
+  { id: 4, src: "./image/Union(3).svg", title: "Digital Marketing" },
+  { id: 5, src: "./image/Union(4).svg", title: "Domains" },
+  { id: 6, src: "./image/Union(5).svg", title: "Hosting" },
+];
 
+export default function Home() {
   return (
     <div className="container">
-      <HeaderContainer />
+      {/* <HeaderContainer /> */}
       <div className="description">
         <div className="desc-img">
           <div className="desc-img-circle">
@@ -58,13 +56,13 @@ export default function software() {
           technicians, engineers, designers and solution architects who work
           with you to find the best possible solution for your IT environment.
         </p>
-        
+
         <div className="serivesBox">
-          {serivesIcon.map((serive) => (
-            <SerivesBox {...serive} key={serive.id} />
-          ))}
+          {/* {serivesIcon.map((serive) => (
+            // <ServicesBox {...serive} key={serive.id} />
+          ))} */}
         </div>
       </div>
     </div>
-  )
+  );
 }

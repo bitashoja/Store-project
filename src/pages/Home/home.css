@@ -1,10 +1,3 @@
-@font-face {
-  font-family: Akshar;
-  src: url('../font/static/Akshar-Medium.ttf');
-}
-* {
-  font-family: Akshar;
-}
 .header-container {
   width: 92%;
   height: 900px;
@@ -55,7 +48,7 @@
   flex: 1;
 }
 .desc-img-circle {
-  background-image: url('../../../public/image/Ellipse.svg');
+  background-image: url("../../../public/image/Ellipse.svg");
   background-repeat: no-repeat;
   margin-top: 50px;
   margin-left: 50px;
@@ -98,7 +91,7 @@
 }
 .service h3 {
   padding-top: 150px;
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -115,19 +108,18 @@
   line-height: 22px;
   color: #37383f;
 }
-.serivesBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    
+.serivesBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-@media only screen and (max-width : 480px){
-
+@media only screen and (max-width: 480px) {
 }
-@media only screen and (min-width : 480.1px){
-   
+@media only screen and (min-width: 480.1px) {
 }
-@media only screen and (min-width : 768px){}
-@media only screen and (min-width : 1280px){}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1280px) {
+}
