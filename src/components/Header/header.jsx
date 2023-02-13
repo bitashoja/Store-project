@@ -5,8 +5,8 @@ export default function header() {
   return (
     <div className='header'>
       <div>
-        <img src='./image/Group 10249.svg' className='menu-laptop'/>
-        <img src="./image/menu.svg" className='menu-mobali' />
+        <img src='./image/Group 10249.svg' className='menu-laptop' alt='menu laptop'/>
+        <img src="./image/menu.svg" className='menu-mobali'  alt='menu mobile'/>
       </div>
       <div>
         <ul>
