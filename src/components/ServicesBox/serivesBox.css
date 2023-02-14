@@ -50,3 +50,10 @@ button:hover{
   background: #6B16A8;
   color: #ffffff;
 }
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (min-width: 768.1px) {
+}
+@media only screen and (min-width: 1280px) {
+}

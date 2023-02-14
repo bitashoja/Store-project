@@ -83,7 +83,6 @@
   margin-top: 50px;
 }
 .service {
-  
   height: 1200px;
   background: #ece8ef;
   margin-top: 100px;
@@ -96,11 +95,13 @@
   flex-wrap: wrap;
   gap: 10px;
 }
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 768px) {
+  .service{
+    height: 2700px;
+  }
 }
-@media only screen and (min-width: 480.1px) {
-}
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768.1px) {
 }
 @media only screen and (min-width: 1280px) {
 }

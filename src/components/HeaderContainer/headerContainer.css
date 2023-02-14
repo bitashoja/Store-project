@@ -1,40 +1,102 @@
 .header-container {
-    width: 92%;
-    height: 900px;
-    background: linear-gradient(
-      296.7deg,
-      #45108a -5.17%,
-      #3d065f 42.6%,
-      #200554 168.23%
-    );
-    margin: 75px 60px;
-    border-radius: 14px;
+  background: linear-gradient(
+    296.7deg,
+    #45108a -5.17%,
+    #3d065f 42.6%,
+    #200554 168.23%
+  );
+  position: relative;
+}
+.headerBoxText h3 , .headerBoxText p{
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    width: 100%;
+    height: 726px;
   }
-  
-  .header-bottom {
+  .headerBoxImg img{
+    width: 95%;
+    height: 320px;
+  }
+  .headerBoxText{
+    margin: 0 30px;
+  }
+  .headerBoxButton{
     display: flex;
-    color: #fff;
-    justify-content: space-between;
+    gap: 1px;
+    align-items: center;
+   justify-content: center;
   }
-  .header-bottom-text {
-    padding: 200px 0 0 120px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  .headerBoxButton img{
+    width: 49.5%;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
   }
-  .header-bottom-text h3 {
-    font-weight: 700px;
-    font-size: 52px;
-    flex: 1;
+  .buttonPhone{
+    left: 0;
   }
-  .header-bottom-img {
-    flex: 2;
+  .emailPhone{
+    right: 0;
   }
-  .header-bottom-img img {
-    width: 700px;
+}
+@media only screen and (min-width: 768.1px) {
+  .header-container {
+    width: 94%;
     height: 750px;
+    margin: 75px 60px;
+    border-radius: 20px;
   }
-  .img-button {
+  .headerBox{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .headerBoxText{
+    flex: 1;
+    padding: 40px 0 0 40px; 
+  }
+  .headerBoxText h3{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+  .headerBoxText p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .headerBoxButton{
     display: flex;
     gap: 10px;
   }
+  .headerBoxButton img{
+    width: 45%;
+  }
+  .headerBoxImg{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.headerBoxImg img{
+  width: 80%;
+}
+}
+@media only screen and (min-width: 1240px) {
+  .header-container {
+    width: 94%;
+    height: 1047px;
+  }
+  .headerBoxText h3{
+    font-size: 48px;
+    padding-top: 150px;
+  }
+  .headerBoxText p{
+    font-size: 20px;
+  }
+  .headerBoxImg img{
+    width: 90%;
+  }
+}
