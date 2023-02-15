@@ -67,7 +67,7 @@ export default function Client() {
             <p className="descPara">
               Most of the IT projects demand the deployment of their key
               developer’s onsite at the client’s location followed by their
-              deployment at the offsho ....
+              deployment at the ....
             </p>
           </div>
         </div>
