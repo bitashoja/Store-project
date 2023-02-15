@@ -4,6 +4,7 @@ import Description from "../../components/description/Description";
 import ServicesBox from '../../components/ServicesBox/ServicesBox';
 import Portfolios from "../../components/portfolios/Portfolios";
 import Service from "../../components/service/Service";
+import Client from "../../components/client/Client";
 
 
 const serivesIcon = [
@@ -29,6 +30,7 @@ export default function Home() {
         </div>
       </div>
         <Portfolios />
+        <Client />
     </div>
   );
 }
