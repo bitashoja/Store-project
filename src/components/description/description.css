@@ -1,5 +1,5 @@
 :root {
-  --gery: #37383f;
+  --gray: #37383f;
   --white: #ece8ef;
 }
 
@@ -31,7 +31,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: var(--gery);
+  color: var(--gray);
 }
 .information {
   display: flex;
