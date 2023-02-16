@@ -1,8 +1,6 @@
-import React from 'react';
-import './portfolios.css';
+import React from "react";
+import "./portfolios.css";
 
 export default function Portfolios() {
-  return (
-    <div>Portfolios</div>
-  )
+  return <div>Portfolios</div>;
 }
