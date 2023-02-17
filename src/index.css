@@ -18,7 +18,15 @@ code {
 * {
   font-family: Akshar;
 }
+
+
+  
+
+
 :root {
   --gray: #37383f;
   --white: #ece8ef;
+  --gary :#ECE8EF;
+  --black : #37383F;
 }
+
