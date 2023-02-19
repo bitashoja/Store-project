@@ -8,7 +8,7 @@ export default function Headercontainer() {
       <Header />
       <div className="headerBox">
         <div className="headerBoxImg">
-          <img src="./image/labtop.svg" />
+          <img src="./images/labtop.svg" alt='laptop'/>
         </div>
         <div className="headerBoxText">
           <h3>
@@ -18,9 +18,9 @@ export default function Headercontainer() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore in
             sapiente quam deserunt eum veritatis fugiat doloremque.
           </p>
-          <div className='headerBoxButton'>
-            <img src="./image/buttonPhone.svg" className='buttonPhone'/>
-            <img src='./image/emailPhone.svg' className='emailPhone'/>
+          <div className="headerBoxButton">
+            <img src="./images/buttonPhone.svg" className="buttonPhone" alt='buttonPhone'/>
+            <img src="./images/emailPhone.svg" className="emailPhone" alt='emailPhone'/>
           </div>
         </div>
       </div>

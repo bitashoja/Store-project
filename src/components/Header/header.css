@@ -53,14 +53,14 @@ ul li:hover{
         display: flex;
     }
    
-   .menu-mobali{
+   .menu-mobile{
     display: none;
    }
    .phone-laptop , .menu-laptop{
     display: flex;
     width: 145px;
  }
- .phone-mobali{
+ .phone-mobile{
     display: none;
  }
  .menu-laptop2{

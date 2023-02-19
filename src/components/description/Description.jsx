@@ -6,8 +6,7 @@ export default function Description() {
     <div className="description">
       <div className="description-img">
         <img
-          src="./image/54547 1.svg"
-          className="menu-laptop"
+          src="./images/54547 1.svg"
           alt="menu laptop"
         />
       </div>

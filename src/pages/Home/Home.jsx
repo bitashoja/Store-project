@@ -5,15 +5,16 @@ import ServicesBox from '../../components/ServicesBox/ServicesBox';
 import Portfolios from "../../components/portfolios/Portfolios";
 import Service from "../../components/service/Service";
 import Client from "../../components/client/Client";
+import Footer from "../../components/footer/Footer";
 
 
 const serivesIcon = [
-  { id: 1, src: "./image/Union.svg", title: "Websites" },
-  { id: 2, src: "./image/Union(1).svg", title: "Graphic Design" },
-  { id: 3, src: "./image/Union(2).svg", title: "Mobile Apps" },
-  { id: 4, src: "./image/Union(3).svg", title: "Digital Marketing" },
-  { id: 5, src: "./image/Union(4).svg", title: "Domains" },
-  { id: 6, src: "./image/Union(5).svg", title: "Hosting" },
+  { id: 1, src: "./images/Union.svg", title: "Websites" },
+  { id: 2, src: "./images/Union(1).svg", title: "Graphic Design" },
+  { id: 3, src: "./images/Union(2).svg", title: "Mobile Apps" },
+  { id: 4, src: "./images/Union(3).svg", title: "Digital Marketing" },
+  { id: 5, src: "./images/Union(4).svg", title: "Domains" },
+  { id: 6, src: "./images/Union(5).svg", title: "Hosting" },
 ];
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       </div>
         <Portfolios />
         <Client />
+        <Footer />
     </div>
   );
 }

@@ -48,7 +48,7 @@
   flex: 1;
 }
 .desc-img-circle {
-  background-image: url("../../../public/image/Ellipse.svg");
+  background-image: url('../../../public/images/Ellipse.svg');
   background-repeat: no-repeat;
   margin-top: 50px;
   margin-left: 50px;
@@ -83,7 +83,7 @@
   margin-top: 50px;
 }
 .service {
-  height: 1200px;
+ 
   background: #ece8ef;
   margin-top: 100px;
   text-align: center;
@@ -96,12 +96,18 @@
   gap: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .service{
+@media only screen and (max-width: 818px) {
+  .service {
     height: 2700px;
   }
 }
-@media only screen and (min-width: 768.1px) {
+@media only screen and (min-width: 818.1px) {
+  .service {
+    height: 1565px;
+  }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1233px) {
+  .service{
+    height: 1275px;
+  }
 }
