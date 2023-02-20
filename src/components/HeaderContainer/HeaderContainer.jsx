@@ -19,8 +19,16 @@ export default function Headercontainer() {
             sapiente quam deserunt eum veritatis fugiat doloremque.
           </p>
           <div className="headerBoxButton">
-            <img src="./images/buttonPhone.svg" className="buttonPhone" alt='buttonPhone'/>
-            <img src="./images/emailPhone.svg" className="emailPhone" alt='emailPhone'/>
+            <img
+              src="./images/buttonPhone.svg"
+              className="buttonPhone"
+              alt="buttonPhone"
+            />
+            <img
+              src="./images/emailPhone.svg"
+              className="emailPhone"
+              alt="emailPhone"
+            />
           </div>
         </div>
       </div>

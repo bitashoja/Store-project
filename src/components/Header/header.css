@@ -6,6 +6,7 @@
 }
 ul{
     display: flex;
+    height: 30px;
 }
 ul li{
     color: #ECE8EF;
@@ -15,11 +16,15 @@ ul li{
     font-size: 18px;
     line-height: 17px;
     padding-bottom: 10px;
+    
 }
+
 ul li:hover{
     font-weight: bold;
     border-bottom:3px solid #ECE8EF;
+    cursor: pointer;
 }
+
 
 @media only screen and (max-width : 480px){
  ul{
