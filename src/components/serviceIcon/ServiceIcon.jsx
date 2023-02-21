@@ -1,7 +1,9 @@
 import React from 'react';
-import ServicesBox from '../ServicesBox/ServicesBox';
+ import ServiceBox from '../servicesBox/ServiceBox';
+ 
 
-const serivesIcon = [
+
+const serviceIcon = [
     { id: 1, src: "./images/Union.svg", title: "Websites" },
     { id: 2, src: "./images/Union(1).svg", title: "Graphic Design" },
     { id: 3, src: "./images/Union(2).svg", title: "Mobile Apps" },
@@ -10,12 +12,12 @@ const serivesIcon = [
     { id: 6, src: "./images/Union(5).svg", title: "Hosting" },
   ];
 
-export default function SerivesIcon() {
+export default function ServiceIcon() {
   return (
     
-    <div className="serivesBox">
-           {serivesIcon.map((serive) => (
-             <ServicesBox {...serive} key={serive.id} />
+    <div className="serviceBox">
+           {serviceIcon.map((service) => (
+             <ServiceBox {...service} key={service.id} />
           ))} 
         </div>
   )
