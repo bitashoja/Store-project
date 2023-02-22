@@ -62,7 +62,6 @@ export default function Header() {
         </div>
         <div className="ulSlider">
           <div className="activeClick">
-            {/* <span className="activeHome"></span> */}
             <span className={`${isHome ? "active":""}`}></span>
             <span className={`${isService ? "active":""}`}></span>
             <span className={`${isPortfolio ? "active":""}`}></span>
