@@ -79,7 +79,7 @@ export default function Header() {
                   Home
                 </li>
               </Link>
-              <Link to="/Service">
+              <Link to="/Services">
                 <li
                   className={`itemSliderHeader ${
                     isService ? 'activeService' : ' '
