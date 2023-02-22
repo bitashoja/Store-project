@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <div className="container">
         <HeaderContainer /> 
-        <Description />
+        {/* <Description /> */}
         <Service />
         <Portfolios />
-        <Client />
-        <Footer />
+         <Client /> 
+        <Footer /> 
     </div>
   );
 }

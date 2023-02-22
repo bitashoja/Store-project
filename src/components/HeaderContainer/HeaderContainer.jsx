@@ -1,9 +1,15 @@
 import React from 'react'
-import Header from '../Header/header'
-import './headerContainer.css'
+import Header from '../Header/Header';
+import './headerContainer.css';
 
-export default function Headercontainer() {
+
+export default function HeaderContainer() {
+
+ 
+ 
   return (
+    <>
+  
     <div className="header-container">
       <Header />
       <div className="headerBox">
@@ -33,5 +39,6 @@ export default function Headercontainer() {
         </div>
       </div>
     </div>
+    </>
   )
 }
