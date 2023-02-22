@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './header.css'
 
 export default function Header() {
@@ -14,40 +15,40 @@ export default function Header() {
   const closeSlider = () => {
     setIsClick(false)
   }
-  const clickHandlerHome =() =>{
-    setIsHome(true);
-    setIsAbout(false);
-    setIsContact(false);
-    setIsPortfolio(false);
-    setIsService(false);
+  const clickHandlerHome = () => {
+    setIsHome(true)
+    setIsAbout(false)
+    setIsContact(false)
+    setIsPortfolio(false)
+    setIsService(false)
   }
-  const clickHandlerService=()=>{
-    setIsService(true);
-    setIsHome(false);
-    setIsAbout(false);
-    setIsContact(false);
-    setIsPortfolio(false);
+  const clickHandlerService = () => {
+    setIsService(true)
+    setIsHome(false)
+    setIsAbout(false)
+    setIsContact(false)
+    setIsPortfolio(false)
   }
-  const clickHandlerPortfolio=() =>{
-    setIsPortfolio(true);
-    setIsHome(false);
-    setIsAbout(false);
-    setIsContact(false);
-    setIsService(false);
+  const clickHandlerPortfolio = () => {
+    setIsPortfolio(true)
+    setIsHome(false)
+    setIsAbout(false)
+    setIsContact(false)
+    setIsService(false)
   }
-  const clickHandlerAbout=()=>{
-    setIsAbout(true);
-    setIsHome(false);
-    setIsService(false);
-    setIsContact(false);
-    setIsPortfolio(false);
-  } 
-  const clickHandlerContact=() => {
-    setIsContact(true);
-    setIsHome(false);
-    setIsAbout(false);
-    setIsService(false);
-    setIsPortfolio(false);
+  const clickHandlerAbout = () => {
+    setIsAbout(true)
+    setIsHome(false)
+    setIsService(false)
+    setIsContact(false)
+    setIsPortfolio(false)
+  }
+  const clickHandlerContact = () => {
+    setIsContact(true)
+    setIsHome(false)
+    setIsAbout(false)
+    setIsService(false)
+    setIsPortfolio(false)
   }
   return (
     <>
@@ -62,19 +63,62 @@ export default function Header() {
         </div>
         <div className="ulSlider">
           <div className="activeClick">
-            <span className={`${isHome ? "active":""}`}></span>
-            <span className={`${isService ? "active":""}`}></span>
-            <span className={`${isPortfolio ? "active":""}`}></span>
-            <span className={`${isAbout ? "active":""}`}></span>
-            <span className={`${isContact ? "active":""}`}></span>
+            <span className={`${isHome ? 'active' : ''}`}></span>
+            <span className={`${isService ? 'active' : ''}`}></span>
+            <span className={`${isPortfolio ? 'active' : ''}`}></span>
+            <span className={`${isAbout ? 'active' : ''}`}></span>
+            <span className={`${isContact ? 'active' : ''}`}></span>
           </div>
           <div className="ulSliderHeader">
             <ul className="menuSliderHeader">
-              <li className={`itemSliderHeader ${isHome ? "activeHome":" "}`} onClick={clickHandlerHome}>Home</li>
-              <li className={`itemSliderHeader ${isService ? "activeService":" "}`} onClick={clickHandlerService}>Services </li>
-              <li className={`itemSliderHeader ${isPortfolio ? "activePortfolio":" "}`} onClick={clickHandlerPortfolio}>Portfolio</li>
-              <li className={`itemSliderHeader ${isAbout ? "activeAbout":" "}`} onClick={clickHandlerAbout}>About us</li>
-              <li className={`itemSliderHeader ${isContact ? "activeContact":" "}`} onClick={clickHandlerContact}>Contact us</li>
+              <Link to="/">
+                <li
+                  className={`itemSliderHeader ${isHome ? 'activeHome' : ' '}`}
+                  onClick={clickHandlerHome}
+                >
+                  Home
+                </li>
+              </Link>
+              <Link to="/Service">
+                <li
+                  className={`itemSliderHeader ${
+                    isService ? 'activeService' : ' '
+                  }`}
+                  onClick={clickHandlerService}
+                >
+                  Services
+                </li>
+              </Link>
+              <Link to="/Portfolio">
+                <li
+                  className={`itemSliderHeader ${
+                    isPortfolio ? 'activePortfolio' : ' '
+                  }`}
+                  onClick={clickHandlerPortfolio}
+                >
+                  Portfolio
+                </li>
+              </Link>
+              <Link to="/AboutUs">
+                <li
+                  className={`itemSliderHeader ${
+                    isAbout ? 'activeAbout' : ' '
+                  }`}
+                  onClick={clickHandlerAbout}
+                >
+                  About us
+                </li>
+              </Link>
+              <Link to="/ContactUs">
+                <li
+                  className={`itemSliderHeader ${
+                    isContact ? 'activeContact' : ' '
+                  }`}
+                  onClick={clickHandlerContact}
+                >
+                  Contact us
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -102,11 +146,21 @@ export default function Header() {
         </div>
         <div>
           <ul className="menu-header">
-            <li>Home</li>
-            <li>Services </li>
-            <li>Portfolio</li>
-            <li>About us</li>
-            <li>Contact us</li>
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/Service">
+              <li>Services </li>
+            </Link>
+            <Link to="/Portfolio">
+              <li>Portfolio</li>
+            </Link>
+            <Link to="/AboutUs">
+              <li>About us</li>
+            </Link>
+            <Link to="/ContactUs">
+              <li>Contact us</li>
+            </Link>
           </ul>
           <img
             src="./images/Group 10249.svg"

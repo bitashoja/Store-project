@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderContainer from '../../components/HeaderContainer/HeaderContainer';
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <div>
+       <HeaderContainer />
+    </div>
   )
 }
