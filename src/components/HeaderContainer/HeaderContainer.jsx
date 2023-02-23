@@ -1,9 +1,15 @@
 import React from 'react'
-import Header from '../Header/header'
-import './headerContainer.css'
+import Header from '../Header/Header';
+import './headerContainer.css';
 
-export default function Headercontainer() {
+
+export default function HeaderContainer() {
+
+ 
+ 
   return (
+    <>
+  
     <div className="header-container">
       <Header />
       <div className="headerBox">
@@ -19,11 +25,20 @@ export default function Headercontainer() {
             sapiente quam deserunt eum veritatis fugiat doloremque.
           </p>
           <div className="headerBoxButton">
-            <img src="./images/buttonPhone.svg" className="buttonPhone" alt='buttonPhone'/>
-            <img src="./images/emailPhone.svg" className="emailPhone" alt='emailPhone'/>
+            <img
+              src="./images/buttonPhone.svg"
+              className="buttonPhone"
+              alt="buttonPhone"
+            />
+            <img
+              src="./images/emailPhone.svg"
+              className="emailPhone"
+              alt="emailPhone"
+            />
           </div>
         </div>
       </div>
     </div>
+    </>
   )
 }
