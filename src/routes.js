@@ -5,11 +5,11 @@ import Services from './pages/Services/Services';
 import Portfolio from './pages/Portfolio/Portfolio';
 import AboutUs from './pages/AboutUs/AboutUs';
 
-const route = [
+const routes = [
     {path:"/" , element: < Home/>},
     {path:"/AboutUs" , element : <AboutUs />},
     {path : '/ContactUs' , element : <ContactUs />},
     {path : '/Service' , element : < Services />},
     {path : '/Portfolio' , element : < Portfolio />}
 ];
-export default route;
+export default routes;

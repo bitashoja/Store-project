@@ -4,52 +4,15 @@ import './header.css'
 
 export default function Header() {
   const [isClick, setIsClick] = useState(false)
-  const [isHome, setIsHome] = useState(false)
-  const [isService, setIsService] = useState(false)
-  const [isPortfolio, setIsPortfolio] = useState(false)
-  const [isAbout, setIsAbout] = useState(false)
-  const [isContact, setIsContact] = useState(false)
+  const [isActive, setIsActive] = useState('home')
+
   const clickHandler = () => {
     setIsClick(true)
   }
   const closeSlider = () => {
     setIsClick(false)
   }
-  const clickHandlerHome = () => {
-    setIsHome(true)
-    setIsAbout(false)
-    setIsContact(false)
-    setIsPortfolio(false)
-    setIsService(false)
-  }
-  const clickHandlerService = () => {
-    setIsService(true)
-    setIsHome(false)
-    setIsAbout(false)
-    setIsContact(false)
-    setIsPortfolio(false)
-  }
-  const clickHandlerPortfolio = () => {
-    setIsPortfolio(true)
-    setIsHome(false)
-    setIsAbout(false)
-    setIsContact(false)
-    setIsService(false)
-  }
-  const clickHandlerAbout = () => {
-    setIsAbout(true)
-    setIsHome(false)
-    setIsService(false)
-    setIsContact(false)
-    setIsPortfolio(false)
-  }
-  const clickHandlerContact = () => {
-    setIsContact(true)
-    setIsHome(false)
-    setIsAbout(false)
-    setIsService(false)
-    setIsPortfolio(false)
-  }
+ 
   return (
     <>
       <div className={`sliderHeader ${isClick ? 'sliderHeader-active' : ''}`}>
@@ -63,28 +26,36 @@ export default function Header() {
         </div>
         <div className="ulSlider">
           <div className="activeClick">
-            <span className={`${isHome ? 'active' : ''}`}></span>
-            <span className={`${isService ? 'active' : ''}`}></span>
-            <span className={`${isPortfolio ? 'active' : ''}`}></span>
-            <span className={`${isAbout ? 'active' : ''}`}></span>
-            <span className={`${isContact ? 'active' : ''}`}></span>
+            <span className={`${isActive === 'home' ? 'active' : ''}`}></span>
+            <span
+              className={`${isActive === 'services' ? 'active' : ''}`}
+            ></span>
+            <span
+              className={`${isActive === 'portfolio' ? 'active' : ''}`}
+            ></span>
+            <span className={`${isActive === 'about' ? 'active' : ''}`}></span>
+            <span
+              className={`${isActive === 'contact' ? 'active' : ''}`}
+            ></span>
           </div>
           <div className="ulSliderHeader">
             <ul className="menuSliderHeader">
               <Link to="/">
                 <li
-                  className={`itemSliderHeader ${isHome ? 'activeHome' : ' '}`}
-                  onClick={clickHandlerHome}
+                  className={`itemSliderHeader ${
+                    isActive === 'home' ? 'activeHome' : ' '
+                  }`}
+                  onClick={() => setIsActive('home')}
                 >
                   Home
                 </li>
               </Link>
-              <Link to="/Services">
+              <Link to="/Service">
                 <li
                   className={`itemSliderHeader ${
-                    isService ? 'activeService' : ' '
+                    isActive === 'services' ? 'activeService' : ' '
                   }`}
-                  onClick={clickHandlerService}
+                  onClick={() => setIsActive('services')}
                 >
                   Services
                 </li>
@@ -92,9 +63,9 @@ export default function Header() {
               <Link to="/Portfolio">
                 <li
                   className={`itemSliderHeader ${
-                    isPortfolio ? 'activePortfolio' : ' '
+                    isActive === 'portfolio' ? 'activePortfolio' : ' '
                   }`}
-                  onClick={clickHandlerPortfolio}
+                  onClick={() => setIsActive('portfolio')}
                 >
                   Portfolio
                 </li>
@@ -102,9 +73,9 @@ export default function Header() {
               <Link to="/AboutUs">
                 <li
                   className={`itemSliderHeader ${
-                    isAbout ? 'activeAbout' : ' '
+                    isActive === 'about' ? 'activeAboutUs' : ' '
                   }`}
-                  onClick={clickHandlerAbout}
+                  onClick={() => setIsActive('about')}
                 >
                   About us
                 </li>
@@ -112,9 +83,9 @@ export default function Header() {
               <Link to="/ContactUs">
                 <li
                   className={`itemSliderHeader ${
-                    isContact ? 'activeContact' : ' '
+                    isActive === 'contact' ? 'activeContactUs' : ' '
                   }`}
-                  onClick={clickHandlerContact}
+                  onClick={() => setIsActive('contact')}
                 >
                   Contact us
                 </li>
