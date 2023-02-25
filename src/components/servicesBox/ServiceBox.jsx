@@ -6,7 +6,7 @@ export default function ServicesBox({ src, title }) {
   return (
     <div className="box">
       <div className="box-img">
-        <img src={src} alt='image-ServicesBox'/>
+        <img src={src} alt='ServicesBox'/>
       </div>
       <p className="paraBox">{title}</p>
       <span className="box-text">
