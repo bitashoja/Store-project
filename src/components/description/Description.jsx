@@ -5,7 +5,7 @@ export default function Description() {
   return (
     <div className="description">
       <div className="description-img">
-        <img src="./image/54547 1.svg" />
+        <img src="./images/54547 1.svg" />
       </div>
       <div className="description-texts">
         <h4>What can we do for you at BEYOND IT ?</h4>
