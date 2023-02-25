@@ -10,7 +10,6 @@ import Client from "../../components/client/Client";
 
 
 
-
 export default function Home() {
   return (
     <div className="container">
