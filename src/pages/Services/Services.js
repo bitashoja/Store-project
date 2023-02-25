@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
-import HeaderServices from "../../components/headerServices/HeaderServices";
+// import HeaderServices from "../../components/headerServices/HeaderServices";
+import HeaderServices from "../../components/HeaderServices/HeaderServices";
 import WebsiteService from "../../components/websiteService/WebsiteService";
 import Design from "../../components/uIUX Design/Design";
 import MobileApps from "../../components/mobileApps/MobileApps";

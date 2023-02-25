@@ -5,7 +5,7 @@ export default function Design() {
   return (
     <div className="design">
       <div className="text-design">
-        <h4>UIUX Design</h4>
+        <h3>UIUX Design</h3>
         <p>
           Don't you want to have a website that just exists? The effort of
           Beyond specialists is to design a site for you that will make the most
