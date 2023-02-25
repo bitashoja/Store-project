@@ -1,43 +1,4 @@
-/* .header-container {
-  width: 92%;
-  height: 900px;
-  background: linear-gradient(
-    296.7deg,
-    #45108a -5.17%,
-    #3d065f 42.6%,
-    #200554 168.23%
-  );
-  margin: 75px 60px;
-  border-radius: 14px;
-}
 
-.header-bottom {
-  display: flex;
-  color: #fff;
-  justify-content: space-between;
-}
-.header-bottom-text {
-  padding: 200px 0 0 120px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.header-bottom-text h3 {
-  font-weight: 700px;
-  font-size: 52px;
-  flex: 1;
-}
-.header-bottom-img {
-  flex: 2;
-}
-.header-bottom-img img {
-  width: 700px;
-  height: 750px;
-} */
-/* .img-button {
-  display: flex;
-  gap: 10px;
-} */
 .description {
   display: flex;
   height: 600px;
@@ -48,7 +9,7 @@
   flex: 1;
 }
 .desc-img-circle {
-  background-image: url("../../../public/image/Ellipse.svg");
+  background-image: url('../../../public/images/Ellipse.svg');
   background-repeat: no-repeat;
   margin-top: 50px;
   margin-left: 50px;
@@ -83,12 +44,12 @@
   margin-top: 50px;
 }
 .service {
-  height: 1200px;
+ 
   background: #ece8ef;
   margin-top: 100px;
   text-align: center;
 }
-.serivesBox {
+.serviceBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,12 +57,18 @@
   gap: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .service{
+@media only screen and (max-width: 818px) {
+  .service {
     height: 2700px;
   }
 }
-@media only screen and (min-width: 768.1px) {
+@media only screen and (min-width: 818.1px) {
+  .service {
+    height: 1565px;
+  }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1233px) {
+  .service{
+    height: 1275px;
+  }
 }

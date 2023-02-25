@@ -2,12 +2,9 @@ import React from 'react'
 import './client.css'
 
 const profiles = [
-  {
-    id: 1,
-    cover: './image/ali.svg',
-    name: 'Ali Shoja',
-    job: 'UIUX designer',
-  },
+
+  { id: 1, cover: './images/ali.svg', name: 'Ali Shoja', job: 'UIUX designer' },
+ 
   {
     id: 2,
     cover: './image/profile1.svg',
@@ -48,7 +45,7 @@ export default function Client() {
         <p className="paraComments">
           Team consists of professional and experienced consultants,
           technicians, engineers, designers and solution architects who work
-          with you to <br /> find the best possible solution for your IT
+          with you to  find the best possible solution for your IT
           environment.
         </p>
       </div>
@@ -56,7 +53,7 @@ export default function Client() {
         <div className="clientBox" key={user.id}>
           <div className="clientBoxProfile">
             <div className="clientBoxImg">
-              <img src={user.cover} />
+              <img src={user.cover} alt='image-Client'/>
             </div>
             <div className="clientBoxName">
               <p className="profileName">{user.name}</p>

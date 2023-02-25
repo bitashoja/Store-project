@@ -1,86 +1,188 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 38px 50px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 50px;
 }
-ul{
-    display: flex;
+.menu-header {
+  display: flex;
+  height: 30px;
 }
-ul li{
-    color: #ECE8EF;
-    list-style: none;
-    margin: 0 10px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 17px;
-    padding-bottom: 10px;
-}
-ul li:hover{
-    font-weight: bold;
-    border-bottom:3px solid #ECE8EF;
+.menu-header li {
+  color: #ece8ef;
+  list-style: none;
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 17px;
+  padding-bottom: 10px;
 }
 
-@media only screen and (max-width : 480px){
- ul{
-    display: none;
- }
- 
- .menu-laptop{
-    display: none;
- }
- .phone-laptop{
-    display: none;
- }
+.menu-header li:hover {
+  font-weight: bold;
+  border-bottom: 3px solid #ece8ef;
+  cursor: pointer;
 }
-@media only screen and (min-width : 480.1px){
-    ul{
-        display: none;
-     } 
-     ul li{
-        font-size: 16px;
-     }
-     .menu-laptop{
-        display: none;
-     }
-     .phone-laptop{
-    display: none;
- }
 
+.sliderHeader {
+  width: 100%;
+  height: 726px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  flex-direction: column;
+
+  z-index: 1;
 }
-@media only screen and (min-width : 768px){
-    ul{
-        display: flex;
-    }
+.sliderHeader-active {
+  display: flex;
+}
+.GroupSlider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliderHeader .closeSliderMenu {
+  flex: 1;
+}
+.sliderHeader .ulSlider {
+  flex: 2;
+  position: relative;
+  display: flex;
+}
+.activeClick {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  margin-top: 15px;
+}
+.activeClick span {
+  display: block;
+  padding: 10px 0;
+  width: 10px;
+  height: 25px;
+}
+.activeClick .active {
+  background-color: rgba(107, 22, 168, 1);
+}
+.ulSliderHeader {
+  flex: 2;
+}
+.sliderHeader .GroupSlider {
+  flex: 1;
+}
+.closeImageSlider {
+  margin: 25px;
+}
+.sliderHeader .menuSliderHeader {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style: none;
+}
+
+.sliderHeader .menuSliderHeader .itemSliderHeader {
+  color: black;
+  padding: 15px;
+  height: 18px;
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+}
+
+.sliderHeader .menuSliderHeader .activeHome {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sliderHeader .menuSliderHeader .activeService {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sliderHeader .menuSliderHeader .activePortfolio {
+   font-size: 16px;
+   font-weight: 700;
+ }
+ .sliderHeader .menuSliderHeader .activeAbout {
+   font-size: 16px;
+   font-weight: 700;
+ }
+ .sliderHeader .menuSliderHeader .activeContact {
+   font-size: 16px;
+   font-weight: 700;
+ }
    
-   .menu-mobali{
+
+@media only screen and (max-width: 480px) {
+  .menu-header {
     display: none;
-   }
-   .phone-laptop , .menu-laptop{
+  }
+
+  .menu-laptop {
+    display: none;
+  }
+  .phone-laptop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480.1px) {
+  .menu-header {
+    display: none;
+  }
+  ul li {
+    font-size: 16px;
+  }
+  .menu-laptop {
+    display: none;
+  }
+  .phone-laptop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  ul {
+    display: flex;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+  .phone-laptop,
+  .menu-laptop {
     display: flex;
     width: 145px;
- }
- .phone-mobali{
+  }
+  .phone-mobile {
     display: none;
- }
- .menu-laptop2{
+  }
+  .menu-laptop2 {
     display: none;
- }
- ul li{
+  }
+  ul li {
     font-size: 16px;
- }
- .header{
+  }
+  .header {
     padding: 38px 5px;
- }
+  }
+  .menu-header {
+    display: flex;
+  }
 }
-@media only screen and (min-width : 1240px){
-  ul li{
+@media only screen and (min-width: 1240px) {
+  ul li {
     font-size: 18px;
   }
-  .header{
+  .header {
     padding: 38px 50px;
- }
- .menu-laptop , .phone-laptop{
+  }
+  .menu-laptop,
+  .phone-laptop {
     width: auto;
- }
+  }
 }
