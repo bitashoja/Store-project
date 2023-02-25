@@ -1,0 +1,124 @@
+.beond {
+  color: rgba(107, 22, 168, 1);
+  font-weight: 700;
+  font-size: 18px;
+}
+.beondDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.website-text-text {
+  display: block;
+}
+.buttonWebsite{
+    display: flex;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .websiteLaptop{
+    display: none;
+  }
+  .title-website {
+    height: 30px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--black);
+    padding-left: 5%;
+    margin-top: 129px;
+  }
+  .Digital-laptop {
+    width: 90%;
+  }
+  .website-text {
+    padding: 10px;
+  }
+  .website-text-title {
+    padding: 0 10px;
+    display: block;
+    font-family: 'Akshar';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .website-text-text {
+    font-family: 'Akshar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--black);
+    padding: 20px 8px;
+    text-align: justify;
+  }
+  .website-title-laptop {
+    display: none;
+  }
+  .buttonWebsite{
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768.1px) {
+  .Digital-laptop{
+    display: none;
+  }
+  .websiteLaptop{
+    width: 100%;
+  }
+  .title-website {
+    display: none;
+  }
+  .website-Service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    gap: 10px;
+  }
+  .website-img-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .website-title-laptop {
+    height: 15px;
+    font-family: 'Akshar';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: var(--black);
+    margin-top: -30px;
+  }
+  .website-image{
+    flex: 1;
+  }
+  .website-image .Digital-laptop{
+    width: 90%;
+  }
+  .website-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 40px;
+  }
+  .website-img-text{
+    padding: 10px 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    
+    .website-text-text{
+        padding: 0 20px;
+    }
+}

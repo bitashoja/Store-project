@@ -9,15 +9,16 @@ import Footer from "../../components/Footer/Footer"
 
 
 
+
 export default function Home() {
   return (
     <div className="container">
         <HeaderContainer /> 
-        {/* <Description /> */}
+         <Description /> 
         <Service />
         <Portfolios />
          <Client /> 
-        <Footer /> 
+         
     </div>
   );
 }
