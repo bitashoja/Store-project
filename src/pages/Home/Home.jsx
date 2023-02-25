@@ -4,7 +4,7 @@ import Description from "../../components/description/Description";
 import Portfolios from "../../components/portfolios/Portfolios";
 import Service from "../../components/service/Service";
 import Client from "../../components/client/Client";
-import Footer from "../../components/Footer/Footer"
+
 
 
 

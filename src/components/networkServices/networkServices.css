@@ -1,0 +1,59 @@
+.NetworkService{
+    display: flex;
+    justify-content: center;
+    
+    gap: 50px;
+
+}
+.NetworkService-img{
+    flex: 1;
+}
+.NetworkService-img img{
+    width: 100%;
+}
+.NetworkService-text{
+    flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .NetworkService{
+    flex-direction: column;
+    
+  }
+  .NetworkService-img{
+    display: flex;
+    flex-direction: row-reverse;
+  } 
+  .NetworkService-img .Union{
+    width: 90%;
+  } 
+  .NetworkService-img .Union2{
+    display: none;
+  }
+  .NetworkService-text{
+    padding: 0 50px;
+  }
+}
+@media only screen and (min-width: 768.1px) {
+    .NetworkService-img .Union{
+        display: none;
+      }
+     
+      .NetworkService-img .Union2{
+        height: 500px;
+      }
+    .NetworkService{
+        flex-direction: row;
+        align-items: center;
+        
+    }
+   .NetworkService-text {
+    
+    padding: 10px 50px;
+   }
+}
+@media only screen and (min-width: 1280px) {
+    .NetworkService-text {
+        padding: 10px 100px;
+       }
+}

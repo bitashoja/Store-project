@@ -3,7 +3,7 @@ import './design.css';
 
 export default function Design() {
   return (
-    <div>Design</div>
+    <div className='design'>Design</div>
   )
 }
 
