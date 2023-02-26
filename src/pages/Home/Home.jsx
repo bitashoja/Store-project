@@ -1,24 +1,19 @@
 import "./home.css";
- import HeaderContainer from "../../components/HeaderContainer/HeaderContainer";
+import HeaderContainer from "../../components/HeaderContainer/HeaderContainer";
 import Description from "../../components/description/Description";
-import Portfolios from "../../components/portfolios/Portfolios";
+import Portfolios from "../../components/Portfolios/Portfolios";
 import Service from "../../components/service/Service";
 import Client from "../../components/client/Client";
-
-
-
-
 
 
 export default function Home() {
   return (
     <div className="container">
-        <HeaderContainer /> 
-         <Description /> 
-        <Service />
-        <Portfolios />
-         <Client /> 
-         
+      <HeaderContainer />
+      <Description />
+      <Service />
+      <Portfolios />
+      <Client />
     </div>
   );
 }
