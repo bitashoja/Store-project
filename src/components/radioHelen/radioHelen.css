@@ -1,0 +1,20 @@
+.RadioHelen{
+    background-color: rgba(236, 232, 239, 1);
+    margin-top: 50px;
+    
+}
+.box-radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    .RadioHelen{
+        background-color: white;
+    }
+ .box-radio{
+    display: flex;
+    flex-direction: column-reverse;
+    
+ } 
+}

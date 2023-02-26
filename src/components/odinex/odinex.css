@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768.1px){    
+    .odinex img{
+        margin: 5%;
+    }
+    .odin{
+        background-image: url("../../../public/images/Intersect2.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

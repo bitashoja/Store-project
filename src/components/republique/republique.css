@@ -1,0 +1,7 @@
+@media only screen and (min-width: 768.1px) {
+    .republique{
+        background-image: url('../../../public/images/Intersect3.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

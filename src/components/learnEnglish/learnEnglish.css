@@ -1,0 +1,18 @@
+.learnEnglish{
+    background: #37383F;
+}
+
+.learn-text , .title-learn{
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (min-width: 768.1px) {
+    .beyondLearn{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1280px) {
+}

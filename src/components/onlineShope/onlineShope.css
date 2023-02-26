@@ -1,0 +1,58 @@
+.title-onlineShope-mobile {
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  color: var(--gray);
+  margin-top: 120px;
+}
+.OnlineShope{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.onlineShope-img{
+    flex: 1;
+}
+.onlineShope-text{
+    flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-onlineShope-laptop{
+        display: none;
+    }
+    .OnlineShope{
+        flex-direction: column;
+    }
+    .onlineShope-img img{
+        width: 100vw;
+    }
+    .onlineShope-text{
+        padding: 20px 80px;
+    }
+}
+@media only screen and (min-width: 768.1px) {
+    .shop{
+        background-image: url('../../../public/images/Intersect.svg');
+        background-repeat: no-repeat;
+        background-size: contain; 
+        background-position: right;
+    }
+    .title-onlineShope-mobile{
+        display: none;
+    }
+    .onlineShope-text{
+    flex: 1;
+    padding: 10px 50px;
+}
+.onlineShope-img img{
+    width: 100%;
+    margin: 40px 10px;
+}
+
+}
+@media only screen and (min-width: 1280px) {
+}
