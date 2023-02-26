@@ -1,0 +1,63 @@
+.mobileApps{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.mobileApp-img{
+    flex: 1;
+}
+.mobileApp-text{
+    flex: 1;
+}
+.mobileApp-img .mobileApp {
+    width: 100%;
+    height: 550px;
+  }
+  .button-mobileApp{
+    margin-top: 30px;
+  }
+
+@media only screen and (max-width: 768px) {
+    .mobileApps{
+        flex-direction: column;
+        height: 1300px;
+    }
+  .mobileApp-title2 {
+    display: none;
+  }
+  .mobileApp-title {
+    margin: 50px 20px;
+    font-family: 'Akshar';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--black);
+  }
+  .button-mobileApp{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  .mobileApp-text {
+    padding: 0 50px;
+}
+}
+@media only screen and (min-width: 768.1px) {
+  .mobileApp-title {
+    display: none;
+  }
+  .mobileApps{
+    align-items: center;
+    height: 650px;
+    gap: 20px;
+  }
+  .mobileApp-text{
+    padding: 0 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    .mobileApp-text{
+        padding: 0 100px;
+      }
+}

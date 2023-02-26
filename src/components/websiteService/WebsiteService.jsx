@@ -19,10 +19,8 @@ export default function WebsiteService() {
         <span className="website-text-title">
           Dedicated website and application design with
         </span>
-        <div className="beondDiv">
-          <span className="beond">BEOND</span>
-          <img src="./images/Subtract.svg" alt="Subtract" />
-        </div>
+       
+         <span className='Beyond'>Beyond <img src="./images/Subtract.svg" alt="Subtract" /> </span>
         </div>
         <span className="website-text-text">
           BEONDIT consists of developers specializing in the fields of website

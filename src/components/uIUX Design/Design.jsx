@@ -3,6 +3,7 @@ import "./design.css";
 
 export default function Design() {
   return (
+
     <div className="design">
       <div className="image-design" id="image-design-top">
         <img src="./images/ui-mobile.svg" alt="ui" />
@@ -41,4 +42,5 @@ export default function Design() {
       </div>
     </div>
   );
+
 }
