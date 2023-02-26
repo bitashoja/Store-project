@@ -1,14 +1,8 @@
-import React, { useState } from 'react'
-import Header from '../Header/Header'
-import './headerContainer.css';
-
-
-
+import React from "react";
+import Header from "../Header/Header";
+import "./headerContainer.css";
 
 export default function HeaderContainer() {
-
-
-
   return (
     <>
       <div className="header-container">
@@ -41,5 +35,5 @@ export default function HeaderContainer() {
         </div>
       </div>
     </>
-  )
+  );
 }
