@@ -13,12 +13,10 @@
 }
 .description-texts {
   width: 620px;
-  margin-left: 80px;
-  margin-top: 100px;
+  padding: 0 35px 50px 35px;
 }
-.description-texts h4 {
-  font-weight: 700;
-  font-size: 32px;
+.description-text {
+  display: none;
 }
 .description-texts p,
 .information {
@@ -34,15 +32,32 @@
 .information-other {
   padding-right: 55px;
 }
+@media only screen and (max-width: 1200px) {
+  .description-img {
+    width: 510px;
+    height: 510px;
+    margin-left: 100px;
+  }
+  .description-img img {
+    width: 350px;
+    height: 630px;
+    margin-left: 41px;
+  }
+  .description-texts p,
+  .information {
+    font-size: 14px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .description-img img {
     width: 290px;
-    margin-top: -145px;
-    margin-left: 24px;
+    margin-top: -95px;
+    margin-left: 19px;
   }
   .description-img {
-    width: 460px;
-    height: 460px;
+    width: 445px;
+    height: 445px;
+    margin-left: 84px;
   }
   .description-texts p,
   .information {
@@ -52,22 +67,32 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .description {
+    display: flex;
+    margin-top: 115px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
   .description-img img {
     width: 230px;
-    margin-top: -195px;
-    margin-left: 10px;
+    margin-top: -155px;
+    margin-left: 45px;
   }
   .description-img {
-    width: 360px;
-    height: 360px;
+    width: 330px;
+    height: 330px;
+    margin-left: 66px;
   }
   .description-texts p,
   .information {
     font-size: 12px;
   }
-
-  .description-texts {
-    margin-top: 12px;
+  .description-texts h4 {
+    display: none;
+  }
+  .description-text {
+    display: block;
   }
   .texts-p {
     display: none;
@@ -76,29 +101,23 @@
 @media only screen and (max-width: 576px) {
   .description-img img {
     width: 193px;
-    margin-top: -145px;
-    margin-left: 24px;
+    margin-top: -190px;
+    margin-left: 28px;
   }
   .description-img {
     width: 260px;
     height: 260px;
-    margin-right: -600px;
   }
   .description-texts p {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    margin-top: 395px;
-    margin-left: 255px;
+    padding: 0 45px;
   }
-
   .description-texts h4 {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    margin-top: -120px;
-    margin-left: 250px;
+    display: none;
+  }
+  .description-text {
+    display: block;
   }
   .texts-p,
   .information {
