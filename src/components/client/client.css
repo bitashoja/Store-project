@@ -6,7 +6,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color:var(--gary);
+  background-color: rgba(236, 232, 239, 1);
+  ;
   gap: 15px;
   padding: 0 0 150px 0;
  
