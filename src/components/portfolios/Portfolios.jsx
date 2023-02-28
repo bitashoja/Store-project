@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./portfolios.css";
 import React, { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+ import { Swiper, SwiperSlide } from "swiper/react";
+ import "swiper/css";
 
 function PortfoliosMobile() {
   return (
