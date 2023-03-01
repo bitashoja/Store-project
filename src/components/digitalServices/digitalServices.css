@@ -1,0 +1,42 @@
+.marketing {
+  display: flex;
+  width: 100%;
+  height: 630px;
+  background: radial-gradient(
+    91.02% 182.81% at 99.55% 98.94%,
+    #6b16a8 0%,
+    #271245 100%
+  );
+}
+#beond-white {
+  color: var(--white);
+}
+#text-marketing {
+  color: var(--white);
+  margin-top: 110px;
+}
+#image-marketing {
+  margin-top: 100px;
+}
+#image-marketing-mobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .marketing {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
+  .marketing h3 {
+    display: block;
+  }
+  #image-marketing-desktop {
+    display: none;
+  }
+  #image-marketing-mobile {
+    display: block;
+  }
+  #image-marketing-mobile img {
+    width: 100%;
+  }
+}

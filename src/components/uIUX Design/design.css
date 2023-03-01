@@ -17,7 +17,7 @@
 .text-design {
   padding: 0px 45px;
   text-align: justify;
-  margin-top: 65px;
+  margin-top: 55px;
   margin-left: 160px;
 }
 #image-design-top {
@@ -38,9 +38,9 @@
 }
 @media only screen and (max-width: 1200px) {
   .text-design {
+    margin-top: 12px;
     margin-left: 67px;
     padding: 0px 10px;
-    margin-top: 40px;
   }
   .image-design img {
     width: 550px;
@@ -48,7 +48,7 @@
 }
 @media only screen and (max-width: 992px) {
   .image-design img {
-    width: 510px;
+    width: 480px;
   }
   .text-design {
     flex: 1 1;
@@ -57,7 +57,7 @@
     align-items: flex-start;
     justify-content: center;
     margin-left: 12px;
-    margin-bottom: 90px;
+    margin-bottom: 130px;
     padding: 0 1px;
   }
   .text-design p,
