@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Header/Header'
+import Header from '../header/Header'
 import './headerPortfolio.css'
 
 export default function HeaderPortfolio() {
