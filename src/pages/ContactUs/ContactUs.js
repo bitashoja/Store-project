@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderContact from '../../components/HeaderContact/HeaderContact';
 
 export default function ContactUs() {
   return (
     <div>
-      <h1>ContactUs</h1>
+      <HeaderContact />
     </div>
   )
 }

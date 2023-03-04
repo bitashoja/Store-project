@@ -1,0 +1,13 @@
+.box-img-terms{
+    width: 85% !important;
+}
+.headerTerms-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px){
+    .headerTerms-text{
+        display: none;
+    }
+}

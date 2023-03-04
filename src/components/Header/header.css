@@ -3,24 +3,42 @@
   justify-content: space-between;
   align-items: center;
   padding: 38px 50px;
+ 
+}
+.is-sticky div .header-left-laptop .header-left-text {
+  color: var(--gray);
+}
+.is-sticky div .menu-header li{
+  color: var(--gray);
+}
+.is-sticky div .menu-header li:hover{
+  border-bottom: 3px solid  var(--purple);
+  padding-bottom: 10px;
+}
+.is-sticky div .button-number{
+  background-color: var(--purple);
+  color: var(--white);
+}
+.button-number{
+  display: none;
 }
 .menu-header {
   display: flex;
   height: 30px;
 }
 .menu-header li {
-  color: #ece8ef;
+  color: var(--white);
   list-style: none;
-  margin: 0 10px;
+  margin: 0 7px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 17px;
   padding-bottom: 10px;
 }
 
 .menu-header li:hover {
   font-weight: bold;
-  border-bottom: 3px solid #ece8ef;
+  border-bottom: 3px solid var(--white);
   cursor: pointer;
 }
 
@@ -29,7 +47,7 @@
   height: 726px;
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: var(--white);
   flex-direction: column;
 
   z-index: 1;
@@ -64,7 +82,7 @@
   height: 25px;
 }
 .activeClick .active {
-  background-color: rgba(107, 22, 168, 1);
+  background-color: var(--purple);
 }
 .ulSliderHeader {
   flex: 2;
@@ -117,8 +135,28 @@
    font-size: 16px;
    font-weight: 700;
  }
+ .header-left-laptop{
+  display: none;
+ }
+ .header-left-circle{
+  width: 50px;
+  height: 50px;
+  background-color: var(--purple);
+  border-radius: 50%;
+ }
+ .header-left-text{
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+ }
    
-
+.is-sticky .header-div-left{
+  margin-left: 10px;
+}
+.is-sticky .header-div-right{
+  margin-right: 10px;
+}
 @media only screen and (max-width: 480px) {
   .menu-header {
     display: none;
@@ -150,6 +188,13 @@
     display: flex;
   }
 
+  .header-left-laptop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 111px;
+  }
   .menu-mobile {
     display: none;
   }
@@ -165,7 +210,7 @@
     display: none;
   }
   ul li {
-    font-size: 16px;
+    font-size: 14px;
   }
   .header {
     padding: 38px 5px;
@@ -173,16 +218,53 @@
   .menu-header {
     display: flex;
   }
+  .is-sticky{
+    background-color:var(--white);
+    color: black !important;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+    height: 23px;
+    margin-left: -3%;
+  }
+  .button-number{
+    display: flex;
+    width: 201px;
+    height: 44px;
+    background-color: var(--white);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    font-size: 14px;
+    color:  var(--purple);
+    gap: 5px;
+  }
+  .button-number:hover{
+    background-color: white;
+    color:  var(--purple);
+  }
 }
 @media only screen and (min-width: 1240px) {
-  ul li {
+  .menu-header li { 
+    margin: 0 10px;
+    font-weight: 600;
     font-size: 18px;
+    line-height: 17px;
+    padding-bottom: 10px;
   }
-  .header {
+  /* .header {
     padding: 38px 50px;
-  }
+  } */
   .menu-laptop,
   .phone-laptop {
     width: auto;
   }
+  .button-number{
+    width: 218px;
+    font-size: 16px;
+  }
+
 }

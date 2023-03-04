@@ -12,11 +12,16 @@ code {
     monospace;
 }
 @font-face {
-  font-family: Akshar;
-  src: url("./assets/font/static/Akshar-Medium.ttf");
+  font-family: 'Akshar';
+  font-family: 'Outfit';
+  src: url("./assets/font/static/Akshar-Medium.ttf") , 
+  url("./assets/font/Outfit/Outfit-VariableFont_wght.ttf");
 }
+
+
 * {
-  font-family: Akshar;
+  font-family: 'Akshar';
+   font-family: 'Outfit'; 
 }
 a{
   text-decoration: none;
@@ -29,6 +34,7 @@ a{
   --gray: #37383f;
   --white: #ece8ef;
   --purple: #6b16a8;
+  --black : #4d4f60;
 }
 h4 {
   font-weight: 700;

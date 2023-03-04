@@ -1,0 +1,48 @@
+.textTerms{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.title-terms {
+  width: 75%;
+  margin: 70px  auto 0 auto;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.title-terms .title-terms-name {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--black);
+}
+.title-terms .date-terms-updated {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Outfit';
+  color: var(--black);
+}
+.text-terms-one , .text-terms-two , .text-terms-three , .text-terms-four{
+    width: 75%;
+    margin: 0 auto;
+}
+.text-terms-one span , .text-terms-two span , .text-terms-three span, .text-terms-four span{
+    font-weight: 500;
+  font-size: 16px;
+  font-family: 'Outfit';
+  color: var(--black);
+}
+.text-terms-one span .text-Purple{
+    color: var(--purple);
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768.1px) {
+  .title-terms {
+    display: none;
+  }
+}
