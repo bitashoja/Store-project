@@ -14,7 +14,7 @@ export default function ServicesBox({ src, title }) {
         onsite at the client’s location followed by their deployment at the
          ....
       </span>
-      <button>SEE MORE</button>
+      <button className="seeMore">SEE MORE</button>
     </div>
   );
 }

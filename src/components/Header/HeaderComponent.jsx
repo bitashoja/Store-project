@@ -1,39 +1,38 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
-import './header.css';
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";
-import { IoIosArrowForward } from "react-icons/io"
- 
+import { IoIosArrowForward } from "react-icons/io";
+import "./header.css";
 
-export default function Header() {
-  const [isClick, setIsClick] = useState(false)
-  const [isActive, setIsActive] = useState('home')
+export default function HeaderComponent() {
+  const [isClick, setIsClick] = useState(false);
+  const [isActive, setIsActive] = useState("home");
 
   const clickHandler = () => {
-    setIsClick(true)
-  }
+    setIsClick(true);
+  };
   const closeSlider = () => {
-    setIsClick(false)
-  }
+    setIsClick(false);
+  };
 
   useEffect(() => {
-    window.addEventListener('scroll', isSticky)
+    window.addEventListener("scroll", isSticky);
     return () => {
-      window.removeEventListener('scroll', isSticky)
-    }
-  })
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
 
   const isSticky = (e) => {
-    const header = document.querySelector('.header')
-    const scrollTop = window.scrollY
+    const header = document.querySelector(".header");
+    const scrollTop = window.scrollY;
     scrollTop >= 150
-      ? header.classList.add('is-sticky')
-      : header.classList.remove('is-sticky')
-  }
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
 
   return (
     <>
-      <div className={`sliderHeader ${isClick ? 'sliderHeader-active' : ''}`}>
+      <div className={`sliderHeader ${isClick ? "sliderHeader-active" : ""}`}>
         <div className="closeSliderMenu">
           <img
             src="./images/close.svg"
@@ -44,16 +43,16 @@ export default function Header() {
         </div>
         <div className="ulSlider">
           <div className="activeClick">
-            <span className={`${isActive === 'home' ? 'active' : ''}`}></span>
+            <span className={`${isActive === "home" ? "active" : ""}`}></span>
             <span
-              className={`${isActive === 'services' ? 'active' : ''}`}
+              className={`${isActive === "services" ? "active" : ""}`}
             ></span>
             <span
-              className={`${isActive === 'portfolio' ? 'active' : ''}`}
+              className={`${isActive === "portfolio" ? "active" : ""}`}
             ></span>
-            <span className={`${isActive === 'about' ? 'active' : ''}`}></span>
+            <span className={`${isActive === "about" ? "active" : ""}`}></span>
             <span
-              className={`${isActive === 'contact' ? 'active' : ''}`}
+              className={`${isActive === "contact" ? "active" : ""}`}
             ></span>
           </div>
           <div className="ulSliderHeader">
@@ -61,9 +60,9 @@ export default function Header() {
               <Link to="/">
                 <li
                   className={`itemSliderHeader ${
-                    isActive === 'home' ? 'activeHome' : ' '
+                    isActive === "home" ? "activeHome" : " "
                   }`}
-                  onClick={() => setIsActive('home')}
+                  onClick={() => setIsActive("home")}
                 >
                   Home
                 </li>
@@ -71,9 +70,9 @@ export default function Header() {
               <Link to="/Service">
                 <li
                   className={`itemSliderHeader ${
-                    isActive === 'services' ? 'activeService' : ' '
+                    isActive === "services" ? "activeService" : " "
                   }`}
-                  onClick={() => setIsActive('services')}
+                  onClick={() => setIsActive("services")}
                 >
                   Services
                 </li>
@@ -81,9 +80,9 @@ export default function Header() {
               <Link to="/Portfolio">
                 <li
                   className={`itemSliderHeader ${
-                    isActive === 'portfolio' ? 'activePortfolio' : ' '
+                    isActive === "portfolio" ? "activePortfolio" : " "
                   }`}
-                  onClick={() => setIsActive('portfolio')}
+                  onClick={() => setIsActive("portfolio")}
                 >
                   Portfolio
                 </li>
@@ -91,9 +90,9 @@ export default function Header() {
               <Link to="/AboutUs">
                 <li
                   className={`itemSliderHeader ${
-                    isActive === 'about' ? 'activeAboutUs' : ' '
+                    isActive === "about" ? "activeAboutUs" : " "
                   }`}
-                  onClick={() => setIsActive('about')}
+                  onClick={() => setIsActive("about")}
                 >
                   About us
                 </li>
@@ -101,9 +100,9 @@ export default function Header() {
               <Link to="/ContactUs">
                 <li
                   className={`itemSliderHeader ${
-                    isActive === 'contact' ? 'activeContactUs' : ' '
+                    isActive === "contact" ? "activeContactUs" : " "
                   }`}
-                  onClick={() => setIsActive('contact')}
+                  onClick={() => setIsActive("contact")}
                 >
                   Contact us
                 </li>
@@ -120,7 +119,7 @@ export default function Header() {
         </div>
       </div>
       <div className="header">
-        <div className='header-div-left'>
+        <div className="header-div-left">
           <div className="header-left-laptop">
             <span className="header-left-circle"></span>
             <span className="header-left-text">BEYOND IT</span>
@@ -132,7 +131,7 @@ export default function Header() {
             onClick={clickHandler}
           />
         </div>
-        <div className='header-div-center'>
+        <div className="header-div-center">
           <ul className="menu-header">
             <Link to="/">
               <li>Home</li>
@@ -156,7 +155,7 @@ export default function Header() {
             alt="menu laptop"
           />
         </div>
-        <div className='header-div-right'>
+        <div className="header-div-right">
           <button className="button-number">
             <BsTelephoneFill />
             <IoIosArrowForward />
@@ -170,5 +169,5 @@ export default function Header() {
         </div>
       </div>
     </>
-  )
+  );
 }

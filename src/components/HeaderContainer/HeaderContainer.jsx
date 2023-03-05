@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "../Header/HeaderComponent";
 import "./headerContainer.css";
+import { BsTelephoneFill } from "react-icons/bs";
+import { IoIosArrowForward } from "react-icons/io";
+import { RxEnvelopeClosed } from "react-icons/rx";
 
 export default function HeaderContainer() {
   return (
@@ -20,16 +23,16 @@ export default function HeaderContainer() {
               in sapiente quam deserunt eum veritatis fugiat doloremque.
             </p>
             <div className="headerBoxButton">
-              <img
-                src="./images/buttonPhone.svg"
-                className="buttonPhone"
-                alt="buttonPhone"
-              />
-              <img
-                src="./images/emailPhone.svg"
-                className="emailPhone"
-                alt="emailPhone"
-              />
+              <button className="button-number-headerContainer">
+                <BsTelephoneFill />
+                <IoIosArrowForward />
+                +1(818)930-4747
+              </button>
+              <button className="button-headerContainer-send">
+                <RxEnvelopeClosed />
+                <IoIosArrowForward />
+                <span>SEND ORDER</span>
+              </button>
             </div>
           </div>
         </div>

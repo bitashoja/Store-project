@@ -12,29 +12,25 @@ code {
     monospace;
 }
 @font-face {
-  font-family: 'Akshar';
-  font-family: 'Outfit';
-  src: url("./assets/font/static/Akshar-Medium.ttf") , 
-  url("./assets/font/Outfit/Outfit-VariableFont_wght.ttf");
+  font-family: "Akshar";
+  /* font-family: 'Outfit'; */
+  src: url("./assets/font/static/Akshar-Medium.ttf");
+  /* url("./assets/font/Outfit/Outfit-VariableFont_wght.ttf"); */
 }
-
 
 * {
-  font-family: 'Akshar';
-   font-family: 'Outfit'; 
+  font-family: "Akshar";
+  /* font-family: 'Outfit';  */
 }
-a{
+a {
   text-decoration: none;
 }
-
-  
-
 
 :root {
   --gray: #37383f;
   --white: #ece8ef;
   --purple: #6b16a8;
-  --black : #4d4f60;
+  --black: #4d4f60;
 }
 h4 {
   font-weight: 700;
@@ -54,4 +50,3 @@ h4 {
     font-weight: 600;
   }
 }
-

@@ -3,23 +3,41 @@
   justify-content: space-between;
   align-items: center;
   padding: 38px 50px;
- 
 }
 .is-sticky div .header-left-laptop .header-left-text {
   color: var(--gray);
 }
-.is-sticky div .menu-header li{
+.is-sticky div .menu-header li {
   color: var(--gray);
 }
-.is-sticky div .menu-header li:hover{
-  border-bottom: 3px solid  var(--purple);
+.is-sticky div .menu-header li:hover {
+  border-bottom: 3px solid var(--purple);
   padding-bottom: 10px;
 }
-.is-sticky div .button-number{
+
+.is-sticky div .button-number {
   background-color: var(--purple);
   color: var(--white);
 }
-.button-number{
+.button-number {
+  cursor: pointer;
+  display: none;
+}
+.is-sticky div .header-left-laptop .header-left-text {
+  color: var(--gray);
+}
+.is-sticky div .menu-header li {
+  color: var(--gray);
+}
+.is-sticky div .menu-header li:hover {
+  border-bottom: 3px solid var(--purple);
+  padding-bottom: 10px;
+}
+.is-sticky div .button-number {
+  background-color: var(--purple);
+  color: var(--white);
+}
+.button-number {
   display: none;
 }
 .menu-header {
@@ -104,7 +122,7 @@
   color: black;
   padding: 15px;
   height: 18px;
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -124,38 +142,38 @@
   font-weight: 700;
 }
 .sliderHeader .menuSliderHeader .activePortfolio {
-   font-size: 16px;
-   font-weight: 700;
- }
- .sliderHeader .menuSliderHeader .activeAbout {
-   font-size: 16px;
-   font-weight: 700;
- }
- .sliderHeader .menuSliderHeader .activeContact {
-   font-size: 16px;
-   font-weight: 700;
- }
- .header-left-laptop{
+  font-size: 16px;
+  font-weight: 700;
+}
+.sliderHeader .menuSliderHeader .activeAbout {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sliderHeader .menuSliderHeader .activeContact {
+  font-size: 16px;
+  font-weight: 700;
+}
+.header-left-laptop {
   display: none;
- }
- .header-left-circle{
+}
+.header-left-circle {
   width: 50px;
   height: 50px;
   background-color: var(--purple);
   border-radius: 50%;
- }
- .header-left-text{
+}
+.header-left-text {
   color: var(--white);
   font-size: 28px;
   font-weight: 700;
   position: absolute;
- }
-   
-.is-sticky .header-div-left{
+}
+
+.is-sticky .header-div-left {
   margin-left: 10px;
 }
-.is-sticky .header-div-right{
-  margin-right: 10px;
+.is-sticky .header-div-right {
+  margin-right: 30px;
 }
 @media only screen and (max-width: 480px) {
   .menu-header {
@@ -187,13 +205,17 @@
   ul {
     display: flex;
   }
+  .header-div-right {
+    margin-right: 30px;
+  }
 
-  .header-left-laptop{
+  .header-left-laptop {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     position: relative;
     width: 111px;
+    margin-left: 30px;
   }
   .menu-mobile {
     display: none;
@@ -218,8 +240,8 @@
   .menu-header {
     display: flex;
   }
-  .is-sticky{
-    background-color:var(--white);
+  .is-sticky {
+    background-color: var(--white);
     color: black !important;
     position: fixed;
     top: 0px;
@@ -229,42 +251,45 @@
     height: 23px;
     margin-left: -3%;
   }
-  .button-number{
+  .button-number {
     display: flex;
-    width: 201px;
+    width: 165px;
     height: 44px;
     background-color: var(--white);
     border-radius: 8px;
     align-items: center;
     justify-content: center;
     margin-top: -15px;
-    font-size: 14px;
-    color:  var(--purple);
+    font-size: 15px;
+    color: var(--purple);
     gap: 5px;
+    border: none;
+    font-weight: 600;
   }
-  .button-number:hover{
+  .button-number:hover {
     background-color: white;
-    color:  var(--purple);
+    color: var(--purple);
   }
 }
 @media only screen and (min-width: 1240px) {
-  .menu-header li { 
+  .button-number {
+    width: 201px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .menu-header li {
     margin: 0 10px;
     font-weight: 600;
     font-size: 18px;
     line-height: 17px;
     padding-bottom: 10px;
   }
-  /* .header {
-    padding: 38px 50px;
-  } */
   .menu-laptop,
   .phone-laptop {
     width: auto;
   }
-  .button-number{
+  .button-number {
     width: 218px;
     font-size: 16px;
   }
-
 }

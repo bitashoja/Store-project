@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from '../Header/HeaderComponent'
-import './headerPortfolio.css'
+import React from "react";
+import Header from "../Header/HeaderComponent";
+import "./headerPortfolio.css";
 
 export default function HeaderPortfolio() {
   return (
@@ -16,12 +16,12 @@ export default function HeaderPortfolio() {
         </div>
         <div className="headerPortfolio-text">
           <div className="heading-text-portfolio">
-          <h3 className="title-header-portfolio">Portfolio</h3>
-          <span className="text-header-portfolio">
-            You can see some examples of our works below, which are done based
-            on the needs of the customers and the capabilities of the BEOND IT
-            team.
-          </span>
+            <h3 className="title-header-portfolio">Portfolio</h3>
+            <span className="text-header-portfolio">
+              You can see some examples of our works below, which are done based
+              on the needs of the customers and the capabilities of the BEOND IT
+              team.
+            </span>
           </div>
           <div className="button-header-portfolio">
             <div className="button-numberPhone-portfolio">
@@ -34,5 +34,5 @@ export default function HeaderPortfolio() {
         </div>
       </div>
     </div>
-  )
+  );
 }
