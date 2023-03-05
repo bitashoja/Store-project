@@ -1,6 +1,6 @@
 import React from 'react';
 import "./headerContact.css";
-import Header from "../header/Header";
+import Header from "../Header/Header";
 
 export default function HeaderContact() {
   return (

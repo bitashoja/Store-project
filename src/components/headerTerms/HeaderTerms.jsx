@@ -1,6 +1,6 @@
 import React from 'react';
 import './headerTerms.css';
-import Header from '../header/Header';
+import Header from '../Header/Header';
 
 export default function HeaderTerms() {
   return (
