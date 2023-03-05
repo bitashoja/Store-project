@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Header/Header";
+import Header from "../Header/HeaderComponent";
 import "./headerService.css";
 
 export default function HeaderServices() {
