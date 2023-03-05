@@ -8,10 +8,10 @@ function App() {
   const router = useRoutes(route);
 
   return (
-    <>
+    <div className="App">
       {router}
       <Footer />
-    </>
+    </div>
   );
 }
 
