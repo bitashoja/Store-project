@@ -1,10 +1,8 @@
 import React from "react";
-import "./headerContact.css";
 import Header from "../Header/HeaderComponent";
-
-export default function HeaderContact() {
+export default function HeaderSendOrder() {
   return (
-    <div>
+    <div className="header-container">
       <Header />
     </div>
   );
