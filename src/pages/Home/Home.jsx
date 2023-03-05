@@ -5,7 +5,6 @@ import Portfolio from "../../components/portfolios/Portfolios";
 import Service from "../../components/service/Service";
 import Client from "../../components/client/Client";
 
-
 export default function Home() {
   return (
     <div className="container">

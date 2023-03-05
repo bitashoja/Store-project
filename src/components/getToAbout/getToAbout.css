@@ -1,0 +1,69 @@
+.get-about {
+  background-color: var(--white);
+  margin-top: 90px;
+  padding-bottom: 70px;
+}
+.get-about-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.get-about-img {
+  margin-top: 140px;
+}
+.get-about-text h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  padding-top: 90px;
+}
+.about-service-company {
+  text-align: center;
+  padding: 80px 120px;
+}
+.about-service-company h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+.about-service-company span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+.get-about-mobile {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .get-about-img img {
+    width: 975px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .get-about-img img {
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .get-about-img img {
+    width: 530px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .get-about-mobile {
+    display: block;
+    padding: 90px 80px;
+  }
+  .get-about-mobile img {
+    margin-top: 60px;
+  }
+  .get-about-img,
+  .get-about-text h3 {
+    display: none;
+  }
+  .about-service-company {
+    padding: 2px 120px;
+  }
+}
