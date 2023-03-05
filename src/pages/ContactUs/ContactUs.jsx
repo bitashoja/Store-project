@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderContact from '../../components/HeaderContact/HeaderContact';
+import HeaderContact from '../../components/headerContact/HeaderContact';
 
 export default function ContactUs() {
   return (
