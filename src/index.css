@@ -13,14 +13,16 @@ code {
 }
 @font-face {
   font-family: "Akshar";
-  /* font-family: 'Outfit'; */
   src: url("./assets/font/static/Akshar-Medium.ttf");
-  /* url("./assets/font/Outfit/Outfit-VariableFont_wght.ttf"); */
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/font/Outfit/Outfit-VariableFont_wght.ttf");
 }
 
 * {
   font-family: "Akshar";
-  /* font-family: 'Outfit';  */
 }
 a {
   text-decoration: none;
@@ -32,6 +34,11 @@ a {
   --purple: #6b16a8;
   --black: #4d4f60;
 }
+
+button {
+  font-family: "Outfit";
+}
+
 h4 {
   font-weight: 700;
   font-size: 32px;
