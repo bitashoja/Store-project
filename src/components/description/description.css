@@ -84,6 +84,10 @@
     height: 330px;
     margin-left: 66px;
   }
+  .description-texts {
+    width: 480px;
+    text-align: center;
+  }
   .description-texts p,
   .information {
     font-size: 12px;
@@ -108,9 +112,14 @@
     width: 260px;
     height: 260px;
   }
+  .description-texts {
+    width: 420px;
+    text-align: center;
+    padding: 0 3px;
+  }
   .description-texts p {
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 15px;
     padding: 0 45px;
   }
   .description-texts h4 {
@@ -123,4 +132,4 @@
   .information {
     display: none;
   }
-} 
+}
