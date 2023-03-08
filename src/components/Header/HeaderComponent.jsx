@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
 import "./header.css";
@@ -57,7 +57,7 @@ export default function HeaderComponent() {
           </div>
           <div className="ulSliderHeader">
             <ul className="menuSliderHeader">
-              <Link to="/">
+              <NavLink to="/">
                 <li
                   className={`itemSliderHeader ${
                     isActive === "home" ? "activeHome" : " "
@@ -66,8 +66,8 @@ export default function HeaderComponent() {
                 >
                   Home
                 </li>
-              </Link>
-              <Link to="/Service">
+              </NavLink>
+              <NavLink to="/Service">
                 <li
                   className={`itemSliderHeader ${
                     isActive === "services" ? "activeService" : " "
@@ -76,8 +76,8 @@ export default function HeaderComponent() {
                 >
                   Services
                 </li>
-              </Link>
-              <Link to="/Portfolio">
+              </NavLink>
+              <NavLink to="/Portfolio">
                 <li
                   className={`itemSliderHeader ${
                     isActive === "portfolio" ? "activePortfolio" : " "
@@ -86,8 +86,8 @@ export default function HeaderComponent() {
                 >
                   Portfolio
                 </li>
-              </Link>
-              <Link to="/AboutUs">
+              </NavLink>
+              <NavLink to="/AboutUs">
                 <li
                   className={`itemSliderHeader ${
                     isActive === "about" ? "activeAboutUs" : " "
@@ -96,8 +96,8 @@ export default function HeaderComponent() {
                 >
                   About us
                 </li>
-              </Link>
-              <Link to="/ContactUs">
+              </NavLink>
+              <NavLink to="/ContactUs">
                 <li
                   className={`itemSliderHeader ${
                     isActive === "contact" ? "activeContactUs" : " "
@@ -106,7 +106,7 @@ export default function HeaderComponent() {
                 >
                   Contact us
                 </li>
-              </Link>
+              </NavLink>
             </ul>
           </div>
         </div>
@@ -134,21 +134,36 @@ export default function HeaderComponent() {
           </div>
           <div className="header-div-center">
             <ul className="menu-header">
-              <Link to="/">
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
                 <li>Home</li>
-              </Link>
-              <Link to="/Service">
+              </NavLink>
+              <NavLink
+                to="/Service"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
                 <li>Services </li>
-              </Link>
-              <Link to="/Portfolio">
+              </NavLink>
+              <NavLink
+                to="/Portfolio"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
                 <li>Portfolio</li>
-              </Link>
-              <Link to="/AboutUs">
+              </NavLink>
+              <NavLink
+                to="/AboutUs"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
                 <li>About us</li>
-              </Link>
-              <Link to="/ContactUs">
+              </NavLink>
+              <NavLink
+                to="/ContactUs"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
                 <li>Contact us</li>
-              </Link>
+              </NavLink>
             </ul>
             <img
               src="./images/Group 10249.svg"
