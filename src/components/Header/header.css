@@ -4,18 +4,18 @@
   align-items: center;
   padding: 38px 50px;
 }
-.is-sticky div .header-left-laptop .header-left-text {
+.is-sticky div div .header-left-laptop .header-left-text {
   color: var(--gray);
 }
-.is-sticky div .menu-header li {
+.is-sticky div div .menu-header li {
   color: var(--gray);
 }
-.is-sticky div .menu-header li:hover {
+.is-sticky div div .menu-header li:hover {
   border-bottom: 3px solid var(--purple);
   padding-bottom: 10px;
 }
 
-.is-sticky div .button-number {
+.is-sticky div div .button-number {
   background-color: var(--purple);
   color: var(--white);
 }
@@ -23,17 +23,17 @@
   cursor: pointer;
   display: none;
 }
-.is-sticky div .header-left-laptop .header-left-text {
+.is-sticky div div .header-left-laptop .header-left-text {
   color: var(--gray);
 }
-.is-sticky div .menu-header li {
+.is-sticky div div .menu-header li {
   color: var(--gray);
 }
-.is-sticky div .menu-header li:hover {
+.is-sticky div div .menu-header li:hover {
   border-bottom: 3px solid var(--purple);
   padding-bottom: 10px;
 }
-.is-sticky div .button-number {
+.is-sticky div div .button-number {
   background-color: var(--purple);
   color: var(--white);
 }
@@ -169,10 +169,10 @@
   position: absolute;
 }
 
-.is-sticky .header-div-left {
+.is-sticky div .header-div-left {
   margin-left: 10px;
 }
-.is-sticky .header-div-right {
+.is-sticky div .header-div-right {
   margin-right: 30px;
 }
 @media only screen and (max-width: 480px) {
@@ -245,12 +245,19 @@
     color: black !important;
     position: fixed;
     top: 0px;
+    left: 0px;
     width: 100%;
     margin: 0;
     z-index: 2;
     height: 23px;
-    margin-left: -3%;
+    height: 100px;
   }
+
+  .is-sticky div {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
   .button-number {
     display: flex;
     width: 165px;

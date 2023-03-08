@@ -23,7 +23,7 @@ export default function HeaderComponent() {
   });
 
   const isSticky = (e) => {
-    const header = document.querySelector(".header");
+    const header = document.querySelector(".header-sticky");
     const scrollTop = window.scrollY;
     scrollTop >= 150
       ? header.classList.add("is-sticky")
@@ -118,54 +118,56 @@ export default function HeaderComponent() {
           />
         </div>
       </div>
-      <div className="header">
-        <div className="header-div-left">
-          <div className="header-left-laptop">
-            <span className="header-left-circle"></span>
-            <span className="header-left-text">BEYOND IT</span>
+      <div className="header-sticky">
+        <div className="header">
+          <div className="header-div-left">
+            <div className="header-left-laptop">
+              <span className="header-left-circle"></span>
+              <span className="header-left-text">BEYOND IT</span>
+            </div>
+            <img
+              src="./images/menu.svg"
+              className="menu-mobile"
+              alt="menu mobile"
+              onClick={clickHandler}
+            />
           </div>
-          <img
-            src="./images/menu.svg"
-            className="menu-mobile"
-            alt="menu mobile"
-            onClick={clickHandler}
-          />
-        </div>
-        <div className="header-div-center">
-          <ul className="menu-header">
-            <Link to="/">
-              <li>Home</li>
-            </Link>
-            <Link to="/Service">
-              <li>Services </li>
-            </Link>
-            <Link to="/Portfolio">
-              <li>Portfolio</li>
-            </Link>
-            <Link to="/AboutUs">
-              <li>About us</li>
-            </Link>
-            <Link to="/ContactUs">
-              <li>Contact us</li>
-            </Link>
-          </ul>
-          <img
-            src="./images/Group 10249.svg"
-            className="menu-laptop2"
-            alt="menu laptop"
-          />
-        </div>
-        <div className="header-div-right">
-          <button className="button-number">
-            <BsTelephoneFill />
-            <IoIosArrowForward />
-            +1(818)930-4747
-          </button>
-          <img
-            src="./images/phone.svg"
-            className="phone-mobile"
-            alt="phone mobile"
-          />
+          <div className="header-div-center">
+            <ul className="menu-header">
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+              <Link to="/Service">
+                <li>Services </li>
+              </Link>
+              <Link to="/Portfolio">
+                <li>Portfolio</li>
+              </Link>
+              <Link to="/AboutUs">
+                <li>About us</li>
+              </Link>
+              <Link to="/ContactUs">
+                <li>Contact us</li>
+              </Link>
+            </ul>
+            <img
+              src="./images/Group 10249.svg"
+              className="menu-laptop2"
+              alt="menu laptop"
+            />
+          </div>
+          <div className="header-div-right">
+            <button className="button-number">
+              <BsTelephoneFill />
+              <IoIosArrowForward />
+              +1(818)930-4747
+            </button>
+            <img
+              src="./images/phone.svg"
+              className="phone-mobile"
+              alt="phone mobile"
+            />
+          </div>
         </div>
       </div>
     </>
