@@ -58,3 +58,7 @@ h4 {
     font-weight: 600;
   }
 }
+
+input {
+  padding: 0 10px;
+}

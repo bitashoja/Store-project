@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../components/Header/HeaderComponent";
+import Select from "react-select";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
+
 import "./ContactUs.css";
 
+const options = [
+  { value: "chocolate", label: "Chocolate" },
+  { value: "strawberry", label: "Strawberry" },
+  { value: "vanilla", label: "Vanilla" },
+];
+
 export default function ContactUs() {
+  const [value, setValue] = useState();
+
   return (
     <div className="header-container">
       <Header />
@@ -62,7 +74,7 @@ export default function ContactUs() {
               </div>
               <div className="contact-left-input">
                 <label>Last name</label>
-                <input type="name" placeholder="Watson" />
+                <input type="name" placeholder="Watson" required />
               </div>
             </div>
             <div className="contact-left-name">
@@ -72,7 +84,18 @@ export default function ContactUs() {
               </div>
               <div className="contact-left-input">
                 <label>Phone</label>
-                <input type="phone" placeholder="+1  650 513 0514" />
+                {/* <input type="phone" placeholder="+1  65÷≥0 513 0514" /> */}
+                <Select options={options} isMulti className="" />
+              </div>
+              <div className="contact-left-input">
+                <label>Phone</label>
+                {/* <input type="phone" placeholder="+1  65÷≥0 513 0514" /> */}
+
+                <PhoneInput
+                  placeholder="Enter phone number"
+                  value={value}
+                  onChange={setValue}
+                />
               </div>
             </div>
             <div className="contact-left-massage">
