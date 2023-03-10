@@ -1,6 +1,8 @@
 .introit{
-    background-color:  rgba(55, 56, 63, 1);
-    
+    background-color:  rgba(55, 56, 63, 1);  
+}
+.introitText{
+    color: white;
 }
 .titleIntroit{
     color: white;

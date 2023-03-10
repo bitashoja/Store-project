@@ -1,5 +1,6 @@
 import React from 'react';
 import './stylish.css';
+import Button from "../button/Button";
 
 export default function StylishApp() {
   return (
@@ -26,11 +27,7 @@ export default function StylishApp() {
           completed on time and within budget.
         </span>
         <div className="buttonWebsite">
-          <img
-            src="./images/197.svg"
-            alt="buttonWeb"
-            className="buttonWeb"
-          />
+        <Button className="buttonComponent" title = "SEE MORE" />
         </div>
       </div>
     </div>

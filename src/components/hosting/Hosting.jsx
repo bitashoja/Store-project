@@ -1,5 +1,6 @@
 import React from "react";
 import "./hosting.css";
+import Button from "../button/Button"
 
 export default function Hosting() {
   return (
@@ -36,7 +37,7 @@ export default function Hosting() {
           the budget.
         </p>
         <div className="button-design">
-          <img src="./images/button-img.svg" alt="button" />
+        <Button className="buttonComponent" title = "ORDER" />
         </div>
       </div>
       <div className="image-design" id="image-hosting">

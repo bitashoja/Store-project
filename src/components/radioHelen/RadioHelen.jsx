@@ -1,5 +1,6 @@
 import React from 'react';
 import './radioHelen.css';
+import Button from '../button/Button';
 
 export default function RadioHelen() {
   return (
@@ -30,11 +31,7 @@ export default function RadioHelen() {
           users.
         </span>
         <div className="buttonWebsite">
-          <img
-            src="./images/buttonWeb.svg"
-            alt="buttonWeb"
-            className="buttonWeb"
-          />
+          <Button className="buttonComponent" title = "SEE MORE" />
         </div>
       </div>
       <div className="onlineShope-img">

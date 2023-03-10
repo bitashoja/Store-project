@@ -1,0 +1,23 @@
+/* .buttonComponent {
+  width: 16rem;
+  height: 42px;
+  background: var(--purple);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Akshar';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+gap: 16px;
+} */
+.button-icon1{
+    font-size: 20px;
+}
+.button-icon2{
+    font-size: 24px;
+}

@@ -22,18 +22,23 @@ export default function HeaderContainer() {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
               in sapiente quam deserunt eum veritatis fugiat doloremque.
             </p>
-            <div className="headerBoxButton">
-              <button className="button-number-headerContainer">
+            
+             <div className="button-header-portfolio button-headerContainer">
+            <div className="button-numberPhone-portfolio">
+            <button className="button-number-headerContainer button-phone-portfolio">
                 <BsTelephoneFill />
                 <IoIosArrowForward />
                 +1(818)930-4747
               </button>
-              <button className="button-headerContainer-send">
-                <RxEnvelopeClosed />
+            </div>
+            <div className="button-email-portfolio">
+              <button className="button-headerContainer-send button-email-portfolio">
+              <RxEnvelopeClosed />
                 <IoIosArrowForward />
                 <span>SEND ORDER</span>
               </button>
             </div>
+          </div>
           </div>
         </div>
       </div>

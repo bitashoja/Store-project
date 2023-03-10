@@ -48,14 +48,14 @@
   color: var(--white);
   list-style: none;
   margin: 0 7px;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 17px;
   padding-bottom: 10px;
 }
 
 .menu-header li:hover {
-  font-weight: bold;
+  font-weight: 700;
   border-bottom: 3px solid var(--white);
   cursor: pointer;
 }
@@ -283,15 +283,18 @@
   }
 }
 @media only screen and (min-width: 1240px) {
+  .is-sticky {
+    margin-left: -2%;
+  }
   .button-number {
     width: 201px;
     height: 44px;
     font-size: 16px;
   }
   .menu-header li {
-    margin: 0 10px;
-    font-weight: 600;
-    font-size: 18px;
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 17px;
     padding-bottom: 10px;
   }

@@ -1,5 +1,6 @@
 import React from 'react'
-import './networkServices.css'
+import './networkServices.css';
+import Button from "../button/Button"
 
 export default function NetworkServices() {
   return (
@@ -10,8 +11,8 @@ export default function NetworkServices() {
         <img src="./images/Group10.png" alt="Union2" className="Union2" />
       </div>
       <div className="NetworkService-text">
-      <h3 className="mobileApp-title2">Network services</h3>
-        <span>
+      <h3 className="mobileApp-title2 website-title-laptop">Network services</h3>
+        <span className="website-text-text">
           Network services are network applications, functions, and services
           that companies outsource to be managed, monitored, and maintained
           remotely by a network support team. The implementation of network
@@ -24,7 +25,7 @@ export default function NetworkServices() {
           (VPS), and much more.
         </span>
         <div className="buttonWebsite">
-          <img src="./images/buttonWeb.svg" alt="buttonWeb" className="buttonWeb"/>
+        <Button className="buttonComponent" title = "ORDER" />
         </div>
       </div>
     </div>

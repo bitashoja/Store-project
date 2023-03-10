@@ -1,6 +1,8 @@
-import React from "react";
-import Header from "../Header/HeaderComponent";
-import "./headerPortfolio.css";
+import React from 'react'
+import Header from '../Header/HeaderComponent'
+import './headerPortfolio.css'
+import { BsTelephoneFill } from 'react-icons/bs'
+import { IoIosArrowForward } from 'react-icons/io'
 
 export default function HeaderPortfolio() {
   return (
@@ -25,14 +27,23 @@ export default function HeaderPortfolio() {
           </div>
           <div className="button-header-portfolio">
             <div className="button-numberPhone-portfolio">
-              <img src="./images/phoneNumber.svg" alt="phoneNumber" />
+            <button className="button-number-headerContainer button-phone-portfolio">
+                <BsTelephoneFill />
+                <IoIosArrowForward />
+                +98-12345698
+              </button>
             </div>
             <div className="button-email-portfolio">
-              <img src="./images/email.svg" alt="email" />
+              <button className="button-headerContainer-send button-email-portfolio">
+                <img src="../images/path73.svg" alt="path73"  className="envelope"/>
+                <img src="../images/shee56.svg" alt="shee"   className="envelope1"/>
+                <span>beondit@gmail.com</span>
+              </button>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./design.css";
+import Button from "../button/Button"
 
 export default function Design() {
   return (
@@ -33,7 +34,7 @@ export default function Design() {
           easier to communicate with users.
         </p>
         <div className="button-design">
-          <img src="./images/button-img.svg" alt="button" />
+        <Button className="buttonComponent" title = "ORDER" />
         </div>
       </div>
       <div className="image-design" id="image-design-left">

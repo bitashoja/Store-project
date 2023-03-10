@@ -1,5 +1,6 @@
 import React from 'react'
-import './onlineShope.css'
+import './onlineShope.css';
+ import Button from '../button/Button';
 
 export default function OnlineShope() {
   return (
@@ -23,7 +24,7 @@ export default function OnlineShope() {
           WordPress.</b>  we do
         </span>
         <div className="buttonWebsite">
-          <img src="./images/buttonWeb.svg" alt="buttonWeb" className="buttonWeb"/>
+          <Button className="buttonComponent" title = "SEE MORE" />
         </div>
       </div>
     </div>
