@@ -11,7 +11,8 @@ function PortfoliosMobile() {
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}>
+        onSwiper={(swiper) => console.log(swiper)}
+      >
         <SwiperSlide>
           <a href="#">
             <img src="./images/image1.png" alt="menu" />
@@ -101,7 +102,7 @@ const getIsMobile = () => {
   const userAgent = navigator.userAgent;
   const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      userAgent,
+      userAgent
     );
   const screenWidth = window.innerWidth;
   const isNarrowScreen = screenWidth < 768; // Adjust this number as needed
@@ -118,7 +119,7 @@ export default function Portfolios() {
       function () {
         setMobile(getIsMobile());
       },
-      true,
+      true
     );
     return () => {
       window.removeEventListener("resize", listener);

@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../Header/HeaderComponent";
-import "./headerAbout.css";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
 import { RxEnvelopeClosed } from "react-icons/rx";
+import "./headerAbout.css";
+
 export default function HeaderAbout() {
   return (
     <div className="header-about-container">

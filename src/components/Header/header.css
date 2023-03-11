@@ -138,6 +138,11 @@
   font-weight: 700;
   border-bottom: 4px solid var(--white);
 }
+
+.is-sticky .active {
+  border-bottom-color: var(--purple);
+}
+
 .sliderHeader .menuSliderHeader .activeHome {
   font-size: 16px;
   font-weight: 700;
@@ -283,9 +288,6 @@
   }
 }
 @media only screen and (min-width: 1240px) {
-  .is-sticky {
-    margin-left: -2%;
-  }
   .button-number {
     width: 201px;
     height: 44px;
