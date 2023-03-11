@@ -1,0 +1,40 @@
+#header-services {
+  background-image: url(../../../public/images/header\ services.svg);
+  background-position: top;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+@media only screen and (max-width: 1200px) {
+  #header-services {
+    background-size: 650px;
+  }
+  .headerBoxText {
+    flex: 1 1;
+    padding: 0px 0px 10px 40px;
+    margin-top: -70px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #header-services {
+    background-size: 550px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headerBoxText {
+    margin-top: 276px;
+  }
+  .headerBoxText h3 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .button-number-headerContainer,
+  .button-headerContainer-send {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #header-services {
+    background-size: 380px;
+  }
+}

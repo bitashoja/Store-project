@@ -21,6 +21,9 @@
 #image-marketing-mobile {
   display: none;
 }
+#text-marketing p {
+  color: var(--white2);
+}
 @media only screen and (max-width: 768px) {
   .marketing {
     display: flex;

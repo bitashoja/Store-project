@@ -3,21 +3,21 @@ import "./aboutTeam.css";
 
 export default function AboutTeam() {
   return (
-    <div className="OnlineShope StylishApp">
+    <div className="about-Team">
       <div className="about-team-mobile">
         <h3>
           About BEYOND <span>IT</span> team
         </h3>
         <img src="./images/team-mobile.svg" alt="Frame102" />
       </div>
-      <div className="onlineShope-img" id="about-team-desktop">
-        <img src="./images/about-team.svg" alt="Frame102" />
+      <div className="about-team-desktop">
+        <img src="./images/about-teams.svg" alt="Frame102" />
       </div>
-      <div className="onlineShope-text">
-        <h3 className="title-onlineShope-laptop" id="about-team-text">
+      <div className="onlineShope-text onlineText">
+        <h3 className="about-team-text">
           About BEYOND <span>IT</span> team
         </h3>
-        <span className="about-text">
+        <span>
           For more than 15 years, our team's experts have been working in the
           field of digital technologies. The experience of these years has shown
           us that digital media can play a key role in increasing the quality of
@@ -30,12 +30,14 @@ export default function AboutTeam() {
           created by advertising and millions of prizes. Success will happen
           when you see your customers as real people. Humans who think and make
           decisions. Growth means that you put your thoughts and energy into
-          improving the lives of these people. We are going to start a new
-          chapter in (digital) business marketing with you. And in the new
-          approach we want businesses to have a long-term vision. A vision that
-          connects today's income and short-term advertising solutions with
-          quality, transparency, education and intimacy. A look that emphasizes
-          on creating stable relationships with customers.
+          improving the lives of these people.
+          <br />
+          We are going to start a new chapter in (digital) business marketing
+          with you. And in the new approach we want businesses to have a
+          long-term vision. A vision that connects today's income and short-term
+          advertising solutions with quality, transparency, education and
+          intimacy. A look that emphasizes on creating stable relationships with
+          customers.
         </span>
       </div>
     </div>
