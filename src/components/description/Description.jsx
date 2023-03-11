@@ -9,7 +9,7 @@ export default function Description() {
       </h4>
       <div className="description-img">
         <img
-          src="./images/54547 1.svg"
+          src="./images/mobile-description.png"
           className="description-mobile"
           alt="description mobile "
         />

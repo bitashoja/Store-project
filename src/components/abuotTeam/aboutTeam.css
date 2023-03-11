@@ -1,30 +1,58 @@
+.about-Team {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .about-team-mobile {
   display: none;
 }
 .about-team-mobile span,
-#about-team-text span {
+.about-team-text span {
   color: var(--purple);
 }
-@media only screen and (max-width: 992px) {
-  .onlineShope-text {
-    flex: 2 1;
-    padding: 9px 35px;
+.about-team-desktop img {
+  width: 800px;
+}
+@media only screen and (max-width: 1240px) {
+  .about-team-desktop img {
+    width: 540px;
+  }
+  .about-Team {
+    gap: 0px;
+  }
+  .about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 992px) {
+  .about-Team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
   .about-team-mobile {
     display: block;
   }
-  #about-team-desktop,
-  #about-team-text {
+  .about-team-desktop,
+  .about-team-text {
     display: none;
   }
   .about-team-mobile img {
-    width: 540px;
+    width: 600px;
+    margin-right: 265px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-team-mobile img {
+    width: 490px;
+    margin-right: -7px;
   }
 }
 @media only screen and (max-width: 567px) {
   .about-team-mobile img {
-    width: 450px;
+    width: 370px;
   }
 }

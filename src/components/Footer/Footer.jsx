@@ -11,6 +11,11 @@ export default function Footer() {
         </p>
         <div className="button-submit">
           <input
+            type="email"
+            placeholder="Type your e-mail address"
+            className="inputs"
+          />
+          <input
             type="submit"
             placeholder="Type your e-mail address"
             className="input1"
@@ -27,7 +32,7 @@ export default function Footer() {
           <img src="./images/icon.svg" alt="icon1" className="icon1" />
           <img src="./images/path.svg" alt="icon2" className="icon2" />
         </div>
-        <div className="icon" id="icon-img1">
+        <div className="icon-img1">
           <img src="./images/icon1.svg" alt="icon" className="icon-img" />
         </div>
         <div className="icon">
@@ -48,8 +53,8 @@ export default function Footer() {
         <div className="icon">
           <img src="./images/icon7.svg" alt="icon" className="icon-img" />
         </div>
-        <div className="icon" id="icon-img1">
-          <img src="./images/icon1.svg" alt="icon" className="icon-img" />
+        <div className="icon-img1">
+          <img src="./images/icon-footer.svg" alt="icon" className="icon-img" />
         </div>
       </div>
 
@@ -80,9 +85,20 @@ export default function Footer() {
             <div className="footer-description-item">
               <div className="description-icon">
                 <div className="footer-icons-right">
-                  <div className="footer-icon-right">
+                  <div
+                    className="footer-icon-right"
+                    id="footer-icon-right-desktop">
                     <img src="./images/map.svg" alt="map" />
                     <span>7451 Garden Grove ave Reseda CA 91335</span>
+                  </div>
+                  <div
+                    className="footer-icon-right"
+                    id="footer-icon-right-mobile">
+                    <img src="./images/map.svg" alt="map" />
+                    <span>
+                      7451 Garden Grove ave
+                      <br /> Reseda CA 91335
+                    </span>
                   </div>
                   <div className="footer-icon-right" id="footer-icon-phone">
                     <img src="./images/phones.svg" alt="phone" />
@@ -135,7 +151,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="footer-icon-left"></div>
           </div>
         </div>
       </div>
