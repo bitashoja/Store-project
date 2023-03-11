@@ -1,5 +1,6 @@
 import React from 'react'
-import './domainsService.css'
+import './domainsService.css';
+import Button from "../button/Button";
 
 export default function DomainsService() {
   return (
@@ -9,8 +10,8 @@ export default function DomainsService() {
         <img src="./images/511.png" alt="Graphic Design" />
       </div>
       <div className="DomainsService-text">
-      <h3 className="mobileApp-title2">Graphic Design</h3>
-        <span>
+      <h3 className="mobileApp-title2 website-title-laptop">Graphic Design</h3>
+        <span className="website-text-text">
           With the expansion of graphic software and digital tools, many graphic
           works have been created and have had a great impact on those
           interested. Graphic designers can start creating images and graphic
@@ -30,7 +31,7 @@ export default function DomainsService() {
           ,Shopping bag design
         </span>
         <div className="buttonWebsite">
-          <img src="./images/buttonWeb.svg" alt="buttonWeb" className="buttonWeb"/>
+        <Button className="buttonComponent" title = "ORDER" />
         </div>
       </div>
     </div>

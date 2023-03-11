@@ -11,14 +11,28 @@
 }
 .website-text-text {
   display: block;
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--gary);
 }
-.buttonWebsite{
-    display: flex;
-    padding: 20px 0;
+.buttonWebsite {
+  display: flex;
+  padding: 20px 0;
+}
+.website-text-title {
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--gary);
 }
 
 @media only screen and (max-width: 768px) {
-  .websiteLaptop{
+  .websiteLaptop {
     display: none;
   }
   .title-website {
@@ -61,16 +75,16 @@
   .website-title-laptop {
     display: none;
   }
-  .buttonWebsite{
+  .buttonWebsite {
     align-items: center;
     justify-content: center;
   }
 }
 @media only screen and (min-width: 768.1px) {
-  .Digital-laptop{
+  .Digital-laptop {
     display: none;
   }
-  .websiteLaptop{
+  .websiteLaptop {
     width: 100%;
   }
   .title-website {
@@ -98,13 +112,13 @@
     color: var(--black);
     margin-top: -30px;
   }
-  .website-image{
+  .website-image {
     flex: 1;
   }
-  .website-image .Digital-laptop{
+  .website-image .Digital-laptop {
     width: 90%;
   }
-  .website-text{
+  .website-text {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -112,15 +126,12 @@
     justify-content: center;
     padding: 0 40px;
   }
-  .website-img-text{
+  .website-img-text {
     padding: 10px 0;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .website-Service{
+  .website-Service {
     height: 1000px;
   }
-    .website-text-text{
-        padding: 0 20px;
-    }
 }

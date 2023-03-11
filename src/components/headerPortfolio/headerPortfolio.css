@@ -10,6 +10,30 @@
     #210044 100%
   );
 }
+.envelope{
+  width: 20px;
+  height: 20px;
+}
+.envelope1{
+  width: 15px;
+  height: 15px;
+}
+.button-email-portfolio{
+ 
+  color: var(--white);
+  display: flex;
+  width: 15rem;
+  height: 44px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: 'Akshar';
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .box-headerPortfolio {
   display: flex;
   align-items: center;
@@ -64,15 +88,21 @@
     justify-content: center;
     position: absolute;
     bottom: -50px;
+    width: 100%;
+    gap: 2px;
   }
-  .button-header-portfolio img{
-    width: 98%;
+  .button-numberPhone-portfolio , .button-email-portfolio{
+    flex: 1;
   }
+   .button-numberPhone-portfolio button , .button-email-portfolio button{
+      width: 100%;
+      border-radius: 0;
+      cursor: pointer;
+   }
 }
 @media only screen and (min-width: 768.1px) {
   .HeaderPortfolio {
     width: 95%;
-    /* height: 780px; */
     height: auto;
     border-radius: 20px;
     margin: 75px auto;
@@ -89,6 +119,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 55px;
+    width: 100%;
+    margin-left: 10px;
+    gap: 5px;
   }
   .button-header-portfolio img{
     width: 98%;

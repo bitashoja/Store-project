@@ -41,7 +41,7 @@ export default function Client() {
   return (
     <div className="client">
       <div className="commentsProfile">
-        <h3 className="comments">Some of our client comments</h3>
+        <h3 className="comments">Comments of some of our customers...</h3>
         <p className="paraComments">
           Team consists of professional and experienced consultants,
           technicians, engineers, designers and solution architects who work

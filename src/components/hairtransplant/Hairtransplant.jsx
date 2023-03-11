@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Button from '../button/Button';
 
 export default function Hairtransplant() {
   return (
@@ -20,7 +21,7 @@ export default function Hairtransplant() {
             Britain we can also serve you Globally.
           </span>
           <div className="buttonWebsite">
-            <img src="./images/197.svg" alt="buttonWeb" className="buttonWeb" />
+          <Button className="buttonComponent" title = "SEE MORE" />
           </div>
         </div>
         <div className="onlineShope-img">

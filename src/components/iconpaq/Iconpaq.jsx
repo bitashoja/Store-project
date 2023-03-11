@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../button/Button'
 
 export default function Iconpaq() {
   return (
@@ -23,7 +24,7 @@ export default function Iconpaq() {
             claims can be completed on time and within budget.
           </span>
           <div className="buttonWebsite">
-            <img src="./images/197.svg" alt="buttonWeb" className="buttonWeb" />
+          <Button className="buttonComponent" title = "SEE MORE" />
           </div>
         </div>
         <div className="onlineShope-img">

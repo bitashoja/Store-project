@@ -1,5 +1,6 @@
 import React from 'react';
 import './plants.css';
+import Button from "../button/Button";
 
 export default function Plants() {
   return (
@@ -24,11 +25,7 @@ export default function Plants() {
             claims can be completed on time and within budget.
           </span>
           <div className="buttonWebsite">
-            <img
-              src="./images/197.svg"
-              alt="buttonWeb"
-              className="buttonWeb"
-            />
+          <Button className="buttonComponent" title = "SEE MORE" />
           </div>
         </div>
         <div className="onlineShope-img">

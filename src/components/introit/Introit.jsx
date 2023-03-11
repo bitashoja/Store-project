@@ -1,5 +1,6 @@
 import React from 'react';
 import './introit.css';
+import Button from '../button/Button';
 
 export default function Introit() {
   return (
@@ -8,7 +9,7 @@ export default function Introit() {
       <div className="box-radio">
         <div className="onlineShope-text">
           <h3 className="title-onlineShope-laptop titleIntroit">INTROIT</h3>
-          <span className='titleIntroit'>
+          <span className='titleIntroit introitText'>
             Our mission at EnvireTech is to help you focus in your field by
             realizing and supervising your projects with our experts from all
             over the world. <br /> At EnvireTech we offer IT services and solutions for
@@ -24,7 +25,7 @@ export default function Introit() {
             claims can be completed on time and within budget.
           </span>
           <div className="buttonWebsite">
-            <img src="./images/197.svg" alt="buttonWeb" className="buttonWeb" />
+          <Button className="buttonComponent" title = "SEE MORE" />
           </div>
         </div>
         <div className="onlineShope-img">

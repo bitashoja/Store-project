@@ -1,5 +1,6 @@
 import React from 'react';
 import './selfieWebsite.css';
+import Button from '../button/Button';
 
 export default function SelfieWebsite() {
   return (
@@ -24,7 +25,7 @@ export default function SelfieWebsite() {
             claims can be completed on time and within budget.
           </span>
           <div className="buttonWebsite">
-            <img src="./images/197.svg" alt="buttonWeb" className="buttonWeb" />
+          <Button className="buttonComponent" title = "SEE MORE" />
           </div>
         </div>
         <div className="onlineShope-img selfie">

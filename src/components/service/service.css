@@ -5,14 +5,14 @@
     flex-direction: column;
 }
 .serviceP h3 {
-    padding-top: 150px;
+    margin-top: 190px;
     font-family: "Akshar";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 35px;
     text-align: center;
-    color: #37383f;
+    color: var(--gray);
   }
   .serviceP p {
     width: 710px;
@@ -20,7 +20,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #37383f;
+    color: var(--gray);
   }
   @media only screen and (max-width: 768px) {
     .serviceP p {

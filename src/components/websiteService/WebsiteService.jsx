@@ -1,5 +1,6 @@
 import React from 'react'
-import './websiteService.css'
+import './websiteService.css';
+import Button from "../button/Button";
 
 export default function WebsiteService() {
   return (
@@ -33,7 +34,7 @@ export default function WebsiteService() {
           WordPress </b> . we do
         </span>
         <div className="buttonWebsite">
-          <img src="./images/buttonWeb.svg" alt="buttonWeb" className="buttonWeb"/>
+        <Button className="buttonComponent" title = "ORDER" />
         </div>
       </div>
     </div>
