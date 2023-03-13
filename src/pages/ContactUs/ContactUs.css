@@ -1,134 +1,311 @@
-.header-contact-title {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: #ffffff;
-}
 .header-contact-title h4 {
+  font-family: 'Akshar';
+  font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 44px;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 0;
 }
 .header-contact-title p {
+  font-family: 'Akshar';
+  font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 35px;
+  text-align: center;
+  color: var(--white);
 }
 .header-contact-information {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  gap: 62px;
-  width: 1300px;
-  height: 608px;
+  align-items: baseline;
+  gap: 20px;
+  width: 90%;
+  height: 688px;
   background: #ffffff;
   border-radius: 24px;
   margin: 0 auto;
 }
+.header-contact-left {
+  flex: 40%;
+}
 .header-contact-right {
+  flex: 60%;
   display: flex;
   flex-direction: column;
-  width: 506px;
-  height: 576px;
-  background-color: var(--purple);
-  border-radius: 24px;
-  color: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
-.header-contact-right h5 {
+.header-contact-circle-left {
+  height: 576px;
+  background: #6b16a8;
+  border-radius: 24px;
+  margin: 3%;
+  position: relative;
+}
+.contact-right-text {
+  margin-left: 45px;
+  padding-top: 45px;
+}
+.contact-right-text h5 {
+  font-family: 'Akshar';
+  font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 35px;
+  margin: 0;
+  color: var(--white);
 }
-.header-contact-right p {
+.contact-right-text p {
+  font-family: 'Akshar';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 18px;
+  color: var(--white);
+  padding-bottom: 70px;
 }
-.contact-right-text,
-.contact-right-icon {
-  padding: 46px 100px 10px 50px;
-}
-.contact-left-name {
+.contact-header-icons-left {
+  width: 84%;
   display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
-  margin-top: 30px;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px auto;
+}
+.contact-header-icons-left .contact-right-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--white);
+}
+.contact-header-icons-left .contact-right-icons img {
+  margin-right: 10px;
+}
+.right-icon-Semicircular {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.right-icon-circle {
+  position: absolute;
+  right: 77px;
+  z-index: 2;
+  bottom: 68px;
+}
+.icon-contact {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  gap: 36px;
+}
+.contact-right-name {
+  display: flex;
 }
 
-.contact-left-input label,
-.contact-left-massage label {
+/* label */
+.contact-right-input label {
   display: block;
 }
-.contact-left-input input {
+.contact-right-input input {
   width: 308px;
   height: 54px;
   border: 1px solid var(--white);
   border-radius: 12px;
   cursor: pointer;
 }
-.contact-left-input input:hover,
-.contact-left-massage input :hover {
+.contact-right-input input:hover {
   border-color: var(--purple);
+}
+.PhoneInput {
+  width: 308px;
+  height: 54px;
+  border: 1px solid var(--white);
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.PhoneInputInput {
+  border: none !important;
+}
+input:focus {
+  outline: none;
+}
+.PhoneInput:hover {
+  border-color: var(--purple);
+}
+.contact-left-input .yourOrder {
+  margin-top: 15px !important;
+  display: block;
+}
+.css-13cymwt-control {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--white);
+}
+.css-13cymwt-control:hover {
+  border-color: var(--purple);
+}
+/* message */
+.contact-left-massage label {
+  display: block;
+  margin-top: 60px;
 }
 .contact-left-massage {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
-.contact-left-massage input {
-  width: 640px;
-  height: 156px;
+.contact-left-massage .message {
   border: 1px solid var(--white);
   border-radius: 12px;
   cursor: pointer;
 }
-.contact-left-massage label,
-.contact-left-input label {
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 13px;
-  padding-bottom: 6px;
-}
 .contact-left-submit {
-  display: flex;
-  text-align: center;
+  position: absolute;
   width: 167px;
-  height: 54px;
-  background: var(--purple);
-  color: var(--white2);
+  height: 50px;
+  background-color: var(--purple);
   border-radius: 12px;
-  margin-left: 480px;
+  bottom: -57px;
+  right: -1px;
+  border: none;
   cursor: pointer;
+  color: var(--white);
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
 }
-.contact-right-icons {
-  display: flex;
-  margin-left: 45px;
+.success {
+  border : 1px solid green !important;
 }
-.contact-right-icons span {
-  padding: 10px;
+
+@media only screen and (max-width: 767.9px) {
+  .headerContactUs {
+    width: 100%;
+    height: auto;
+    background-color: white !important;
+  }
+  .header-contact-information,
+  .contact-right-name {
+    flex-direction: column;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+  }
+ 
+  .header-contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-contact-title h4,
+  .header-contact-title p {
+    color: var(--gary);
+    margin: 0;
+  }
+  .css-13cymwt-control {
+    width: 328px;
+  }
+  .message {
+    width: 318px;
+    height: 150px;
+  }
+  .contact-left-massage label {
+    display: block;
+    margin-top: 0px;
+  }
 }
-.icon-contact {
-  margin-left: 45px;
+
+@media only screen and (min-width: 768px) {
+  .header-container-contact {
+    width: 95%;
+    height: 900px;
+    margin: 75px auto;
+    background: linear-gradient(
+      296.7deg,
+      #45108a -5.17%,
+      #3d065f 42.6%,
+      #200554 168.23%
+    );
+    border-radius: 25px;
+  }
+  .header-contact-title h4 {
+    font-size: 32px;
+  }
+  .header-contact-title p {
+    font-size: 28px;
+  }
+  .header-contact-circle-left {
+    width: 300px;
+  }
+  .contact-right-name {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-left-input {
+    width: 333px;
+    height: 44px;
+  }
+  .header-contact-information {
+    align-items: flex-start;
+  }
+  .firstName {
+    margin-top: 30px;
+  }
+  .contact-left-massage .message {
+    width: 315px;
+    height: 100px;
+  }
+  .contact-left-massage label {
+    display: block;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+  .contact-left-submit {
+    width: 338px;
+    height: 50px;
+  }
 }
-.icon-contact img {
-  padding: 15px;
+
+@media only screen and (min-width: 857px) {
+  .header-contact-circle-left {
+    width: 370px;
+  }
 }
-.icon-contact {
-  margin-top: 30px;
+
+@media only screen and (min-width: 1024px) {
+  .header-contact-title h4 {
+    font-size: 40px;
+  }
+  .header-contact-title p {
+    font-size: 32px;
+  }
+  .header-contact-circle-left {
+    width: 506px;
+  }
 }
-.contact-right-icon {
-  position: relative;
-}
-.right-icon-circle {
-  position: absolute;
-  right: 70px;
-  bottom: 65px;
-  z-index: 22;
-}
-.right-icon-Semicircular {
-  position: absolute;
-  right: 0px;
-  bottom: 10px;
-}
-.right-icon-span span {
-  display: block;
+
+@media only screen and (min-width: 1440px) {
+  .contact-right-name {
+    flex-direction: row;
+  }
+  .contact-left-input {
+    width: 682px;
+  }
+  .header-contact-information {
+    align-items: baseline;
+  }
+  .firstName {
+    margin-top: 0;
+  }
+  .contact-left-massage .message {
+    width: 662px;
+    height: 156px;
+  }
+  .contact-left-submit {
+    width: 167px;
+    height: 54px;
+    bottom: -80px;
+  }
 }

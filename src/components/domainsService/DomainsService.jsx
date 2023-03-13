@@ -1,6 +1,7 @@
 import React from 'react'
 import './domainsService.css';
 import Button from "../button/Button";
+import { Link } from 'react-router-dom';
 
 export default function DomainsService() {
   return (
@@ -31,7 +32,9 @@ export default function DomainsService() {
           ,Shopping bag design
         </span>
         <div className="buttonWebsite">
-        <Button className="buttonComponent" title = "ORDER" />
+        <Link to="/SendOrder">
+        <Button className="buttonComponent" title = "ORDER NEW" />
+        </Link>
         </div>
       </div>
     </div>

@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
-import "./header.css";
+import "../Header/header.css";
+import "./header2.css";
 
-export default function HeaderComponent() {
+export default function HeaderContactUs() {
   const [isClick, setIsClick] = useState(false);
   const [isActive, setIsActive] = useState("home");
 
@@ -127,7 +128,7 @@ export default function HeaderComponent() {
             </div>
             <img
               src="./images/menu.svg"
-              className="menu-mobile"
+              className="menu-mobile1"
               alt="menu mobile"
               onClick={clickHandler}
             />
@@ -167,7 +168,7 @@ export default function HeaderComponent() {
             </ul>
             <div className="menu-laptop2">
               <span className="circleCenterHeader"></span>
-              <span className="textCircleCenterHeader">BEYOND IT</span>
+              <span className="textCircleCenterHeader1">BEYOND IT</span>
             </div>
           </div>
           <div className="header-div-right">
@@ -177,7 +178,7 @@ export default function HeaderComponent() {
               +1(818)930-4747
             </button>
         
-            <button className="phone-mobile">
+            <button className="phone-mobile1">
             <BsTelephoneFill />
               </button>
           </div>

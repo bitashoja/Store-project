@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../button/Button';
 
+
 export default function MobileApp() {
   return (
     <div className="OnlineShope">
@@ -26,6 +27,7 @@ export default function MobileApp() {
         completed on time and within budget.
       </span>
       <div className="buttonWebsite">
+      
       <Button className="buttonComponent" title = "SEE MORE" />
       </div>
     </div>

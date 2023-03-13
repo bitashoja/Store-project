@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -148,7 +149,10 @@ export default function Footer() {
                 <div className="footer-button-text">
                   <span>GDPR Policy</span>
                   <span>Privacy policy</span>
+                  <Link to="/Terms">
+
                   <span>Terms & Conditions</span>
+                  </Link>
                 </div>
               </div>
             </div>

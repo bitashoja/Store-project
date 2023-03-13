@@ -1,6 +1,7 @@
 import React from 'react'
-import './websiteService.css';
-import Button from "../button/Button";
+import './websiteService.css'
+import Button from '../button/Button'
+import { Link } from 'react-router-dom'
 
 export default function WebsiteService() {
   return (
@@ -12,16 +13,22 @@ export default function WebsiteService() {
           alt="Digital"
           className="Digital-laptop"
         />
-        <img src="./images/websiteLaptop.png" alt="websiteLaptop" className='websiteLaptop'/>
+        <img
+          src="./images/websiteLaptop.png"
+          alt="websiteLaptop"
+          className="websiteLaptop"
+        />
       </div>
       <div className="website-text">
         <h3 className="website-title-laptop">Website development </h3>
         <div className="website-img-text">
-        <span className="website-text-title">
-          Dedicated website and application design with
-        </span>
-       
-         <span className='Beyond'>Beyond <img src="./images/Subtract.svg" alt="Subtract" /> </span>
+          <span className="website-text-title">
+            Dedicated website and application design with
+          </span>
+
+          <span className="Beyond">
+            Beyond <img src="./images/Subtract.svg" alt="Subtract" />{' '}
+          </span>
         </div>
         <span className="website-text-text">
           BEONDIT consists of developers specializing in the fields of website
@@ -29,12 +36,17 @@ export default function WebsiteService() {
           effort to provide its services to its customers and audiences in the
           best possible way along with modern technologies. The specialized
           services of this collection are listed below, we hope to see the best
-          services offered to you. <b>Java , JavaScript, #C, Python,
-          PHP, C++, Scala, netscape, Nodejs, React, React Native, HTML and CSS,
-          WordPress </b> . we do
+          services offered to you.{' '}
+          <b>
+            Java , JavaScript, #C, Python, PHP, C++, Scala, netscape, Nodejs,
+            React, React Native, HTML and CSS, WordPress{' '}
+          </b>{' '}
+          . we do
         </span>
         <div className="buttonWebsite">
-        <Button className="buttonComponent" title = "ORDER" />
+          <Link to="/SendOrder">
+            <Button className="buttonComponent" title="ORDER NEW" />
+          </Link>
         </div>
       </div>
     </div>

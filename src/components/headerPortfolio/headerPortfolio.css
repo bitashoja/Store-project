@@ -26,8 +26,8 @@
   border-radius: 8px;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  font-family: "Akshar";
+  gap: 0;
+  font-family: 'Akshar';
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
@@ -91,6 +91,7 @@
     bottom: -50px;
     width: 100%;
     gap: 2px;
+    left: 0;
   }
   .button-numberPhone-portfolio,
   .button-email-portfolio {

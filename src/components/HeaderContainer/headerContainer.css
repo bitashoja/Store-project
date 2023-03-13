@@ -6,7 +6,7 @@
 .headerBoxText h3,
 .headerBoxText p {
   color: white;
-  margin: 43px 30px;
+  margin: 50px 30px;
 }
 .headerBoxText h3 {
   font-family: math;
@@ -43,6 +43,13 @@
   font-weight: 600;
   font-size: 16px;
 }
+.linkHeaderPortfolio{
+  color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
 @media only screen and (max-width: 768px) {
   .header-container {
@@ -77,11 +84,16 @@
   .emailPhone {
     right: 0;
   }
+  .headerBoxText h3 {
+    margin-top: -222px;
+  }
 }
 @media only screen and (min-width: 768.1px) {
   .header-container {
-    height: 525px;
-    margin: 75px 0px;
+
+    width: 94%;
+    height: 650px;
+    margin: 75px auto;
     border-radius: 20px;
   }
   .headerBox {
@@ -95,7 +107,7 @@
   .headerBoxText h3 {
     font-size: 42px;
     font-weight: 700;
-    margin-top: -20px;
+    margin-top: 50px;
   }
   .headerBoxText p {
     font-size: 16px;
@@ -119,9 +131,9 @@
     justify-content: center;
   }
   .headerBoxImg img {
-    max-width: 115%;
+    max-width: 85%;
     max-height: 800px;
-    margin-right: 60px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 1240px) {
@@ -130,7 +142,7 @@
   }
   .headerBoxText h3 {
     font-size: 48px;
-    padding-top: 150px;
+    margin-top: 150px;
   }
   .headerBoxText p {
     font-size: 20px;
@@ -138,5 +150,6 @@
   .headerBoxImg img {
     width: 85%;
     max-width: 650px;
+    margin-top: 35px;
   }
 }

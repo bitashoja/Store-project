@@ -1,6 +1,8 @@
 import React from "react";
 import "./design.css";
 import Button from "../button/Button";
+import { Link } from "react-router-dom";
+
 
 export default function Design() {
   return (
@@ -34,7 +36,11 @@ export default function Design() {
           easier to communicate with users.
         </p>
         <div className="button-design">
-          <Button className="buttonComponent" title="ORDER" />
+
+        <Link to="/SendOrder">
+        <Button className="buttonComponent" title = "ORDER NEW" />
+        </Link>
+
         </div>
       </div>
       <div className="image-design" id="image-design-left">

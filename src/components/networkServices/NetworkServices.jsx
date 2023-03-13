@@ -1,6 +1,7 @@
 import React from 'react'
 import './networkServices.css';
-import Button from "../button/Button"
+import Button from "../button/Button";
+import { Link } from 'react-router-dom';
 
 export default function NetworkServices() {
   return (
@@ -25,7 +26,9 @@ export default function NetworkServices() {
           (VPS), and much more.
         </span>
         <div className="buttonWebsite">
-        <Button className="buttonComponent" title = "ORDER" />
+        <Link to="/SendOrder">
+        <Button className="buttonComponent" title = "ORDER NEW" />
+        </Link>
         </div>
       </div>
     </div>
