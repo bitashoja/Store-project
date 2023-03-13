@@ -1,5 +1,6 @@
 import React from "react";
 import "./digitalServices.css";
+import { Link } from "react-router-dom";
 
 export default function DigitalServices() {
   return (
@@ -34,7 +35,9 @@ export default function DigitalServices() {
           team, experts can give advice and guidance to Shaka
         </p>
         <div className="button-design" id="button-marketing">
+      <Link to="/SendOrder">
           <img src="./images/button-marketing.svg" alt="button" />
+        </Link>
         </div>
       </div>
       <div className="image-design" id="image-marketing-desktop">

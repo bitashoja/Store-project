@@ -122,7 +122,7 @@
   color: black;
   padding: 15px;
   height: 18px;
-  font-family: "Akshar";
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -138,6 +138,11 @@
   font-weight: 700;
   border-bottom: 4px solid var(--white);
 }
+
+.is-sticky .active {
+  border-bottom-color: var(--purple);
+}
+
 .sliderHeader .menuSliderHeader .activeHome {
   font-size: 16px;
   font-weight: 700;
@@ -179,6 +184,44 @@
 }
 .is-sticky div .header-div-right {
   margin-right: 30px;
+}
+.phone-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 10px;
+  width: 52px;
+  height: 32px;
+  background-color: var(--white2);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.phone-mobile svg{
+  color: var(--purple);
+}
+.menu-laptop2{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   position: relative;
+   width: 100px;
+}
+.menu-laptop2 .circleCenterHeader{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--purple);
+  display: inline-block;
+}
+.menu-laptop2 .textCircleCenterHeader{
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
 }
 @media only screen and (max-width: 480px) {
   .menu-header {
@@ -253,7 +296,7 @@
     left: 0px;
     width: 100%;
     margin: 0;
-    z-index: 2;
+    z-index: 92;
     height: 100px;
   }
 
@@ -283,9 +326,11 @@
   }
 }
 @media only screen and (min-width: 1240px) {
+
   .is-sticky {
-    margin-left: -2%;
+    margin-left: 0;
   }
+
   .button-number {
     width: 201px;
     height: 44px;

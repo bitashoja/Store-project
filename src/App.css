@@ -1,6 +1,13 @@
 .App {
   max-width: 1800px;
+  padding: 0 32px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 0px;
+  }
 }
 
 .App-logo {

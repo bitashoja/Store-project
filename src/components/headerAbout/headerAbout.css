@@ -1,9 +1,9 @@
 .header-about-container {
   background-image: url(../../../public/images/header-about.svg);
   background-repeat: no-repeat;
-  background-size: 1600px;
   height: 1000px;
   background-position: top;
+  margin-top: 75px;
 }
 #button-about2 {
   background-color: var(--white);

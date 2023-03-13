@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -67,7 +68,6 @@ export default function Footer() {
                 className="header-icon"
                 alt="menu laptop"
               />
-              <img />
             </div>
             <div>
               <ul className="footer-ul" id="footer-header-ul">
@@ -87,13 +87,15 @@ export default function Footer() {
                 <div className="footer-icons-right">
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-desktop">
+                    id="footer-icon-right-desktop"
+                  >
                     <img src="./images/map.svg" alt="map" />
                     <span>7451 Garden Grove ave Reseda CA 91335</span>
                   </div>
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-mobile">
+                    id="footer-icon-right-mobile"
+                  >
                     <img src="./images/map.svg" alt="map" />
                     <span>
                       7451 Garden Grove ave
@@ -113,17 +115,17 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="footer-icon-left">
-                  <a href="#">
+                  <a href="#whatsapp">
                     <img
                       src="./images/whatsapp.svg"
                       alt="icon"
                       className="whatsapp"
                     />
                   </a>
-                  <a href="#">
+                  <a href="#Instagram">
                     <img src="./images/Instagram.svg" alt="icon" />
                   </a>
-                  <a href="#">
+                  <a href="#linkedin">
                     <img src="./images/linkedin.svg" alt="icon" />
                   </a>
                 </div>
@@ -147,7 +149,10 @@ export default function Footer() {
                 <div className="footer-button-text">
                   <span>GDPR Policy</span>
                   <span>Privacy policy</span>
+                  <Link to="/Terms">
+
                   <span>Terms & Conditions</span>
+                  </Link>
                 </div>
               </div>
             </div>
