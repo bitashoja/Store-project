@@ -55,4 +55,7 @@
   .about-team-mobile img {
     width: 370px;
   }
+  .about-Team {
+    margin-top: -290px;
+  }
 }

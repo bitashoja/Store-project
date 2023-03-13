@@ -68,3 +68,16 @@
     display: none;
   }
 }
+@media only screen and (max-width: 576px) {
+  .text-hosting h3 {
+    margin-left: 15px;
+  }
+  .text-hosting {
+    margin-left: 1px;
+  }
+  .hosting {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 970px;
+  }
+}

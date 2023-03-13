@@ -36,6 +36,12 @@
 }
 @media only screen and (max-width: 576px) {
   #header-services {
-    background-size: 380px;
+    background-size: 460px;
+  }
+  .headerBoxText h3 {
+    margin-top: 3px;
+  }
+  .headerBoxText p {
+    margin: 15px 30px;
   }
 }
