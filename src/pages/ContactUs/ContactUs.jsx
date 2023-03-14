@@ -4,16 +4,6 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import "./ContactUs.css";
 
-// const options = [
-//   { value: 'Other', label: 'Other' },
-//   { value: 'UIUX Design', label: 'UIUX Design' },
-//   { value: 'Mobile Apps development', label: 'Mobile Apps development' },
-//   { value: 'Hosting', label: 'Hosting' },
-//   { value: 'Network services', label: 'Network services' },
-//   { value: 'Digital Marketing', label: 'Digital Marketing' },
-//   { value: 'Graphic Design', label: 'Graphic Design' },
-// ]
-
 export default function ContactUs() {
   const [value, setValue] = useState();
   const [name, setName] = useState(false);
