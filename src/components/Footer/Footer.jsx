@@ -88,13 +88,15 @@ export default function Footer() {
                 <div className="footer-icons-right">
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-desktop">
+                    id="footer-icon-right-desktop"
+                  >
                     <img src="./images/map.svg" alt="map" />
                     <span>7451 Garden Grove ave Reseda CA 91335</span>
                   </div>
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-mobile">
+                    id="footer-icon-right-mobile"
+                  >
                     <img src="./images/map.svg" alt="map" />
                     <span>
                       7451 Garden Grove ave
