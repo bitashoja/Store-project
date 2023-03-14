@@ -10,6 +10,7 @@ export default function Footer() {
           You can always contact us and be aware of the latest news and
           information
         </p>
+
         <div className="button-submit">
           <input
             type="email"
@@ -23,7 +24,7 @@ export default function Footer() {
           />
         </div>
         <input
-          type="submit"
+          type="Submit"
           placeholder="Type your e-mail address"
           className="input2"
         />
@@ -60,7 +61,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-button">
-        <div className="header">
+        <div>
           <div className="header-footer">
             <div>
               <img
@@ -87,15 +88,13 @@ export default function Footer() {
                 <div className="footer-icons-right">
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-desktop"
-                  >
+                    id="footer-icon-right-desktop">
                     <img src="./images/map.svg" alt="map" />
                     <span>7451 Garden Grove ave Reseda CA 91335</span>
                   </div>
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-mobile"
-                  >
+                    id="footer-icon-right-mobile">
                     <img src="./images/map.svg" alt="map" />
                     <span>
                       7451 Garden Grove ave
@@ -150,8 +149,7 @@ export default function Footer() {
                   <span>GDPR Policy</span>
                   <span>Privacy policy</span>
                   <Link to="/Terms">
-
-                  <span>Terms & Conditions</span>
+                    <span>Terms & Conditions</span>
                   </Link>
                 </div>
               </div>

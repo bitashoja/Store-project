@@ -24,6 +24,14 @@
 #text-marketing p {
   color: var(--white2);
 }
+@media only screen and (max-width: 992px) {
+  #image-marketing {
+    margin-right: 10px;
+  }
+  #text-marketing {
+    margin-top: 25px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .marketing {
     display: flex;

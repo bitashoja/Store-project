@@ -13,7 +13,7 @@
 }
 .description-texts {
   width: 620px;
-  padding: 0 35px 50px 35px;
+  /* padding: 0 35px 50px 35px; */
 }
 .description-text {
   display: none;
@@ -83,7 +83,7 @@
   .description-img {
     width: 330px;
     height: 330px;
-    margin-left: 66px;
+    margin: 0 auto;
   }
   .description-texts {
     width: 480px;
@@ -115,14 +115,15 @@
     height: 260px;
   }
   .description-texts {
-    width: 420px;
+    width: 90%;
     text-align: center;
-    padding: 0 3px;
+    margin: 0 auto;
   }
   .description-texts p {
     font-weight: 300;
     font-size: 15px;
-    padding: 0 45px;
+    width: 75%;
+    margin: 0 auto;
   }
   .description-texts h4 {
     display: none;

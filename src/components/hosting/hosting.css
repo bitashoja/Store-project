@@ -31,6 +31,7 @@
 @media only screen and (max-width: 992px) {
   #image-hosting img {
     width: 475px;
+    margin-right: 10px;
   }
   .text-hosting {
     flex: 1 1;

@@ -32,6 +32,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -200px;
   }
   .about-team-mobile {
     display: block;

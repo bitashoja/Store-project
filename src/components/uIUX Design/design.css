@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: 12px;
     margin-bottom: 130px;
     padding: 0 1px;
@@ -70,6 +70,7 @@
     display: flex;
     flex-direction: column;
     height: 1200px;
+    background: none;
   }
   #image-design-top {
     display: block;
@@ -95,5 +96,10 @@
   }
   .button-design {
     margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .text-design {
+    margin-top: 50px;
   }
 }

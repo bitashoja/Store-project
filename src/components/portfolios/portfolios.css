@@ -159,6 +159,18 @@
   .portfolios {
     margin-top: 100px;
   }
+  #images-portfolio,
+  .portfolios-images img {
+    width: 340px;
+    height: 380px;
+  }
+  .box-portfolios {
+    width: 280px;
+  }
+
+  #images-portfolio img {
+    margin: 0 -30px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .portfolios {
