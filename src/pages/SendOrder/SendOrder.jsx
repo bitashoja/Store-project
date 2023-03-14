@@ -1,55 +1,54 @@
-import React, { useState } from 'react'
-import HeaderContactUs from '../../components/headerContactUs/HeaderContactUs'
-import Select from 'react-select'
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
+import React, { useState } from "react";
+import HeaderContactUs from "../../components/headerContactUs/HeaderContactUs";
+import Select from "react-select";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 
 const options = [
-  { value: 'Other', label: 'Other' },
-  { value: 'UIUX Design', label: 'UIUX Design' },
-  { value: 'Mobile Apps development', label: 'Mobile Apps development' },
-  { value: 'Hosting', label: 'Hosting' },
-  { value: 'Network services', label: 'Network services' },
-  { value: 'Digital Marketing', label: 'Digital Marketing' },
-  { value: 'Graphic Design', label: 'Graphic Design' },
-]
+  { value: "Other", label: "Other" },
+  { value: "UIUX Design", label: "UIUX Design" },
+  { value: "Mobile Apps development", label: "Mobile Apps development" },
+  { value: "Hosting", label: "Hosting" },
+  { value: "Network services", label: "Network services" },
+  { value: "Digital Marketing", label: "Digital Marketing" },
+  { value: "Graphic Design", label: "Graphic Design" },
+];
 
 export default function SendOrder() {
-  const [value, setValue] = useState()
-  const [name, setName] = useState(false)
-  const [lastName, setLastName] = useState(false)
-  const [email, setEmail] = useState(false)
-  const [selected, setSelected] = useState(false)
+  const [value, setValue] = useState();
+  const [name, setName] = useState(false);
+  const [lastName, setLastName] = useState(false);
+  const [email, setEmail] = useState(false);
 
   const onChangeHandler = (event) => {
-    const sum = event.target.value
-    console.log(sum.length)
+    const sum = event.target.value;
+    console.log(sum.length);
     if (sum.length >= 3) {
-      setName('name')
+      setName("name");
     }
-  }
+  };
 
   const onChangeLastName = (event) => {
-    const sum = event.target.value
-    console.log(sum.length)
+    const sum = event.target.value;
+    console.log(sum.length);
     if (sum.length >= 3) {
-      setLastName(true)
+      setLastName(true);
     }
-  }
+  };
 
   const onChangeEmailHandler = (event) => {
-    const sum = event.target.value
-    console.log(sum.length)
+    const sum = event.target.value;
+    console.log(sum.length);
     if (sum.length >= 10) {
-      setEmail(true)
+      setEmail(true);
     }
-  }
+  };
 
   const clickHandler = () => {
     if (value && name && lastName && email) {
-      alert('مشخصات شما ثبت شد ')
-    } else alert('مشخصات را به صورت کامل وارد نماید')
-  }
+      alert("مشخصات شما ثبت شد ");
+    } else alert("مشخصات را به صورت کامل وارد نماید");
+  };
 
   return (
     <div className="header-container-contact headerContactUs">
@@ -111,14 +110,14 @@ export default function SendOrder() {
                 <label className="firstName">First Name</label>
                 <input
                   placeholder="Micheal"
-                  className={`${name ? 'success' : ' '}`}
+                  className={`${name ? "success" : " "}`}
                   onChange={onChangeHandler}
                 />
               </div>
               <div className="contact-right-input">
                 <label>Last name</label>
                 <input
-                  className={`${lastName ? 'success' : ' '}`}
+                  className={`${lastName ? "success" : " "}`}
                   onChange={onChangeLastName}
                   placeholder="Watson"
                   required
@@ -129,7 +128,7 @@ export default function SendOrder() {
               <div className="contact-right-input">
                 <label>Email address</label>
                 <input
-                  className={`${email ? 'success' : ' '}`}
+                  className={`${email ? "success" : " "}`}
                   onChange={onChangeEmailHandler}
                   type="email"
                   placeholder="michealwatson@gmail.com"
@@ -141,7 +140,7 @@ export default function SendOrder() {
                   placeholder="+1  650 513 0514"
                   value={value}
                   onChange={setValue}
-                  className={`phoneInputTag ${value ? 'success' : ' '}`}
+                  className={`phoneInputTag ${value ? "success" : " "}`}
                 />
               </div>
             </div>
@@ -164,5 +163,5 @@ export default function SendOrder() {
         </div>
       </div>
     </div>
-  )
+  );
 }
