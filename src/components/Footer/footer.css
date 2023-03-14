@@ -3,12 +3,11 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 93%;
   height: 240px;
   border-radius: 32px;
   background: var(--purple);
   border: 1px solid var(--purple);
-  margin: 170px 32px 180px 24px;
+  margin: 190px 28px;
 }
 .contact p {
   font-weight: 700;

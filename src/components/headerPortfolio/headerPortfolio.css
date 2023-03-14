@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   gap: 0;
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
@@ -108,7 +108,7 @@
   .HeaderPortfolio {
     height: auto;
     border-radius: 20px;
-    margin: 75px 0px;
+    margin: 75px 28px;
   }
   .box-headerPortfolio {
     flex-direction: row-reverse;

@@ -43,12 +43,12 @@
   font-weight: 600;
   font-size: 16px;
 }
-.linkHeaderPortfolio{
+.linkHeaderPortfolio {
   color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -59,7 +59,6 @@
     margin: 0px;
   }
   .headerBoxImg img {
-    width: 95%;
     height: 320px;
   }
   .button-headerContainer {
@@ -90,10 +89,8 @@
 }
 @media only screen and (min-width: 768.1px) {
   .header-container {
-
-    width: 94%;
     height: 650px;
-    margin: 75px auto;
+    margin: 75px 28px;
     border-radius: 20px;
   }
   .headerBox {

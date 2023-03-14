@@ -1,5 +1,5 @@
 .header-contact-title h4 {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -7,7 +7,7 @@
   margin-bottom: 0;
 }
 .header-contact-title p {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -46,7 +46,7 @@
   padding-top: 45px;
 }
 .contact-right-text h5 {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -54,7 +54,7 @@
   color: var(--white);
 }
 .contact-right-text p {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -169,13 +169,13 @@ input:focus {
   border: none;
   cursor: pointer;
   color: var(--white);
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
 }
 .success {
-  border : 1px solid green !important;
+  border: 1px solid green !important;
 }
 
 @media only screen and (max-width: 767.9px) {
@@ -193,7 +193,7 @@ input:focus {
     justify-content: flex-start;
     padding: 0;
   }
- 
+
   .header-contact-right {
     display: flex;
     align-items: center;
@@ -219,9 +219,8 @@ input:focus {
 
 @media only screen and (min-width: 768px) {
   .header-container-contact {
-    width: 95%;
     height: 900px;
-    margin: 75px auto;
+    margin: 75px 28px;
     background: linear-gradient(
       296.7deg,
       #45108a -5.17%,
