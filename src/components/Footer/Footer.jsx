@@ -150,7 +150,6 @@ export default function Footer() {
                   <span>GDPR Policy</span>
                   <span>Privacy policy</span>
                   <Link to="/Terms">
-
                   <span>Terms & Conditions</span>
                   </Link>
                 </div>

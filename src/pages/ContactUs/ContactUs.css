@@ -237,7 +237,7 @@ input:focus {
     font-size: 28px;
   }
   .header-contact-circle-left {
-    width: 300px;
+    width: 260px;
   }
   .contact-right-name {
     flex-direction: column;
@@ -270,7 +270,7 @@ input:focus {
 
 @media only screen and (min-width: 857px) {
   .header-contact-circle-left {
-    width: 370px;
+    width: 300px;
   }
 }
 
@@ -282,7 +282,7 @@ input:focus {
     font-size: 32px;
   }
   .header-contact-circle-left {
-    width: 506px;
+    width: 450px;
   }
 }
 
