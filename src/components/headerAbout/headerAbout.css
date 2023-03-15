@@ -49,7 +49,7 @@
   .header-about-container {
     background-image: url(../../../public/images/mobile-about.svg);
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: 700px;
     height: 1500px;
     background-position: top;
   }
@@ -71,16 +71,19 @@
 @media only screen and (max-width: 576px) {
   .header-about-container {
     background-image: url(../../../public/images/mobile-about.svg);
-    background-size: 560px;
+    background-size: 540px;
   }
   .header-about-container h3 {
-    margin-top: 506px;
+    margin-top: 425px;
   }
   .header-about {
     padding: 50px 25px;
   }
   #buttons-about {
     margin-right: -20px;
-    margin-top: 113px;
+    margin-top: 45px;
+  }
+  .header-about p {
+    margin-top: 80px;
   }
 }

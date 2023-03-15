@@ -1,7 +1,7 @@
 .about-Team {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2px;
 }
 .about-team-mobile {
   display: none;
@@ -11,7 +11,7 @@
   color: var(--purple);
 }
 .about-team-desktop img {
-  width: 80%;
+  width: 75%;
 }
 
 @media only screen and (max-width: 1240px) {
@@ -61,9 +61,10 @@
 }
 @media only screen and (max-width: 567px) {
   .about-team-mobile img {
-    width: 370px;
+    width: 300px;
+    margin-right: 35px;
   }
   .about-Team {
-    margin-top: 2px;
+    margin-top: -260px;
   }
 }

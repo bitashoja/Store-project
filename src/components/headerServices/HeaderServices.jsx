@@ -25,16 +25,13 @@ export default function HeaderServices() {
               <IoIosArrowForward />
               +1(818)930-4747
             </button>
-              <button className="button-headerContainer-send">
-            <Link to="/SendOrder">
-                <img
-                  src="../images/path73.svg"
-                  alt="path73"
-                />
+            <button className="button-headerContainer-send">
+              <Link to="/SendOrder">
+                <img src="../images/path73.svg" alt="path73" />
                 <IoIosArrowForward />
                 <span>SEND ORDER</span>
-            </Link>
-              </button>
+              </Link>
+            </button>
           </div>
         </div>
       </div>

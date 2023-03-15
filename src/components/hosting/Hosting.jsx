@@ -38,9 +38,9 @@ export default function Hosting() {
           the budget.
         </p>
         <div className="button-design">
-        <Link to="/SendOrder">
-        <Button className="buttonComponent" title = "ORDER NEW" />
-        </Link>
+          <Link to="/SendOrder">
+            <Button className="buttonComponent" title="ORDER NEW" />
+          </Link>
         </div>
       </div>
       <div className="image-design" id="image-hosting">

@@ -83,7 +83,7 @@
 }
 .footer-button {
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-color: var(--white);
 }
 .header-footer {
@@ -342,7 +342,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
+    width: 98%;
     height: 428px;
     margin: 100px 0px 100px 0px;
     border-radius: inherit;
@@ -356,8 +356,8 @@
     margin-left: 23px;
   }
   .inputs {
-    width: 350px;
-    margin-right: -8px;
+    width: 310px;
+    margin-right: -10px;
     padding: 2px 2px 2px 16px;
   }
   .input1 {
@@ -377,13 +377,13 @@
     width: 35px;
   }
   .icons {
-    margin: 14px;
+    margin-left: 40px;
     gap: 14px;
   }
   .icon {
     width: 60px;
     height: 60px;
-    margin-left: -11px;
+    margin: 0px -6px;
   }
   .icons-bottom {
     left: 4px;
@@ -417,8 +417,8 @@
     padding: 5px;
   }
   #footer-header-ul2 {
-    margin-left: -120px;
-    padding-top: 23px;
+    margin-left: -148px;
+    margin-top: -8px;
   }
   .footer-icons-right {
     padding-left: 10px;
@@ -435,7 +435,7 @@
     padding: 2px 3px;
   }
   .footer-border {
-    width: 299px;
+    width: 260px;
   }
   #footer-icon-right-mobile {
     padding-right: 150px;
