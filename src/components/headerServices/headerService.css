@@ -12,6 +12,7 @@
 }
 .header-services-text {
   color: var(--white2);
+  margin-left: 40px;
  
 }
 .header-services-text h3 {
@@ -70,7 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin-left: -41px;
     bottom: 2px;
 }
