@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 
 export default function Footer() {
+
+  const inputClick = () => {
+    console.log('clicked');
+  }
+  
   return (
     <div className="footer">
       <div className="contact">
@@ -16,17 +21,20 @@ export default function Footer() {
             type="email"
             placeholder="Type your e-mail address"
             className="inputs"
+            
           />
           <input
             type="submit"
             placeholder="Type your e-mail address"
             className="input1"
+           onClick={inputClick}
           />
         </div>
         <input
           type="Submit"
           placeholder="Type your e-mail address"
           className="input2"
+         
         />
       </div>
       <div className="icons">

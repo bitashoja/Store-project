@@ -42,7 +42,7 @@
   margin: -5px 0;
 }
 .descPara {
-  width: 308px;
+  width: 70%;
   height: 72px;
   font-family: 'Akshar';
   font-style: normal;
@@ -81,11 +81,38 @@
   padding: 0 15%;
 }
 
+@media only screen and (max-width : 420px){
+  .clientBox {
+    width: 22.5rem;
+  }
+}
+
 @media only screen and (max-width : 768px){
     .client{
         height: 2100px;
     } 
     .comments{
-      font-size: 28px;
+      font-size: 24px;
     } 
+    .clientBox {
+      width: 22.5rem;
+    }
+  
 }
+@media only screen and (min-width: 768.1px) {
+  .clientBox {
+    width: 22.5rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  
+  .clientBox {
+    width: 23.5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .clientBox {
+    width: 24.5rem;
+  }
+}
+

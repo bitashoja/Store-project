@@ -28,7 +28,8 @@ export default function HeaderServices() {
             </button>
            <Link to="/SendOrder">
             <button className="button-headerContainer-send">
-              <RxEnvelopeClosed />
+              {/* <RxEnvelopeClosed /> */}
+              <img src="../images/path73.svg" alt="path73"  className="envelope"/>
               <IoIosArrowForward />
               <span>SEND ORDER</span>
             </button>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from "../button/Button";
+import "./radioWebsite.css"
 
 export default function RadioWebsite() {
   return (
@@ -27,8 +28,8 @@ export default function RadioWebsite() {
           <Button className="buttonComponent" title = "SEE MORE" />
           </div>
         </div>
-        <div className="onlineShope-img">
-          <img src="./images/Screenshot.svg" alt="Group303" />
+        <div className="onlineShope-img radio-img">
+          <img src="./images/Screenshot.svg" alt="Group303" className='radio-img-img'/>
         </div>
       </div>
     </div>

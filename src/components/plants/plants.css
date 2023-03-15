@@ -7,10 +7,10 @@
     }
     .box-radio .onlineShope-img{
         width: 80%;
-        margin: 10px auto;
+        margin: 0 auto;
     }
     .onlineShope-img img{
-        width: 90%;
-        margin: 50px 10px
+        width: 75%;
+        margin: 50px 6px 50px 60px;
     }
 }

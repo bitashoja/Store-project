@@ -209,11 +209,15 @@ input:focus {
   }
   .message {
     width: 318px;
-    height: 150px;
+    height: 50px;
+    padding: 0 5px 100px 5px;
   }
   .contact-left-massage label {
     display: block;
     margin-top: 0px;
+  }
+  .contact-left-submit {
+    width: 333px;
   }
 }
 
@@ -254,7 +258,8 @@ input:focus {
   }
   .contact-left-massage .message {
     width: 315px;
-    height: 100px;
+    height: 40px;
+    padding: 0 0 68px 10px;
   }
   .contact-left-massage label {
     display: block;
@@ -300,7 +305,8 @@ input:focus {
   }
   .contact-left-massage .message {
     width: 662px;
-    height: 156px;
+    height: 45px;
+    padding: 5px 0px 110px 6px;
   }
   .contact-left-submit {
     width: 167px;

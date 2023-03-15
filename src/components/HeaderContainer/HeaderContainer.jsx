@@ -28,7 +28,7 @@ export default function HeaderContainer() {
             <div className="button-header-portfolio button-headerContainer">
               <div className="button-numberPhone-portfolio">
                 <button className="button-number-headerContainer button-phone-portfolio">
-                  <BsTelephoneFill />
+                  <BsTelephoneFill />  
                   <IoIosArrowForward />
                   +1(818)930-4747
                 </button>
@@ -36,7 +36,7 @@ export default function HeaderContainer() {
               <div className="button-email-portfolio">
                 <button className="button-headerContainer-send button-email-portfolio">
                <Link to="/SendOrder" className='linkHeaderPortfolio'>
-                  <RxEnvelopeClosed />
+                  <img src="../images/path73.svg" alt="path73"  className="envelope"/>
                   <IoIosArrowForward />
                   <span>SEND ORDER</span>
                </Link> 

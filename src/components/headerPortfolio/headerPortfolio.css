@@ -35,19 +35,20 @@
 
 .box-headerPortfolio {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 20px;
   padding-bottom: 50px;
-  height: 800px;
+  height: auto;
 }
 .headerPortfolio-img {
   flex: 1;
-  padding: 100px;
+  
 }
 .headerPortfolio-text {
   flex: 1;
   position: relative;
+ 
 }
 .heading-text-portfolio {
   padding: 10px 50px;
@@ -69,15 +70,17 @@
   color: white;
 }
 
+
 @media only screen and (max-width: 768px) {
   .HeaderPortfolio {
-    height: auto;
+    height: 1040px;
   }
   .box-headerPortfolio {
     flex-direction: column;
   }
   .headerPortfolio-img img {
     width: 100vw;
+    margin-top: 60px;
   }
   .headerPortfolio-text {
     display: flex;
@@ -104,11 +107,25 @@
     cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .HeaderPortfolio {
+    height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .HeaderPortfolio {
+    height: 970px;
+  }
+}
 @media only screen and (min-width: 768.1px) {
   .HeaderPortfolio {
     height: auto;
     border-radius: 20px;
-    margin: 75px 28px;
+    margin: 75px auto;
+    width: 94%;
+
   }
   .box-headerPortfolio {
     flex-direction: row-reverse;
@@ -127,14 +144,22 @@
     gap: 5px;
   }
   .button-header-portfolio img {
-    width: 98%;
+    width: 13%;
   }
   .box-headerPortfolio {
     padding-bottom: 50px;
   }
 }
+@media only screen and (min-width: 1000px) {
+  .title-header-portfolio{
+    margin-top: 100px;
+  }
+}
 @media only screen and (min-width: 1280px) {
   .HeaderPortfolio {
-    height: 889px;
+    height: auto;
+  }
+  .title-header-portfolio{
+    margin-top: 200px;
   }
 }

@@ -43,11 +43,12 @@
 .desc-text-2 {
   margin-top: 50px;
 }
-.service {
- 
+.service { 
   background: #ece8ef;
   margin-top: 100px;
   text-align: center;
+  height: auto;
+  padding-bottom: 50px;
 }
 .serviceBox {
   display: flex;
@@ -57,18 +58,4 @@
   gap: 1rem;
 }
 
-@media only screen and (max-width: 818px) {
-  .service {
-    height: 2700px;
-  }
-}
-@media only screen and (min-width: 818.1px) {
-  .service {
-    height: 1565px;
-  }
-}
-@media only screen and (min-width: 1233px) {
-  .service{
-    height: 1275px;
-  }
-}
+
