@@ -13,7 +13,7 @@ export default function AboutTeam() {
       <div className="about-team-desktop">
         <img src="./images/about-teams.svg" alt="Frame102" />
       </div>
-      <div className="onlineShope-text onlineText">
+      <div className="onlineShope-text onlineText" id="about-text">
         <h3 className="about-team-text">
           About BEYOND <span>IT</span> team
         </h3>

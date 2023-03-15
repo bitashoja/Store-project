@@ -1,15 +1,32 @@
 #header-services {
-  background-image: url(../../../public/images/header\ services.svg);
+  background-image: url(../../../public/images/Group.png);
   background-position: top;
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position-x: right;
 }
+.headerBoxService {
+  margin-left: 40px;
+  height: 550px;
+}
+.header-services-text {
+  color: var(--white2);
+}
+.header-services-text h3 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 70px;
+}
+.header-services-text p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
 @media only screen and (max-width: 1200px) {
   #header-services {
     background-size: 650px;
   }
-  .headerBoxText {
+  .header-services-text {
     flex: 1 1;
     padding: 0px 0px 10px 40px;
     margin-top: -70px;
@@ -21,13 +38,12 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .headerBoxText {
+  .header-services-text {
     margin-top: 276px;
   }
-  .headerBoxText h3 {
+  .header-services-text h3 {
     font-weight: 700;
     font-size: 36px;
-    margin-top: -222px;
   }
   .button-number-headerContainer,
   .button-headerContainer-send {
@@ -38,10 +54,10 @@
   #header-services {
     background-size: 460px;
   }
-  .headerBoxText h3 {
+  .header-services-text h3 {
     margin-top: 3px;
   }
-  .headerBoxText p {
+  .header-services-text p {
     margin: 15px 30px;
   }
 }

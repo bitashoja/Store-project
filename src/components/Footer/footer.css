@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1400px;
   gap: 20px;
   height: 240px;
   border-radius: 32px;
   background: var(--purple);
   border: 1px solid var(--purple);
-  margin: 190px 28px;
+  margin: 190px auto;
 }
 .contact p {
   font-weight: 700;
@@ -37,13 +38,14 @@
   display: flex;
   justify-content: center;
   width: 150px;
-  padding: 20px 60px;
+  padding: 18px 60px;
   background: var(--gray);
   border-radius: 8px;
   border: none;
   font-weight: 600;
   font-size: 16px;
   color: var(--white);
+  margin: 2px;
 }
 .input2 {
   display: none;
@@ -81,14 +83,14 @@
 }
 .footer-button {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-color: var(--white);
 }
 .header-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 38px 50px;
+  padding: 38px 77px;
 }
 .footer-ul {
   display: flex;
@@ -106,7 +108,7 @@
   cursor: pointer;
 }
 .header-icon {
-  margin-left: 25px;
+  margin-left: -2px;
 }
 .footer-header-ul2 {
   display: none;
@@ -142,9 +144,13 @@
 }
 .footer-button-texts {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   cursor: pointer;
+  padding: 0 34px;
+}
+.footer-email {
+  padding: 0 60px;
 }
 .footer-button-text span {
   padding: 0 45px;
@@ -160,8 +166,14 @@
     width: 1100px;
     margin: 50px 20px 20px 75px;
   }
+  .contact {
+    width: 1200px;
+  }
 }
 @media only screen and (max-width: 1200px) {
+  .contact {
+    width: 950px;
+  }
   .icon {
     height: 110px;
     margin-left: 0px;
@@ -190,17 +202,23 @@
   }
 }
 @media only screen and (max-width: 992px) {
+  .contact {
+    width: 700px;
+  }
   .contact p {
     font-weight: 500;
     font-size: 27px;
   }
   .inputs {
-    width: 380px;
-    margin-right: -15px;
+    width: 280px;
+    margin-right: -75px;
   }
   .input1,
   .input2 {
-    margin-right: -15px;
+    width: 58px;
+    margin-right: -87px;
+    padding: 18px 47px;
+    margin-top: 2px;
   }
   .input {
     width: 130px;
@@ -243,6 +261,9 @@
   .icon-img {
     width: 45px;
   }
+  .contact {
+    width: 520px;
+  }
   .contact p {
     font-weight: 400;
     font-size: 26px;
@@ -253,11 +274,11 @@
   .input1,
   .input2 {
     width: 100px;
-    margin-right: -88px;
-    padding: 20px 50px;
+    margin-right: -87px;
+    padding: 17px 49px;
   }
   .inputs {
-    width: 300px;
+    width: 250px;
     margin-right: -88px;
   }
   .button-submit {
@@ -272,15 +293,14 @@
     left: 40px;
   }
   .header-footer {
-    padding: 30px 2px;
+    padding: 30px 70px;
   }
   .description-icon {
     display: flex;
     flex-direction: column;
-    margin-top: -40px;
   }
   .footer-border {
-    width: 490px;
+    width: 420px;
     margin-top: 6px;
   }
   .footer-icon-left {
@@ -294,18 +314,18 @@
   }
   #footer-header-ul2 {
     display: block;
-    margin-top: -30px;
+    margin-top: 2px;
+    margin-left: -100px;
   }
+
   .footer-description-item {
     display: flex;
   }
   .footer-icon-left {
-    padding-right: 1px;
-    align-items: center;
-    margin-top: 20px;
+    margin-left: -80px;
   }
   .footer-icons-right {
-    padding-left: 50px;
+    padding-left: 0px;
   }
   .header-icon {
     margin-left: 0px;
@@ -314,6 +334,7 @@
     padding-bottom: 16px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .contact {
     display: flex;

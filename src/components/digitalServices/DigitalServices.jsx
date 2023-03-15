@@ -7,7 +7,7 @@ export default function DigitalServices() {
     <div className="marketing">
       <div className="text-design" id="text-marketing">
         <div className="image-design" id="image-marketing-mobile">
-          <img src="./images/marketing.svg" alt="ui" id="image-marketing" />
+          <img src="./images/Groups.png" alt="ui" id="image-marketing" />
         </div>
         <h3>Digital Marketing</h3>
         <p>
@@ -35,13 +35,13 @@ export default function DigitalServices() {
           team, experts can give advice and guidance to Shaka
         </p>
         <div className="button-design" id="button-marketing">
-      <Link to="/SendOrder">
-          <img src="./images/button-marketing.svg" alt="button" />
-        </Link>
+          <Link to="/SendOrder">
+            <img src="./images/button-marketing.svg" alt="button" />
+          </Link>
         </div>
       </div>
       <div className="image-design" id="image-marketing-desktop">
-        <img src="./images/marketing.svg" alt="ui" id="image-marketing" />
+        <img src="./images/Groups.png" alt="ui" id="image-marketing" />
       </div>
     </div>
   );

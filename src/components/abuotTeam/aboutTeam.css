@@ -11,8 +11,9 @@
   color: var(--purple);
 }
 .about-team-desktop img {
-  width: 800px;
+  width: 80%;
 }
+
 @media only screen and (max-width: 1240px) {
   .about-team-desktop img {
     width: 540px;
@@ -48,8 +49,14 @@
 }
 @media only screen and (max-width: 768px) {
   .about-team-mobile img {
-    width: 490px;
-    margin-right: -7px;
+    width: 498px;
+    margin-right: 203px;
+  }
+  .about-Team {
+    margin-top: 2px;
+  }
+  #about-text {
+    padding: 20px 17px;
   }
 }
 @media only screen and (max-width: 567px) {
@@ -57,6 +64,6 @@
     width: 370px;
   }
   .about-Team {
-    margin-top: -290px;
+    margin-top: 2px;
   }
 }

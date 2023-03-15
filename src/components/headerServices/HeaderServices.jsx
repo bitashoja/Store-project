@@ -1,17 +1,16 @@
-
 import React from "react";
 import Header from "../Header/HeaderComponent";
 import "./headerService.css";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
 import { RxEnvelopeClosed } from "react-icons/rx";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export default function HeaderServices() {
   return (
     <div className="header-container" id="header-services">
       <Header />
-      <div className="headerBox">
-        <div className="headerBoxText">
+      <div className="headerBoxService">
+        <div className="header-services-text">
           <h3>
             Our <br /> Services
           </h3>
@@ -26,18 +25,20 @@ export default function HeaderServices() {
               <IoIosArrowForward />
               +1(818)930-4747
             </button>
-           <Link to="/SendOrder">
-            <button className="button-headerContainer-send">
-              {/* <RxEnvelopeClosed /> */}
-              <img src="../images/path73.svg" alt="path73"  className="envelope"/>
-              <IoIosArrowForward />
-              <span>SEND ORDER</span>
-            </button>
-           </Link>
+            <Link to="/SendOrder">
+              <button className="button-headerContainer-send">
+                <img
+                  src="../images/path73.svg"
+                  alt="path73"
+                  className="envelope"
+                />
+                <IoIosArrowForward />
+                <span>SEND ORDER</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
     </div>
   );
 }
-

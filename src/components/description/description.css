@@ -1,19 +1,23 @@
+.description {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  margin-top: 140px;
+}
 .description-img {
-  width: 590px;
-  height: 590px;
+  width: 490px;
+  height: 490px;
   border-radius: 50%;
   background-color: var(--white);
-  margin-left: 140px;
 }
 .description-img img {
-  width: 429px;
-  height: 740px;
+  width: 350px;
+  height: 640px;
   margin-top: -60px;
   margin-left: 50px;
 }
 .description-texts {
   width: 620px;
-  /* padding: 0 35px 50px 35px; */
 }
 .description-text {
   display: none;
@@ -50,9 +54,10 @@
 }
 @media only screen and (max-width: 992px) {
   .description-img img {
-    width: 290px;
+    width: 300px;
+    height: 550px;
     margin-top: -95px;
-    margin-left: 19px;
+    margin-left: -15px;
   }
   .description-img {
     width: 445px;
