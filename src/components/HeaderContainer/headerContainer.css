@@ -3,12 +3,12 @@
   position: relative;
 }
 
-.headerBoxText h3,
-.headerBoxText p {
+.headerBoxText-home h3,
+.headerBoxText-home p {
   color: white;
   margin: 50px 30px;
 }
-.headerBoxText h3 {
+.headerBoxText-home h3 {
   font-family: math;
   font-size: 32px;
 }
@@ -58,6 +58,9 @@
     background-color: rgba(61, 6, 95, 1);
     margin: 0px;
   }
+  .headerBoxImg{
+    text-align: center;
+  }
   .headerBoxImg img {
     height: 320px;
   }
@@ -83,8 +86,8 @@
   .emailPhone {
     right: 0;
   }
-  .headerBoxText h3 {
-    margin-top: -222px;
+  .headerBoxText-home h3 {
+    margin-top: -25px;
   }
 }
 @media only screen and (min-width: 768.1px) {
@@ -97,17 +100,17 @@
     display: flex;
     flex-direction: row-reverse;
   }
-  .headerBoxText {
+  .headerBoxText-home {
     flex: 1;
     padding: 40px 0 0 40px;
     /* max-height: 655px; */
   }
-  .headerBoxText h3 {
+  .headerBoxText-home h3 {
     font-size: 42px;
     font-weight: 700;
     margin-top: 50px;
   }
-  .headerBoxText p {
+  .headerBoxText-home p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -138,11 +141,11 @@
   .header-container {
     height: 800px;
   }
-  .headerBoxText h3 {
+  .headerBoxText-home h3 {
     font-size: 48px;
     margin-top: 150px;
   }
-  .headerBoxText p {
+  .headerBoxText-home p {
     font-size: 20px;
   }
   .headerBoxImg img {

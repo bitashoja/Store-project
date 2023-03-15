@@ -1,16 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "./portfolios.css";
-import React, { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import './portfolios.css'
+import React, { useState, useEffect } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import { Link } from 'react-router-dom'
+
 function PortfoliosMobile() {
   return (
     <div>
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}>
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
         <SwiperSlide>
           <a href="#" className="portfolio-image">
             <img src="./images/image1.png" alt="menu" />
@@ -20,7 +23,9 @@ function PortfoliosMobile() {
                 We start where the others stop, detecting problems before they
                 before arisedetecting problems before they arise...
               </span>
-              <button>See more ...</button>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
             </div>
           </a>
         </SwiperSlide>
@@ -28,7 +33,8 @@ function PortfoliosMobile() {
           <a
             href="#"
             className="portfolio-image images-portfolio"
-            id="images-portfolio">
+            id="images-portfolio"
+          >
             <img src="./images/image-portfolio1.svg" alt="menu" />
             <img src="./images/image-portfolio2.svg" alt="menu" />
             <div className="box-portfolios-mobile">
@@ -37,7 +43,9 @@ function PortfoliosMobile() {
                 We start where the others stop, detecting problems before they
                 before arisedetecting problems before they arise...
               </span>
-              <button>See more ...</button>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
             </div>
           </a>
         </SwiperSlide>
@@ -50,7 +58,9 @@ function PortfoliosMobile() {
                 We start where the others stop, detecting problems before they
                 before arisedetecting problems before they arise...
               </span>
-              <button>See more ...</button>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
             </div>
           </a>
         </SwiperSlide>
@@ -63,7 +73,9 @@ function PortfoliosMobile() {
                 We start where the others stop, detecting problems before they
                 before arisedetecting problems before they arise...
               </span>
-              <button>See more ...</button>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
             </div>
           </a>
         </SwiperSlide>
@@ -76,7 +88,9 @@ function PortfoliosMobile() {
                 We start where the others stop, detecting problems before they
                 before arisedetecting problems before they arise...
               </span>
-              <button>See more ...</button>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
             </div>
           </a>
         </SwiperSlide>
@@ -93,13 +107,15 @@ function PortfoliosMobile() {
                 We start where the others stop, detecting problems before they
                 before arisedetecting problems before they arise...
               </span>
-              <button>See more ...</button>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
             </div>
           </a>
         </SwiperSlide>
       </Swiper>
     </div>
-  );
+  )
 }
 
 function PortfoliosDesktop() {
@@ -117,7 +133,9 @@ function PortfoliosDesktop() {
               We start where the others stop, detecting problems before they
               before arisedetecting problems before they arise...
             </span>
-            <button>See more ...</button>
+            <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
           </div>
         </a>
         <a href="#" id="images-portfolio" className="portfolio-image-desktop">
@@ -129,7 +147,9 @@ function PortfoliosDesktop() {
               We start where the others stop, detecting problems before they
               before arisedetecting problems before they arise...
             </span>
-            <button>See more ...</button>
+            <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
           </div>
         </a>
         <a href="#" className="portfolio-image-desktop">
@@ -140,7 +160,9 @@ function PortfoliosDesktop() {
               We start where the others stop, detecting problems before they
               before arisedetecting problems before they arise...
             </span>
-            <button>See more ...</button>
+            <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
           </div>
         </a>
         <a href="#" className="portfolio-image-desktop">
@@ -151,7 +173,9 @@ function PortfoliosDesktop() {
               We start where the others stop, detecting problems before they
               before arisedetecting problems before they arise...
             </span>
-            <button>See more ...</button>
+            <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
           </div>
         </a>
         <a href="#" className="portfolio-image-desktop">
@@ -162,7 +186,9 @@ function PortfoliosDesktop() {
               We start where the others stop, detecting problems before they
               before arisedetecting problems before they arise...
             </span>
-            <button>See more ...</button>
+            <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
           </div>
         </a>
         <a href="#" className="portfolio-image-desktop">
@@ -177,45 +203,46 @@ function PortfoliosDesktop() {
               We start where the others stop, detecting problems before they
               before arisedetecting problems before they arise...
             </span>
-            <button>See more ...</button>
+            <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
           </div>
         </a>
       </div>
       <div className="more">see more ...</div>
     </div>
-  );
+  )
 }
 
 // true if mobile, false if desktop
 const getIsMobile = () => {
-  const userAgent = navigator.userAgent;
-  const isMobile =
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      userAgent,
-    );
-  const screenWidth = window.innerWidth;
-  const isNarrowScreen = screenWidth < 768; // Adjust this number as needed
-  return isMobile || isNarrowScreen;
-};
+  const userAgent = navigator.userAgent
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    userAgent,
+  )
+  const screenWidth = window.innerWidth
+  const isNarrowScreen = screenWidth < 768 // Adjust this number as needed
+  return isMobile || isNarrowScreen
+}
 
 export default function Portfolios() {
-  const [isMobile, setMobile] = useState();
+  const [isMobile, setMobile] = useState()
 
   useEffect(() => {
-    setMobile(getIsMobile());
+    setMobile(getIsMobile())
     const listener = window.addEventListener(
-      "resize",
+      'resize',
       function () {
-        setMobile(getIsMobile());
+        setMobile(getIsMobile())
       },
       true,
-    );
+    )
     return () => {
-      window.removeEventListener("resize", listener);
-    };
-  }, []);
+      window.removeEventListener('resize', listener)
+    }
+  }, [])
 
-  if (isMobile) return <PortfoliosMobile />;
+  if (isMobile) return <PortfoliosMobile />
 
-  return <PortfoliosDesktop />;
+  return <PortfoliosDesktop />
 }

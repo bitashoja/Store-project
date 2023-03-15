@@ -15,7 +15,7 @@ export default function HeaderContainer() {
           <div className="headerBoxImg">
             <img src="./images/Group10300.svg" alt="laptop" />
           </div>
-          <div className="headerBoxText">
+          <div className="headerBoxText-home">
             <h3>
               Software <br /> Development
             </h3>

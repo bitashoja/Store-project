@@ -137,6 +137,8 @@ export default function SendOrder() {
               <div className="contact-right-input">
                 <label>Phone</label>
                 <PhoneInput
+                   international
+                  defaultCountry="US"
                   placeholder="+1  650 513 0514"
                   value={value}
                   onChange={setValue}

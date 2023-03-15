@@ -128,6 +128,8 @@ export default function ContactUs() {
               <div className="contact-right-input">
                 <label>Phone</label>
                 <PhoneInput
+                  international
+                  defaultCountry="US"
                   placeholder="+1  650 513 0514"
                   value={value}
                   onChange={setValue}
