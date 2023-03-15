@@ -19,23 +19,22 @@ export default function HeaderServices() {
             Beyond IT provides you with the best quality website design
             <br /> services by expert and experienced people.
           </p>
-          <div className="headerBoxButton">
+          <div className="headerBoxButton-service">
             <button className="button-number-headerContainer">
               <BsTelephoneFill />
               <IoIosArrowForward />
               +1(818)930-4747
             </button>
-            <Link to="/SendOrder">
               <button className="button-headerContainer-send">
+            <Link to="/SendOrder">
                 <img
                   src="../images/path73.svg"
                   alt="path73"
-                  className="envelope"
                 />
                 <IoIosArrowForward />
                 <span>SEND ORDER</span>
-              </button>
             </Link>
+              </button>
           </div>
         </div>
       </div>
