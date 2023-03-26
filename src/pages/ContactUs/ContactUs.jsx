@@ -138,9 +138,8 @@ export default function ContactUs() {
               </div>
             </div>
             <div className="contact-left-massage">
-              <label>massage</label>
-              <input
-                type="massage"
+              <label>Message</label>
+              <textarea
                 placeholder="Write your message..."
                 className="message"
               />

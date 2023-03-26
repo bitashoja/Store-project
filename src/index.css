@@ -71,6 +71,7 @@ h4 {
   }
 }
 
-input {
-  padding: 0 10px;
+input,
+textarea {
+  padding: 10px;
 }

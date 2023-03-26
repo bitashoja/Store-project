@@ -213,8 +213,7 @@ input:focus {
   }
   .message {
     width: 318px;
-    height: 50px;
-    padding: 0 5px 100px 5px;
+    height: 100px;
   }
   .contact-left-massage label {
     display: block;
@@ -222,6 +221,10 @@ input:focus {
   }
   .contact-left-submit {
     width: 333px;
+  }
+
+  .contact-right-input {
+    margin-bottom: 24px;
   }
 }
 
