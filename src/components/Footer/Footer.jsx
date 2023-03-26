@@ -77,11 +77,21 @@ export default function Footer() {
             </div>
             <div>
               <ul className="footer-ul" id="footer-header-ul">
-                <li>Home</li>
-                <li>Services </li>
-                <li>Portfolio</li>
-                <li>About us</li>
-                <li>Contact us</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/Service">Services</Link>
+                </li>
+                <li>
+                  <Link to="/Portfolio">Portfolio</Link>
+                </li>
+                <li>
+                  <Link to="/AboutUs">About us</Link>
+                </li>
+                <li>
+                  <Link to="/ContactUs">Contact us</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -93,13 +103,15 @@ export default function Footer() {
                 <div className="footer-icons-right">
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-desktop">
+                    id="footer-icon-right-desktop"
+                  >
                     <img src="./images/map.svg" alt="map" />
                     <span>7451 Garden Grove ave Reseda CA 91335</span>
                   </div>
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-mobile">
+                    id="footer-icon-right-mobile"
+                  >
                     <img src="./images/map.svg" alt="map" />
                     <span>
                       7451 Garden Grove ave
@@ -136,11 +148,21 @@ export default function Footer() {
               </div>
               <div>
                 <ul className="footer-ul" id="footer-header-ul2">
-                  <li>Home</li>
-                  <li>Services </li>
-                  <li>Portfolio</li>
-                  <li>About us</li>
-                  <li>Contact us</li>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/Service">Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/Portfolio">Portfolio</Link>
+                  </li>
+                  <li>
+                    <Link to="/AboutUs">About us</Link>
+                  </li>
+                  <li>
+                    <Link to="/ContactUs">Contact us</Link>
+                  </li>
                 </ul>
               </div>
             </div>
