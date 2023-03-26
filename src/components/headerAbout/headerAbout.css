@@ -1,9 +1,10 @@
 .header-about-container {
   background-image: url(../../../public/images/header-about.svg);
   background-repeat: no-repeat;
-  height: 1000px;
   background-position: top;
-  margin-top: 75px;
+  height: 924px;
+  margin: 75px 28px;
+  border-radius: 20px;
 }
 .header-about-text {
   max-height: 500px;
