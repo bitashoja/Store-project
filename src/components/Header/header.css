@@ -179,12 +179,6 @@
   position: absolute;
 }
 
-.is-sticky div .header-div-left {
-  margin-left: 10px;
-}
-.is-sticky div .header-div-right {
-  margin-right: 30px;
-}
 .phone-mobile {
   display: flex;
   flex-direction: row;
@@ -263,7 +257,6 @@
     justify-content: flex-start;
     position: relative;
     width: 111px;
-    margin-left: 30px;
   }
   .menu-mobile {
     display: none;
@@ -282,9 +275,7 @@
   ul li {
     font-size: 14px;
   }
-  .header {
-    padding: 38px 5px;
-  }
+
   .menu-header {
     display: flex;
   }
@@ -297,12 +288,13 @@
     width: 100%;
     margin: 0;
     z-index: 92;
-    height: 86px;
+    height: 70px;
   }
 
-  .is-sticky div {
+  .is-sticky > div {
     max-width: 1800px;
     margin: 0 auto;
+    padding: 0px calc(56px + 50px);
     padding-top: 9px;
   }
 

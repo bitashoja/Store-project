@@ -120,7 +120,7 @@ export default function HeaderComponent() {
       </div>
       <div className="header-sticky">
         <div className="header">
-          <div className="header-div-left">
+          <div>
             <div className="header-left-laptop">
               <span className="header-left-circle"></span>
               <span className="header-left-text">BEYOND IT</span>
@@ -170,16 +170,16 @@ export default function HeaderComponent() {
               <span className="textCircleCenterHeader">BEYOND IT</span>
             </div>
           </div>
-          <div className="header-div-right">
+          <div>
             <button className="button-number">
               <BsTelephoneFill />
               <IoIosArrowForward />
               +1(818)930-4747
             </button>
-        
+
             <button className="phone-mobile">
-            <BsTelephoneFill />
-              </button>
+              <BsTelephoneFill />
+            </button>
           </div>
         </div>
       </div>
