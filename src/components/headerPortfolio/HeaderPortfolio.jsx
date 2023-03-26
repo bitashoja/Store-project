@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from '../Header/HeaderComponent'
-import './headerPortfolio.css'
-import { BsTelephoneFill } from 'react-icons/bs'
-import { IoIosArrowForward } from 'react-icons/io'
+import React from "react";
+import Header from "../Header/HeaderComponent";
+import "./headerPortfolio.css";
+import { BsTelephoneFill } from "react-icons/bs";
+import { IoIosArrowForward } from "react-icons/io";
 
 export default function HeaderPortfolio() {
   return (
-    <div className="HeaderPortfolio">
+    <div className="header-container HeaderPortfolio">
       <Header />
       <div className="box-headerPortfolio">
         <div className="headerPortfolio-img">
@@ -27,7 +27,7 @@ export default function HeaderPortfolio() {
           </div>
           <div className="button-header-portfolio">
             <div className="button-numberPhone-portfolio">
-            <button className="button-number-headerContainer button-phone-portfolio">
+              <button className="button-number-headerContainer button-phone-portfolio">
                 <BsTelephoneFill />
                 <IoIosArrowForward />
                 +98-12345698
@@ -35,15 +35,22 @@ export default function HeaderPortfolio() {
             </div>
             <div className="button-email-portfolio">
               <button className="button-headerContainer-send button-email-portfolio">
-                <img src="../images/path73.svg" alt="path73"  className="envelope"/>
-                <img src="../images/shee56.svg" alt="shee"   className="envelope1"/>
+                <img
+                  src="../images/path73.svg"
+                  alt="path73"
+                  className="envelope"
+                />
+                <img
+                  src="../images/shee56.svg"
+                  alt="shee"
+                  className="envelope1"
+                />
                 <span>beondit@gmail.com</span>
               </button>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
-  )
+  );
 }

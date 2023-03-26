@@ -1,10 +1,9 @@
-import React from 'react'
-import Header from '../Header/HeaderComponent'
-import './headerContainer.css'
-import { BsTelephoneFill } from 'react-icons/bs'
-import { IoIosArrowForward } from 'react-icons/io'
-import { RxEnvelopeClosed } from 'react-icons/rx'
-import { Link } from 'react-router-dom'
+import React from "react";
+import Header from "../Header/HeaderComponent";
+import { BsTelephoneFill } from "react-icons/bs";
+import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
+import "./headerContainer.css";
 
 export default function HeaderContainer() {
   return (
@@ -28,18 +27,22 @@ export default function HeaderContainer() {
             <div className="button-header-portfolio button-headerContainer">
               <div className="button-numberPhone-portfolio">
                 <button className="button-number-headerContainer button-phone-portfolio">
-                  <BsTelephoneFill />  
+                  <BsTelephoneFill />
                   <IoIosArrowForward />
                   +1(818)930-4747
                 </button>
               </div>
               <div className="button-email-portfolio">
                 <button className="button-headerContainer-send button-email-portfolio">
-               <Link to="/SendOrder" className='linkHeaderPortfolio'>
-                  <img src="../images/path73.svg" alt="path73"  className="envelope"/>
-                  <IoIosArrowForward />
-                  <span>SEND ORDER</span>
-               </Link> 
+                  <Link to="/SendOrder" className="linkHeaderPortfolio">
+                    <img
+                      src="../images/path73.svg"
+                      alt="path73"
+                      className="envelope"
+                    />
+                    <IoIosArrowForward />
+                    <span>SEND ORDER</span>
+                  </Link>
                 </button>
               </div>
             </div>
@@ -47,5 +50,5 @@ export default function HeaderContainer() {
         </div>
       </div>
     </>
-  )
+  );
 }

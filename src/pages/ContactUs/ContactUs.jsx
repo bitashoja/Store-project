@@ -41,7 +41,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="header-container-contact headerContactUs">
+    <div className="header-container header-container-contact headerContactUs">
       <HeaderContactUs />
       <div className="header-contact">
         <div className="header-contact-title">

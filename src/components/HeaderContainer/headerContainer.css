@@ -58,7 +58,7 @@
     background-color: rgba(61, 6, 95, 1);
     margin: 0px;
   }
-  .headerBoxImg{
+  .headerBoxImg {
     text-align: center;
   }
   .headerBoxImg img {
@@ -93,8 +93,6 @@
 @media only screen and (min-width: 768.1px) {
   .header-container {
     height: 650px;
-    margin: 75px 28px;
-    border-radius: 20px;
   }
   .headerBox {
     display: flex;

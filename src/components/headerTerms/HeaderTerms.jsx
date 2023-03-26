@@ -4,7 +4,7 @@ import Header from "../Header/HeaderComponent";
 
 export default function HeaderTerms() {
   return (
-    <div className="HeaderPortfolio">
+    <div className="header-container HeaderPortfolio">
       <Header />
       <div className="box-headerPortfolio">
         <div className="headerPortfolio-img headerTerms-img">

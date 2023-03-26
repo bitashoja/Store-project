@@ -7,7 +7,7 @@ import "./headerAbout.css";
 
 export default function HeaderAbout() {
   return (
-    <div className="header-about-container">
+    <div className="header-container header-about-container">
       <Header />
       <div className="header-about-text">
         <h3>About us</h3>

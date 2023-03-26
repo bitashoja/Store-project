@@ -224,14 +224,13 @@ input:focus {
 @media only screen and (min-width: 768px) {
   .header-container-contact {
     height: 900px;
-    margin: 75px 28px;
+
     background: linear-gradient(
       296.7deg,
       #45108a -5.17%,
       #3d065f 42.6%,
       #200554 168.23%
     );
-    border-radius: 25px;
   }
   .header-contact-title h4 {
     font-size: 32px;
