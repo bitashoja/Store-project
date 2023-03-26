@@ -121,7 +121,7 @@ export default function Footer() {
                 <div className="footer-icon-left">
                   <a href="#whatsapp">
                     <img
-                      src="./images/whatsapp.svg"
+                      src="./images/Whatsapp.svg"
                       alt="icon"
                       className="whatsapp"
                     />

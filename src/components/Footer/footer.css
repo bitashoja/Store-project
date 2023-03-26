@@ -122,10 +122,15 @@
   display: flex;
   gap: 25px;
 }
+.footer-icons-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .phone-span span {
   display: block;
   text-align: center;
-  padding: 6px;
+  padding: 0px;
 }
 #footer-icon-post {
   padding-right: 138px;
