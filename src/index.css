@@ -23,6 +23,7 @@ code {
 
 * {
   font-family: "Akshar";
+  box-sizing: border-box;
 }
 
 a {
