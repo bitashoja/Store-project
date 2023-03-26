@@ -1,19 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
+import { NavLink } from "react-router-dom";
+import { MobileNavigation } from "../mobileNavigation/MobileNavigation";
 import "./header.css";
 
 export default function HeaderComponent() {
-  const [isClick, setIsClick] = useState(false);
-  const [isActive, setIsActive] = useState("home");
-
-  const clickHandler = () => {
-    setIsClick(true);
-  };
-  const closeSlider = () => {
-    setIsClick(false);
-  };
+  const [isOpen, setOpen] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -22,7 +15,7 @@ export default function HeaderComponent() {
     };
   });
 
-  const isSticky = (e) => {
+  const isSticky = () => {
     const header = document.querySelector(".header-sticky");
     const scrollTop = window.scrollY;
     scrollTop >= 150
@@ -32,92 +25,8 @@ export default function HeaderComponent() {
 
   return (
     <>
-      <div className={`sliderHeader ${isClick ? "sliderHeader-active" : ""}`}>
-        <div className="closeSliderMenu">
-          <img
-            src="./images/close.svg"
-            alt="closeSlider"
-            className="closeImageSlider"
-            onClick={closeSlider}
-          />
-        </div>
-        <div className="ulSlider">
-          <div className="activeClick">
-            <span className={`${isActive === "home" ? "active" : ""}`}></span>
-            <span
-              className={`${isActive === "services" ? "active" : ""}`}
-            ></span>
-            <span
-              className={`${isActive === "portfolio" ? "active" : ""}`}
-            ></span>
-            <span className={`${isActive === "about" ? "active" : ""}`}></span>
-            <span
-              className={`${isActive === "contact" ? "active" : ""}`}
-            ></span>
-          </div>
-          <div className="ulSliderHeader">
-            <ul className="menuSliderHeader">
-              <NavLink to="/">
-                <li
-                  className={`itemSliderHeader ${
-                    isActive === "home" ? "activeHome" : " "
-                  }`}
-                  onClick={() => setIsActive("home")}
-                >
-                  Home
-                </li>
-              </NavLink>
-              <NavLink to="/Service">
-                <li
-                  className={`itemSliderHeader ${
-                    isActive === "services" ? "activeService" : " "
-                  }`}
-                  onClick={() => setIsActive("services")}
-                >
-                  Services
-                </li>
-              </NavLink>
-              <NavLink to="/Portfolio">
-                <li
-                  className={`itemSliderHeader ${
-                    isActive === "portfolio" ? "activePortfolio" : " "
-                  }`}
-                  onClick={() => setIsActive("portfolio")}
-                >
-                  Portfolio
-                </li>
-              </NavLink>
-              <NavLink to="/AboutUs">
-                <li
-                  className={`itemSliderHeader ${
-                    isActive === "about" ? "activeAboutUs" : " "
-                  }`}
-                  onClick={() => setIsActive("about")}
-                >
-                  About us
-                </li>
-              </NavLink>
-              <NavLink to="/ContactUs">
-                <li
-                  className={`itemSliderHeader ${
-                    isActive === "contact" ? "activeContactUs" : " "
-                  }`}
-                  onClick={() => setIsActive("contact")}
-                >
-                  Contact us
-                </li>
-              </NavLink>
-            </ul>
-          </div>
-        </div>
-        <div className="GroupSlider">
-          <img
-            src="./images/GroupSlider.svg"
-            alt="GroupSlider"
-            className="GroupSliderImage"
-          />
-        </div>
-      </div>
+      <MobileNavigation isOpen={isOpen} closeMenu={() => setOpen(false)} />
+
       <div className="header-sticky">
         <div className="header">
           <div>
@@ -129,7 +38,7 @@ export default function HeaderComponent() {
               src="./images/menu.svg"
               className="menu-mobile"
               alt="menu mobile"
-              onClick={clickHandler}
+              onClick={() => setOpen(true)}
             />
           </div>
           <div className="header-div-center">

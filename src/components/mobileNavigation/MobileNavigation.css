@@ -1,0 +1,95 @@
+.sliderHeader {
+  width: 100%;
+  height: 726px;
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  flex-direction: column;
+
+  z-index: 1;
+}
+
+.sliderHeader.open {
+  display: flex;
+}
+
+.sliderHeader .GroupSlider {
+  flex: 1;
+}
+
+.sliderHeader .menuSliderHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  white-space: nowrap;
+  margin-left: -50px;
+}
+
+.sliderHeader .menuSliderHeader .itemSliderHeader {
+  color: black;
+  padding: 15px;
+  height: 18px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+}
+
+.sliderHeader .menuSliderHeader li {
+  margin: 15px 0;
+}
+.sliderHeader .menuSliderHeader li span {
+  color: var(--gray);
+}
+.sliderHeader .menuSliderHeader .active span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sliderHeader .closeSliderMenu {
+  flex: 1;
+}
+.sliderHeader .ulSlider {
+  flex: 2;
+  position: relative;
+  display: flex;
+}
+
+.closeImageSlider {
+  margin: 25px;
+}
+
+.ulSliderHeader {
+  flex: 2;
+}
+
+.mobileMenuRow .bar {
+  position: absolute;
+  left: 0;
+  display: block;
+  padding: 10px 0;
+  width: 10px;
+  height: 25px;
+}
+
+.mobileMenuRow.active .bar {
+  background-color: var(--purple);
+}
+
+.GroupSlider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 4px solid var(--white);
+}
