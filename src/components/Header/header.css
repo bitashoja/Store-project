@@ -122,7 +122,7 @@
   color: black;
   padding: 15px;
   height: 18px;
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -199,24 +199,24 @@
   border: none;
   cursor: pointer;
 }
-.phone-mobile svg{
+.phone-mobile svg {
   color: var(--purple);
 }
-.menu-laptop2{
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   position: relative;
-   width: 100px;
+.menu-laptop2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100px;
 }
-.menu-laptop2 .circleCenterHeader{
+.menu-laptop2 .circleCenterHeader {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   background-color: var(--purple);
   display: inline-block;
 }
-.menu-laptop2 .textCircleCenterHeader{
+.menu-laptop2 .textCircleCenterHeader {
   color: white;
   font-size: 24px;
   font-weight: 700;
@@ -297,12 +297,13 @@
     width: 100%;
     margin: 0;
     z-index: 92;
-    height: 100px;
+    height: 86px;
   }
 
   .is-sticky div {
     max-width: 1800px;
     margin: 0 auto;
+    padding-top: 9px;
   }
 
   .button-number {
@@ -326,7 +327,6 @@
   }
 }
 @media only screen and (min-width: 1240px) {
-
   .is-sticky {
     margin-left: 0;
   }
