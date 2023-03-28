@@ -1,8 +1,12 @@
 import "./Box.css";
 
-const Box = ({ children, isFullWidth }) => {
+const Box = ({ children, isFullWidth, isMiddleColumn }) => {
   return (
-    <div className={`box-container ${isFullWidth ? "fullWidth" : ""}`}>
+    <div
+      className={`box-container ${isFullWidth ? "fullWidth" : ""} ${
+        isMiddleColumn ? "middleColumn" : ""
+      }`}
+    >
       {children}
     </div>
   );

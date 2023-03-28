@@ -1,38 +1,41 @@
-.serviceP{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.serviceP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .serviceP h3 {
-    margin-top: 190px;
-    font-family: "Akshar";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 35px;
-    text-align: center;
-    color: var(--gray);
-  }
+  margin-top: 190px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  color: var(--gray);
+}
+.serviceP p {
+  width: 710px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--gray);
+}
+@media only screen and (max-width: 768px) {
   .serviceP p {
-    width: 710px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: var(--gray);
+    width: 350px;
+    font-size: 16px;
+    line-height: 17px;
   }
-  @media only screen and (max-width: 768px) {
-    .serviceP p {
-      width: 350px;
-      font-size: 16px;
-      line-height: 17px;
-    }
-    .serviceP h3{
-      font-size: 24px;
-    }
+  .serviceP h3 {
+    font-size: 24px;
   }
-  @media only screen and (min-width: 768.1px) {
+}
+@media only screen and (min-width: 768.1px) {
+  .serviceP {
+    margin-bottom: 96px;
   }
-  @media only screen and (min-width: 1280px) {
-  }
+}
+@media only screen and (min-width: 1280px) {
+}

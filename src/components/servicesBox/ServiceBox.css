@@ -1,8 +1,4 @@
 .box {
-  width: 23.5rem;
-  height: 368px;
-  background: #ffffff;
-  border-radius: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,9 +21,8 @@
   font-weight: 400;
   color: var(--gray);
   line-height: 21px;
-  
 }
-.paraBox{
+.paraBox {
   font-weight: 600;
   font-size: 16px;
   color: var(--gray);
@@ -49,21 +44,20 @@
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
-  font-family: 'Akshar';
+  font-family: "Akshar";
 }
-.seeMore:hover{
-  background: #6B16A8;
+.seeMore:hover {
+  background: #6b16a8;
   color: #ffffff;
-  
 }
-@media only screen and (max-width : 420px){
+
+@media only screen and (max-width: 420px) {
   .box {
     width: 21.5rem;
     height: 350px;
   }
 }
 @media only screen and (max-width: 768px) {
-  
 }
 @media only screen and (min-width: 768.1px) {
   .box {
@@ -75,7 +69,6 @@
   }
 }
 @media only screen and (min-width: 1280px) {
- 
 }
 @media only screen and (min-width: 1440px) {
   .box {
