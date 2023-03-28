@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Box from "../Box/Box";
 import "./footer.css";
 
 export default function Footer() {
@@ -9,62 +10,67 @@ export default function Footer() {
 
   return (
     <div className="footer">
-      <div className="contact">
-        <p>
-          You can always contact us and be aware of the latest news and
-          information
-        </p>
+      <Box>
+        <div className="contact">
+          <p>
+            You can always contact us and be aware of the latest news and
+            information
+          </p>
 
-        <div className="button-submit">
+          <div className="button-submit">
+            <input
+              type="email"
+              placeholder="Type your e-mail address"
+              className="inputs"
+            />
+            <input
+              type="submit"
+              placeholder="Type your e-mail address"
+              className="input1"
+              onClick={inputClick}
+            />
+          </div>
           <input
-            type="email"
+            type="Submit"
             placeholder="Type your e-mail address"
-            className="inputs"
-          />
-          <input
-            type="submit"
-            placeholder="Type your e-mail address"
-            className="input1"
-            onClick={inputClick}
+            className="input2"
           />
         </div>
-        <input
-          type="Submit"
-          placeholder="Type your e-mail address"
-          className="input2"
-        />
-      </div>
-      <div className="icons">
-        <div className="icons-bottom">
-          <img src="./images/icon.svg" alt="icon1" className="icon1" />
-          <img src="./images/path.svg" alt="icon2" className="icon2" />
+        <div className="icons">
+          <div className="icons-bottom">
+            <img src="./images/icon.svg" alt="icon1" className="icon1" />
+            <img src="./images/path.svg" alt="icon2" className="icon2" />
+          </div>
+          <div className="icon-img1">
+            <img src="./images/icon1.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon">
+            <img src="./images/icon2.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon">
+            <img src="./images/icon3.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon">
+            <img src="./images/icon4.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon">
+            <img src="./images/icon5.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon">
+            <img src="./images/icon6.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon">
+            <img src="./images/icon7.svg" alt="icon" className="icon-img" />
+          </div>
+          <div className="icon-img1">
+            <img
+              src="./images/icon-footer.svg"
+              alt="icon"
+              className="icon-img"
+            />
+          </div>
         </div>
-        <div className="icon-img1">
-          <img src="./images/icon1.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon">
-          <img src="./images/icon2.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon">
-          <img src="./images/icon3.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon">
-          <img src="./images/icon4.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon">
-          <img src="./images/icon5.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon">
-          <img src="./images/icon6.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon">
-          <img src="./images/icon7.svg" alt="icon" className="icon-img" />
-        </div>
-        <div className="icon-img1">
-          <img src="./images/icon-footer.svg" alt="icon" className="icon-img" />
-        </div>
-      </div>
-
+      </Box>
       <div className="footer-button">
         <div>
           <div className="header-footer">
