@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function PortfoliosMobile() {
   return (
-    <div>
+    <div className="portfolio-mobile-container">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
