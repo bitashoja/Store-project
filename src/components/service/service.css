@@ -1,3 +1,19 @@
+.service {
+  background: #ece8ef;
+  margin-top: 100px;
+  text-align: center;
+  height: auto;
+  padding: 192px 0px;
+  width: 100%;
+}
+.serviceBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .serviceP {
   display: flex;
   align-items: center;
@@ -5,7 +21,6 @@
   flex-direction: column;
 }
 .serviceP h3 {
-  margin-top: 190px;
   font-family: "Akshar";
   font-style: normal;
   font-weight: 700;

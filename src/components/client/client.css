@@ -1,16 +1,14 @@
-
-
-.client {
-  width: 100%;
+.container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: rgba(236, 232, 239, 1);
-  ;
   gap: 15px;
+}
+.client {
+  width: 100%;
+  background-color: rgba(236, 232, 239, 1);
   padding: 0 0 150px 0;
- 
 }
 .clientBox {
   width: 25.5rem;
@@ -25,7 +23,7 @@
 }
 
 .profileName {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -33,7 +31,7 @@
   color: var(--black);
 }
 .job {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -42,9 +40,8 @@
   margin: -5px 0;
 }
 .descPara {
-  width: 70%;
   height: 72px;
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -63,7 +60,7 @@
 }
 
 .comments {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -71,7 +68,7 @@
   color: var(--black);
 }
 .paraComments {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -81,23 +78,22 @@
   padding: 0 15%;
 }
 
-@media only screen and (max-width : 420px){
+@media only screen and (max-width: 420px) {
   .clientBox {
     width: 22.5rem;
   }
 }
 
-@media only screen and (max-width : 768px){
-    .client{
-        height: 2100px;
-    } 
-    .comments{
-      font-size: 24px;
-    } 
-    .clientBox {
-      width: 22.5rem;
-    }
-  
+@media only screen and (max-width: 768px) {
+  .client {
+    height: 2100px;
+  }
+  .comments {
+    font-size: 24px;
+  }
+  .clientBox {
+    width: 22.5rem;
+  }
 }
 @media only screen and (min-width: 768.1px) {
   .clientBox {
@@ -105,7 +101,6 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  
   .clientBox {
     width: 23.5rem;
   }
@@ -115,4 +110,3 @@
     width: 24.5rem;
   }
 }
-

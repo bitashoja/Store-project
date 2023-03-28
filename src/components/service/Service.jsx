@@ -13,7 +13,6 @@ export default function Service() {
           with you to find the best possible solution for your IT environment.
         </p>
       </div>
-
       <ServiceIcon />
     </div>
   );
