@@ -11,7 +11,7 @@ export default function HeaderPortfolio() {
       <div className="box-headerPortfolio">
         <div className="headerPortfolio-img">
           <img
-            src="./images/Frame10.svg"
+            src="./images/Frame10.png"
             alt="Frame10"
             className="header-portfolio-img"
           />

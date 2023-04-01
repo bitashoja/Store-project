@@ -1,13 +1,14 @@
 import React from "react";
 import "./digitalServices.css";
 import { Link } from "react-router-dom";
+import Button from "../button/Button";
 
 export default function DigitalServices() {
   return (
     <div className="marketing">
       <div className="text-design" id="text-marketing">
         <div className="image-design" id="image-marketing-mobile">
-          <img src="./images/Groups.png" alt="ui" id="image-marketing" />
+          <img src="./images/marketing.png" alt="ui" id="image-marketing" />
         </div>
         <h3>Digital Marketing</h3>
         <p>
@@ -34,14 +35,14 @@ export default function DigitalServices() {
           </span>
           team, experts can give advice and guidance to Shaka
         </p>
-        <div className="button-design" id="button-marketing">
+        <div className="button-design">
           <Link to="/SendOrder">
-            <img src="./images/button-marketing.svg" alt="button" />
+            <Button className="buttonComponent" title="ORDER NEW" />
           </Link>
         </div>
       </div>
       <div className="image-design" id="image-marketing-desktop">
-        <img src="./images/Groups.png" alt="ui" id="image-marketing" />
+        <img src="./images/marketing.png" alt="ui" id="image-marketing" />
       </div>
     </div>
   );

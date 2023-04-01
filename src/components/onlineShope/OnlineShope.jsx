@@ -7,7 +7,7 @@ export default function OnlineShope() {
     <div className="OnlineShope shop">
       <h3 className="title-onlineShope-mobile">OnlineShope</h3>
       <div className="onlineShope-img">
-        <img src="./images/Frame102.svg" alt="Frame102" />
+        <img src="./images/Frame102.png" alt="Frame102" />
       </div>
       <div className="onlineShope-text onlineText">
         <h3 className="title-onlineShope-laptop">OnlineShope</h3>

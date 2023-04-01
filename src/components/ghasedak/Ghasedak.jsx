@@ -1,12 +1,12 @@
-import React from 'react';
-import Button from '../button/Button';
+import React from "react";
+import Button from "../button/Button";
 
 export default function Ghasedak() {
   return (
     <div className="OnlineShope StylishApp">
       <h3 className="title-onlineShope-mobile">Radio Ghasedak</h3>
       <div className="onlineShope-img">
-        <img src="./images/G10303.svg" alt="Frame102" />
+        <img src="./images/G10303.png" alt="Frame102" />
       </div>
       <div className="onlineShope-text">
         <h3 className="title-onlineShope-laptop">Radio Ghasedak</h3>
@@ -23,9 +23,9 @@ export default function Ghasedak() {
           completed on time and within budget.
         </span>
         <div className="buttonWebsite">
-        <Button className="buttonComponent" title = "SEE MORE" />
+          <Button className="buttonComponent" title="SEE MORE" />
         </div>
       </div>
     </div>
-  )
+  );
 }

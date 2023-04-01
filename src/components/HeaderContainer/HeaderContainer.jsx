@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../Header/HeaderComponent";
+import "./headerContainer.css";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
+import { RxEnvelopeClosed } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import "./headerContainer.css";
 
 export default function HeaderContainer() {
   return (
@@ -12,7 +13,7 @@ export default function HeaderContainer() {
         <Header />
         <div className="headerBox">
           <div className="headerBoxImg">
-            <img src="./images/Group10300.svg" alt="laptop" />
+            <img src="./images/10300.svg" alt="laptop" />
           </div>
           <div className="headerBoxText-home">
             <h3>

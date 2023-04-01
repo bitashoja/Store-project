@@ -3,6 +3,7 @@
   justify-content: space-around;
   height: 600px;
   margin-top: 140px;
+  gap: 15px;
 }
 .description-img {
   width: 490px;
@@ -38,37 +39,43 @@
 }
 @media only screen and (max-width: 1200px) {
   .description-img {
-    width: 510px;
-    height: 510px;
-    margin-left: 100px;
+    width: 410px;
+    height: 410px;
+    margin-left: 10px;
   }
   .description-img img {
-    width: 350px;
-    height: 630px;
-    margin-left: 41px;
+    width: 280px;
+    height: 510px;
+    margin-left: 60px;
   }
   .description-texts p,
   .information {
     font-size: 14px;
   }
+  .description-texts {
+    width: 426px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .description-img img {
-    width: 300px;
-    height: 550px;
-    margin-top: -95px;
-    margin-left: -15px;
+    width: 200px;
+    height: 418px;
+    margin-top: -46px;
+    margin-left: 55px;
   }
   .description-img {
-    width: 445px;
-    height: 445px;
-    margin-left: 84px;
+    width: 350px;
+    height: 350px;
+    margin-left: 5px;
   }
   .description-texts p,
   .information {
     font-weight: 300;
     font-size: 14px;
     line-height: 15px;
+  }
+  .description-texts {
+    width: 345px;
   }
 }
 @media only screen and (max-width: 768px) {

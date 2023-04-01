@@ -44,13 +44,13 @@
   }
   .about-team-mobile img {
     width: 600px;
-    margin-right: 265px;
+    margin-right: 128px;
   }
 }
 @media only screen and (max-width: 768px) {
   .about-team-mobile img {
     width: 498px;
-    margin-right: 203px;
+    margin-right: 40px;
   }
   .about-Team {
     margin-top: 2px;

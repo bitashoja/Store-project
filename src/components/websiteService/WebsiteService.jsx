@@ -1,7 +1,7 @@
-import React from 'react'
-import './websiteService.css'
-import Button from '../button/Button'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./websiteService.css";
+import Button from "../button/Button";
+import { Link } from "react-router-dom";
 
 export default function WebsiteService() {
   return (
@@ -9,7 +9,7 @@ export default function WebsiteService() {
       <h3 className="title-website">Website development</h3>
       <div className="website-image">
         <img
-          src="./images/digital.svg"
+          src="./images/digital.png"
           alt="Digital"
           className="Digital-laptop"
         />
@@ -27,7 +27,7 @@ export default function WebsiteService() {
           </span>
 
           <span className="Beyond">
-            Beyond <img src="./images/Subtract.svg" alt="Subtract" />{' '}
+            Beyond <img src="./images/Subtract.svg" alt="Subtract" />{" "}
           </span>
         </div>
         <span className="website-text-text">
@@ -36,11 +36,11 @@ export default function WebsiteService() {
           effort to provide its services to its customers and audiences in the
           best possible way along with modern technologies. The specialized
           services of this collection are listed below, we hope to see the best
-          services offered to you.{' '}
+          services offered to you.{" "}
           <b>
             Java , JavaScript, #C, Python, PHP, C++, Scala, netscape, Nodejs,
-            React, React Native, HTML and CSS, WordPress{' '}
-          </b>{' '}
+            React, React Native, HTML and CSS, WordPress{" "}
+          </b>{" "}
           . we do
         </span>
         <div className="buttonWebsite">
@@ -50,5 +50,5 @@ export default function WebsiteService() {
         </div>
       </div>
     </div>
-  )
+  );
 }

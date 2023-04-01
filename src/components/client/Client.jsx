@@ -4,7 +4,7 @@ import ShinyCard from "../ShinyCard/ShinyCard";
 import "./client.css";
 
 const profiles = [
-  { id: 1, cover: "./images/ali.svg", name: "Ali Shoja", job: "UIUX designer" },
+  { id: 1, cover: "./images/ali.png", name: "Ali Shoja", job: "UIUX designer" },
 
   {
     id: 2,

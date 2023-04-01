@@ -12,8 +12,7 @@ function PortfoliosMobile() {
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
+        onSwiper={(swiper) => console.log(swiper)}>
         <SwiperSlide>
           <a href="#" className="portfolio-image">
             <img src="./images/image1.png" alt="menu" />
@@ -30,13 +29,8 @@ function PortfoliosMobile() {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a
-            href="#"
-            className="portfolio-image images-portfolio"
-            id="images-portfolio"
-          >
-            <img src="./images/image-portfolio1.svg" alt="menu" />
-            <img src="./images/image-portfolio2.svg" alt="menu" />
+          <a href="#" className="portfolio-image images-portfolio">
+            <img src="./images/Frame102.png" alt="menu" />
             <div className="box-portfolios-mobile">
               <h3>Portfolio name</h3>
               <span>
@@ -138,9 +132,8 @@ function PortfoliosDesktop() {
             </Link>
           </div>
         </a>
-        <a href="#" id="images-portfolio" className="portfolio-image-desktop">
-          <img src="./images/image-portfolio1.svg" alt="menu" />
-          <img src="./images/image-portfolio2.svg" alt="menu" />
+        <a href="#" className="portfolio-image-desktop">
+          <img src="./images/Frame102.png" alt="menu" />
           <div className="box-portfolios">
             <h3>Portfolio name</h3>
             <span>
@@ -219,7 +212,7 @@ const getIsMobile = () => {
   const userAgent = navigator.userAgent;
   const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      userAgent
+      userAgent,
     );
   const screenWidth = window.innerWidth;
   const isNarrowScreen = screenWidth < 768; // Adjust this number as needed
@@ -236,7 +229,7 @@ export default function Portfolios() {
       function () {
         setMobile(getIsMobile());
       },
-      true
+      true,
     );
     return () => {
       window.removeEventListener("resize", listener);
