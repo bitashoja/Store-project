@@ -5,108 +5,44 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Link } from "react-router-dom";
 
+const mobileImages = [
+  "./images/image1.png",
+  "./images/Frame102.png",
+  "./images/image3.png",
+  "./images/image4.png",
+  "./images/image5.png",
+  "./images/image6.png",
+];
+
 function PortfoliosMobile() {
   return (
     <div className="portfolio-mobile-container">
+      <h4 className="title">
+        Some of our <span>portfolios</span>
+      </h4>
       <Swiper
-        spaceBetween={50}
-        slidesPerView={1}
+        spaceBetween={0}
+        slidesPerView={1.25}
         onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}>
-        <SwiperSlide>
-          <a href="#" className="portfolio-image">
-            <img src="./images/image1.png" alt="menu" />
-            <div className="box-portfolios-mobile">
-              <h3>Portfolio name</h3>
-              <span>
-                We start where the others stop, detecting problems before they
-                before arisedetecting problems before they arise...
-              </span>
-              <Link to="/Portfolio">
-                <button>See more ...</button>
-              </Link>
-            </div>
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="#" className="portfolio-image images-portfolio">
-            <img src="./images/Frame102.png" alt="menu" />
-            <div className="box-portfolios-mobile">
-              <h3>Portfolio name</h3>
-              <span>
-                We start where the others stop, detecting problems before they
-                before arisedetecting problems before they arise...
-              </span>
-              <Link to="/Portfolio">
-                <button>See more ...</button>
-              </Link>
-            </div>
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="#" className="portfolio-image">
-            <img src="./images/image3.png" alt="menu" />
-            <div className="box-portfolios-mobile">
-              <h3>Portfolio name</h3>
-              <span>
-                We start where the others stop, detecting problems before they
-                before arisedetecting problems before they arise...
-              </span>
-              <Link to="/Portfolio">
-                <button>See more ...</button>
-              </Link>
-            </div>
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="#" className="portfolio-image">
-            <img src="./images/image4.png" alt="menu" />
-            <div className="box-portfolios-mobile">
-              <h3>Portfolio name</h3>
-              <span>
-                We start where the others stop, detecting problems before they
-                before arisedetecting problems before they arise...
-              </span>
-              <Link to="/Portfolio">
-                <button>See more ...</button>
-              </Link>
-            </div>
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="#" className="portfolio-image">
-            <img src="./images/image5.png" alt="menu" />
-            <div className="box-portfolios-mobile">
-              <h3>Portfolio name</h3>
-              <span>
-                We start where the others stop, detecting problems before they
-                before arisedetecting problems before they arise...
-              </span>
-              <Link to="/Portfolio">
-                <button>See more ...</button>
-              </Link>
-            </div>
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="#" className="portfolio-image">
-            <img
-              src="./images/image6.png"
-              className="menu-mobile"
-              alt="menu mobile"
-            />
-            <div className="box-portfolios-mobile">
-              <h3>Portfolio name</h3>
-              <span>
-                We start where the others stop, detecting problems before they
-                before arisedetecting problems before they arise...
-              </span>
-              <Link to="/Portfolio">
-                <button>See more ...</button>
-              </Link>
-            </div>
-          </a>
-        </SwiperSlide>
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        {mobileImages.map((image, index) => (
+          <SwiperSlide index={index}>
+            <a href="#" className="portfolio-image">
+              <img src={image} alt="menu" />
+              <div className="box-portfolios-mobile">
+                <h3>Portfolio name</h3>
+                <span>
+                  We start where the others stop, detecting problems before they
+                  before arisedetecting problems before they arise...
+                </span>
+                <Link to="/Portfolio">
+                  <button>See more ...</button>
+                </Link>
+              </div>
+            </a>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
@@ -212,7 +148,7 @@ const getIsMobile = () => {
   const userAgent = navigator.userAgent;
   const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      userAgent,
+      userAgent
     );
   const screenWidth = window.innerWidth;
   const isNarrowScreen = screenWidth < 768; // Adjust this number as needed
@@ -229,7 +165,7 @@ export default function Portfolios() {
       function () {
         setMobile(getIsMobile());
       },
-      true,
+      true
     );
     return () => {
       window.removeEventListener("resize", listener);
