@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Link } from "react-router-dom";
+import Box from "../Box/Box";
 
 const mobileImages = [
   "./images/image1.png",
@@ -50,96 +51,98 @@ function PortfoliosMobile() {
 
 function PortfoliosDesktop() {
   return (
-    <div className="portfolios">
-      <h4>
-        Some of our <span>portfolios</span>
-      </h4>
-      <div className="portfolios-images">
-        <a href="#" className="portfolio-image-desktop">
-          <img src="./images/image1.png" alt="menu" />
-          <div className="box-portfolios">
-            <h3>Portfolio name</h3>
-            <span>
-              We start where the others stop, detecting problems before they
-              before arisedetecting problems before they arise...
-            </span>
-            <Link to="/Portfolio">
-              <button>See more ...</button>
-            </Link>
-          </div>
-        </a>
-        <a href="#" className="portfolio-image-desktop">
-          <img src="./images/Frame102.png" alt="menu" />
-          <div className="box-portfolios">
-            <h3>Portfolio name</h3>
-            <span>
-              We start where the others stop, detecting problems before they
-              before arisedetecting problems before they arise...
-            </span>
-            <Link to="/Portfolio">
-              <button>See more ...</button>
-            </Link>
-          </div>
-        </a>
-        <a href="#" className="portfolio-image-desktop">
-          <img src="./images/image3.png" alt="menu" />
-          <div className="box-portfolios">
-            <h3>Portfolio name</h3>
-            <span>
-              We start where the others stop, detecting problems before they
-              before arisedetecting problems before they arise...
-            </span>
-            <Link to="/Portfolio">
-              <button>See more ...</button>
-            </Link>
-          </div>
-        </a>
-        <a href="#" className="portfolio-image-desktop">
-          <img src="./images/image4.png" alt="menu" />
-          <div className="box-portfolios">
-            <h3>Portfolio name</h3>
-            <span>
-              We start where the others stop, detecting problems before they
-              before arisedetecting problems before they arise...
-            </span>
-            <Link to="/Portfolio">
-              <button>See more ...</button>
-            </Link>
-          </div>
-        </a>
-        <a href="#" className="portfolio-image-desktop">
-          <img src="./images/image5.png" alt="menu" />
-          <div className="box-portfolios">
-            <h3>Portfolio name</h3>
-            <span>
-              We start where the others stop, detecting problems before they
-              before arisedetecting problems before they arise...
-            </span>
-            <Link to="/Portfolio">
-              <button>See more ...</button>
-            </Link>
-          </div>
-        </a>
-        <a href="#" className="portfolio-image-desktop">
-          <img
-            src="./images/image6.png"
-            className="menu-mobiles"
-            alt="menu mobile"
-          />
-          <div className="box-portfolios">
-            <h3>Portfolio name</h3>
-            <span>
-              We start where the others stop, detecting problems before they
-              before arisedetecting problems before they arise...
-            </span>
-            <Link to="/Portfolio">
-              <button>See more ...</button>
-            </Link>
-          </div>
-        </a>
+    <Box>
+      <div className="portfolios">
+        <h4>
+          Some of our <span>portfolios</span>
+        </h4>
+        <div className="portfolios-images">
+          <a href="#" className="portfolio-image-desktop">
+            <img src="./images/image1.png" alt="menu" />
+            <div className="box-portfolios">
+              <h3>Portfolio name</h3>
+              <span>
+                We start where the others stop, detecting problems before they
+                before arisedetecting problems before they arise...
+              </span>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
+            </div>
+          </a>
+          <a href="#" className="portfolio-image-desktop">
+            <img src="./images/Frame102.png" alt="menu" />
+            <div className="box-portfolios">
+              <h3>Portfolio name</h3>
+              <span>
+                We start where the others stop, detecting problems before they
+                before arisedetecting problems before they arise...
+              </span>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
+            </div>
+          </a>
+          <a href="#" className="portfolio-image-desktop">
+            <img src="./images/image3.png" alt="menu" />
+            <div className="box-portfolios">
+              <h3>Portfolio name</h3>
+              <span>
+                We start where the others stop, detecting problems before they
+                before arisedetecting problems before they arise...
+              </span>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
+            </div>
+          </a>
+          <a href="#" className="portfolio-image-desktop">
+            <img src="./images/image4.png" alt="menu" />
+            <div className="box-portfolios">
+              <h3>Portfolio name</h3>
+              <span>
+                We start where the others stop, detecting problems before they
+                before arisedetecting problems before they arise...
+              </span>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
+            </div>
+          </a>
+          <a href="#" className="portfolio-image-desktop">
+            <img src="./images/image5.png" alt="menu" />
+            <div className="box-portfolios">
+              <h3>Portfolio name</h3>
+              <span>
+                We start where the others stop, detecting problems before they
+                before arisedetecting problems before they arise...
+              </span>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
+            </div>
+          </a>
+          <a href="#" className="portfolio-image-desktop">
+            <img
+              src="./images/image6.png"
+              className="menu-mobiles"
+              alt="menu mobile"
+            />
+            <div className="box-portfolios">
+              <h3>Portfolio name</h3>
+              <span>
+                We start where the others stop, detecting problems before they
+                before arisedetecting problems before they arise...
+              </span>
+              <Link to="/Portfolio">
+                <button>See more ...</button>
+              </Link>
+            </div>
+          </a>
+        </div>
+        <div className="more">see more ...</div>
       </div>
-      <div className="more">see more ...</div>
-    </div>
+    </Box>
   );
 }
 

@@ -49,21 +49,26 @@
 .input2 {
   display: none;
 }
-.icons-bottom {
-  position: relative;
-  top: 100px;
-}
+
 .icon2 {
   position: absolute;
   top: 22px;
   left: 22px;
 }
+
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 35px;
-  margin: 100px 0;
+  margin: 100px 0 110px 0px;
+  position: relative;
+}
+
+.icons-bottom {
+  position: absolute;
+  bottom: -91px;
+  left: 56px;
 }
 
 .icon {
@@ -76,6 +81,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .icon-img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
