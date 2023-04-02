@@ -40,16 +40,17 @@
   border-radius: 24px;
   margin: 3%;
   position: relative;
+  padding: 0 10px;
 }
 .contact-right-text {
-  margin-left: 45px;
+  margin-left: 25px;
   padding-top: 45px;
 }
 .contact-right-text h5 {
   font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 16px;
   margin: 0;
   color: var(--white);
 }
@@ -57,9 +58,12 @@
   font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   color: var(--white);
   padding-bottom: 70px;
+}
+.contact-right-icons span{
+  font-size: 12px;
 }
 .contact-header-icons-left {
   width: 84%;
@@ -104,7 +108,7 @@
 }
 .contact-right-input input {
   width: 308px;
-  height: 54px;
+  height: 52px;
   border: 1px solid var(--white);
   border-radius: 12px;
   cursor: pointer;
@@ -179,9 +183,9 @@ input:focus {
 }
 
 @media only screen and (max-width: 767.9px) {
-  .contact-bottom-circle {
+  /* .contact-bottom-circle {
     display: none;
-  }
+  } */
 
   .headerContactUs {
     width: 100%;
@@ -209,7 +213,7 @@ input:focus {
     margin: 0;
   }
   .css-13cymwt-control {
-    width: 328px;
+    width: 313px;
   }
   .message {
     width: 318px;
@@ -220,7 +224,7 @@ input:focus {
     margin-top: 0px;
   }
   .contact-left-submit {
-    width: 333px;
+    width: 320px;
   }
 
   .contact-right-input {
@@ -253,7 +257,7 @@ input:focus {
     gap: 20px;
   }
   .contact-left-input {
-    width: 333px;
+    width: 313px;
     height: 44px;
   }
   .header-contact-information {
@@ -264,8 +268,8 @@ input:focus {
   }
   .contact-left-massage .message {
     width: 315px;
-    height: 40px;
-    padding: 0 0 68px 10px;
+    height: 83px;
+    border: 1px solid var(--white);
   }
   .contact-left-massage label {
     display: block;
@@ -273,7 +277,7 @@ input:focus {
     margin-left: 5px;
   }
   .contact-left-submit {
-    width: 338px;
+    width: 320px;
     height: 50px;
   }
 }
@@ -301,7 +305,7 @@ input:focus {
     flex-direction: row;
   }
   .contact-left-input {
-    width: 682px;
+    width: 637px;
   }
   .header-contact-information {
     align-items: baseline;
@@ -310,9 +314,10 @@ input:focus {
     margin-top: 0;
   }
   .contact-left-massage .message {
-    width: 662px;
-    height: 45px;
-    padding: 5px 0px 110px 6px;
+    width: 638px;
+    height: 215px;
+    border: 1px solid var(--white);
+    
   }
   .contact-left-submit {
     width: 167px;

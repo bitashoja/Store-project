@@ -100,8 +100,8 @@
   }
   .headerBoxText-home {
     flex: 1;
-    padding: 40px 0 0 40px;
-    /* max-height: 655px; */
+    padding: 30px 0 0 0;
+    
   }
   .headerBoxText-home h3 {
     font-size: 42px;
@@ -130,15 +130,18 @@
     justify-content: center;
   }
   .headerBoxImg img {
-    max-width: 85%;
+    max-width: 90%;
     max-height: 800px;
-    margin-right: 100px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 1240px) {
   .header-container {
     height: 800px;
   }
+  .headerBoxText-home {
+    padding: 0 0 0 30px;
+}
   .headerBoxText-home h3 {
     font-size: 48px;
     margin-top: 150px;
