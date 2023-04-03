@@ -1,5 +1,5 @@
 .header-contact-title h4 {
-  font-family: "Akshar";
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -7,7 +7,7 @@
   margin-bottom: 0;
 }
 .header-contact-title p {
-  font-family: "Akshar";
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -47,7 +47,7 @@
   padding-top: 45px;
 }
 .contact-right-text h5 {
-  font-family: "Akshar";
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -55,14 +55,14 @@
   color: var(--white);
 }
 .contact-right-text p {
-  font-family: "Akshar";
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   color: var(--white);
   padding-bottom: 70px;
 }
-.contact-right-icons span{
+.contact-right-icons span {
   font-size: 12px;
 }
 .contact-header-icons-left {
@@ -105,6 +105,14 @@
 /* label */
 .contact-right-input label {
   display: block;
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+  color: var(--gray);
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 .contact-right-input input {
   width: 308px;
@@ -136,6 +144,11 @@ input:focus {
 .contact-left-input .yourOrder {
   margin-top: 15px !important;
   display: block;
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
 }
 .css-13cymwt-control {
   padding: 5px 10px;
@@ -173,7 +186,7 @@ input:focus {
   border: none;
   cursor: pointer;
   color: var(--white);
-  font-family: "Akshar";
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -273,8 +286,14 @@ input:focus {
   }
   .contact-left-massage label {
     display: block;
-    margin-top: 25px;
+    font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+  color: var(--gray);
     margin-left: 5px;
+    margin-top: 30px;
   }
   .contact-left-submit {
     width: 320px;
@@ -317,7 +336,6 @@ input:focus {
     width: 638px;
     height: 215px;
     border: 1px solid var(--white);
-    
   }
   .contact-left-submit {
     width: 167px;
