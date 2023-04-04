@@ -40,8 +40,8 @@ export default function Description() {
         </p>
         <div className="information">
           <div>Phone: +1234568</div>
-          <div>E-mail: +1234568</div>
-          <div className="information-other">Other: +1234568</div>
+          <div>E-mail: Admin@beyond-IT.info</div>
+          <div className="information-other">Other: coming soon...</div>
         </div>
       </div>
     </div>

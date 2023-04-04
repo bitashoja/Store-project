@@ -68,7 +68,8 @@
 .icons-bottom {
   position: absolute;
   bottom: -91px;
-  left: 56px;
+  cursor: pointer;
+  left: -5px;
 }
 
 .icon {
@@ -146,7 +147,7 @@
 .footer-border {
   width: 1340px;
   align-items: center;
-  border: 1px solid var(--white2);
+  border: 1px solid #c6c2de;
   margin: 50px 0 20px 90px;
 }
 .footer-icon-left img {
@@ -363,19 +364,20 @@
     height: 428px;
     margin: 100px 0px 100px 0px;
     border-radius: inherit;
+    padding: 90px 30px;
+  }
+  .contact p {
+    padding: 0;
   }
   .button-submit {
-    width: 500px;
+    width: 100%;
     height: 60px;
-    margin-left: 70px;
     border-radius: 8px;
-    width: 440px;
-    margin-left: 23px;
   }
   .inputs {
-    width: 310px;
-    margin-right: -10px;
-    padding: 2px 2px 2px 16px;
+    width: 97%;
+    margin-top: -24px;
+    margin-right: -100px;
   }
   .input1 {
     display: none;
@@ -386,24 +388,22 @@
     gap: 10px;
     width: 193px;
     height: 48px;
-    margin-top: 328px;
-    margin-left: 52px;
+    margin-top: 300px;
     text-transform: uppercase;
+    margin-left: 34px;
   }
   .icon-img {
-    width: 35px;
+    width: 30px;
   }
   .icons {
-    margin-left: 40px;
     gap: 14px;
   }
   .icon {
-    width: 60px;
-    height: 60px;
-    margin: 0px -6px;
+    width: 36px;
+    height: 36px;
   }
   .icons-bottom {
-    left: 4px;
+    left: -80px;
   }
   .icon-img1 {
     width: 50px;
@@ -418,7 +418,7 @@
     flex-direction: row;
   }
   .header-icon {
-    margin-left: 25px;
+    margin-left: 10px;
     padding-top: 44px;
   }
   .header-footer {
@@ -427,7 +427,10 @@
   .footer-icon-left {
     padding-left: 0px;
   }
-
+  .footer-icon-left img {
+    width: 30px;
+    margin-left: 15px;
+  }
   .footer-icon-right {
     padding: 5px;
   }
@@ -450,7 +453,8 @@
     padding: 2px 3px;
   }
   .footer-border {
-    width: 260px;
+    width: 300px;
+    margin-left: 18px;
   }
   #footer-icon-right-mobile {
     padding-right: 150px;
@@ -462,8 +466,10 @@
     margin-top: -17px;
     padding: 0;
   }
-}
-
-.footer-ul li a {
-  color: var(--gray);
+  .footer-email {
+    margin-left: -40px;
+  }
+  .footer-ul li a {
+    color: var(--gray);
+  }
 }

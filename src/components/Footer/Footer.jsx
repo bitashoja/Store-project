@@ -7,6 +7,9 @@ export default function Footer() {
   const inputClick = () => {
     console.log("clicked");
   };
+  const top = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div className="footer">
@@ -37,7 +40,7 @@ export default function Footer() {
           />
         </div>
         <div className="icons">
-          <div className="icons-bottom">
+          <div onClick={top} className="icons-bottom">
             <img src="./images/icon.svg" alt="icon1" className="icon1" />
             <img src="./images/path.svg" alt="icon2" className="icon2" />
           </div>
@@ -109,15 +112,13 @@ export default function Footer() {
                 <div className="footer-icons-right">
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-desktop"
-                  >
+                    id="footer-icon-right-desktop">
                     <img src="./images/map.svg" alt="map" />
                     <span>7451 Garden Grove ave Reseda CA 91335</span>
                   </div>
                   <div
                     className="footer-icon-right"
-                    id="footer-icon-right-mobile"
-                  >
+                    id="footer-icon-right-mobile">
                     <img src="./images/map.svg" alt="map" />
                     <span>
                       7451 Garden Grove ave
