@@ -66,12 +66,19 @@
 }
 
 .icons-bottom {
-  position: absolute;
-  bottom: -91px;
+  position: fixed;
+  bottom: 16px;
+  left: 32px;
+  transform: all 0.4s;
   cursor: pointer;
-  left: -5px;
+  display: none;
 }
-
+.icons-bottom.active {
+  cursor: pointer;
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
 .icon {
   width: 130px;
   height: 130px;

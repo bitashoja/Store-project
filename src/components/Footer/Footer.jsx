@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Box from "../Box/Box";
 import "./footer.css";
@@ -7,10 +7,24 @@ export default function Footer() {
   const inputClick = () => {
     console.log("clicked");
   };
+
   const top = () => {
     window.scrollTo(0, 0);
   };
-
+  useEffect(() => {
+    const handlerScroll = () => {
+      const scrollProgress = document.getElementsByClassName("icons-bottom")[0];
+      if (window.scrollY > 300) {
+        scrollProgress.style.display = "block";
+      } else {
+        scrollProgress.style.display = "none";
+      }
+    };
+    window.addEventListener("scroll", handlerScroll);
+    return () => {
+      window.removeEventListener("scroll", handlerScroll);
+    };
+  }, []);
   return (
     <div className="footer">
       <Box>
