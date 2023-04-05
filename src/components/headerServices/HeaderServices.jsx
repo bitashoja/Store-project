@@ -26,7 +26,7 @@ export default function HeaderServices() {
             </button>
             <button className="button-headerContainer-send">
               <Link to="/SendOrder">
-                <img src="../images/path73.svg" alt="path73" />
+                <img src="../images/send-order.svg" alt="path73" />
                 <IoIosArrowForward />
                 <span>SEND ORDER</span>
               </Link>
