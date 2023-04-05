@@ -1,5 +1,4 @@
 .header-contact-title h4 {
-  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -7,7 +6,6 @@
   margin-bottom: 0;
 }
 .header-contact-title p {
-  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -47,7 +45,6 @@
   padding-top: 45px;
 }
 .contact-right-text h5 {
-  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -55,7 +52,6 @@
   color: var(--white);
 }
 .contact-right-text p {
-  font-family: 'Akshar';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -105,7 +101,7 @@
 /* label */
 .contact-right-input label {
   display: block;
-  font-family: 'Akshar';
+
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -144,7 +140,7 @@ input:focus {
 .contact-left-input .yourOrder {
   margin-top: 15px !important;
   display: block;
-  font-family: 'Akshar';
+
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -186,7 +182,7 @@ input:focus {
   border: none;
   cursor: pointer;
   color: var(--white);
-  font-family: 'Akshar';
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -196,10 +192,6 @@ input:focus {
 }
 
 @media only screen and (max-width: 767.9px) {
-  /* .contact-bottom-circle {
-    display: none;
-  } */
-
   .headerContactUs {
     width: 100%;
     height: auto;
@@ -286,12 +278,12 @@ input:focus {
   }
   .contact-left-massage label {
     display: block;
-    font-family: 'Akshar';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 13px;
-  color: var(--gray);
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+    color: var(--gray);
     margin-left: 5px;
     margin-top: 30px;
   }
