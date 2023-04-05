@@ -8,20 +8,20 @@
   background: var(--purple);
   border: 1px solid var(--purple);
   margin: 190px auto;
+  padding: 0px 160px;
 }
+
 .contact p {
   font-weight: 700;
   font-size: 32px;
   line-height: 35px;
   color: var(--white);
-  padding: 0 30px;
 }
 .button-submit {
   display: flex;
   justify-content: flex-end;
   cursor: pointer;
   position: relative;
-  right: 60px;
   border: none;
 }
 .inputs {
@@ -188,6 +188,7 @@
     width: 1200px;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .contact {
     width: 910px;
