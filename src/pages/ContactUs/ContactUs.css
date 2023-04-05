@@ -1,5 +1,5 @@
 .header-contact-title h4 {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -7,7 +7,7 @@
   margin-bottom: 0;
 }
 .header-contact-title p {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -40,30 +40,26 @@
   border-radius: 24px;
   margin: 3%;
   position: relative;
-  padding: 0 10px;
 }
 .contact-right-text {
-  margin-left: 25px;
+  margin-left: 45px;
   padding-top: 45px;
 }
 .contact-right-text h5 {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 32px;
   margin: 0;
   color: var(--white);
 }
 .contact-right-text p {
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   color: var(--white);
   padding-bottom: 70px;
-}
-.contact-right-icons span {
-  font-size: 12px;
 }
 .contact-header-icons-left {
   width: 84%;
@@ -105,18 +101,10 @@
 /* label */
 .contact-right-input label {
   display: block;
-  font-family: 'Akshar';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 13px;
-  color: var(--gray);
-  padding-top: 15px;
-  padding-bottom: 5px;
 }
 .contact-right-input input {
   width: 308px;
-  height: 52px;
+  height: 54px;
   border: 1px solid var(--white);
   border-radius: 12px;
   cursor: pointer;
@@ -144,11 +132,6 @@ input:focus {
 .contact-left-input .yourOrder {
   margin-top: 15px !important;
   display: block;
-  font-family: 'Akshar';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 13px;
 }
 .css-13cymwt-control {
   padding: 5px 10px;
@@ -186,7 +169,7 @@ input:focus {
   border: none;
   cursor: pointer;
   color: var(--white);
-  font-family: 'Akshar';
+  font-family: "Akshar";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -196,9 +179,9 @@ input:focus {
 }
 
 @media only screen and (max-width: 767.9px) {
-  /* .contact-bottom-circle {
+  .contact-bottom-circle {
     display: none;
-  } */
+  }
 
   .headerContactUs {
     width: 100%;
@@ -226,7 +209,7 @@ input:focus {
     margin: 0;
   }
   .css-13cymwt-control {
-    width: 313px;
+    width: 328px;
   }
   .message {
     width: 318px;
@@ -237,7 +220,7 @@ input:focus {
     margin-top: 0px;
   }
   .contact-left-submit {
-    width: 320px;
+    width: 333px;
   }
 
   .contact-right-input {
@@ -270,7 +253,7 @@ input:focus {
     gap: 20px;
   }
   .contact-left-input {
-    width: 313px;
+    width: 333px;
     height: 44px;
   }
   .header-contact-information {
@@ -281,22 +264,16 @@ input:focus {
   }
   .contact-left-massage .message {
     width: 315px;
-    height: 83px;
-    border: 1px solid var(--white);
+    height: 40px;
+    padding: 0 0 68px 10px;
   }
   .contact-left-massage label {
     display: block;
-    font-family: 'Akshar';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 13px;
-  color: var(--gray);
+    margin-top: 25px;
     margin-left: 5px;
-    margin-top: 30px;
   }
   .contact-left-submit {
-    width: 320px;
+    width: 338px;
     height: 50px;
   }
 }
@@ -324,7 +301,7 @@ input:focus {
     flex-direction: row;
   }
   .contact-left-input {
-    width: 637px;
+    width: 682px;
   }
   .header-contact-information {
     align-items: baseline;
@@ -333,9 +310,9 @@ input:focus {
     margin-top: 0;
   }
   .contact-left-massage .message {
-    width: 638px;
-    height: 215px;
-    border: 1px solid var(--white);
+    width: 662px;
+    height: 45px;
+    padding: 5px 0px 110px 6px;
   }
   .contact-left-submit {
     width: 167px;

@@ -1,42 +1,42 @@
-import React from 'react'
-import Box from '../Box/Box'
-import ShinyCard from '../ShinyCard/ShinyCard'
-import './client.css'
+import React from "react";
+import Box from "../Box/Box";
+import ShinyCard from "../ShinyCard/ShinyCard";
+import "./client.css";
 
 const profiles = [
-  { id: 1, cover: './images/stefan.svg', name: 'Travis Anderson', job: 'UIUX designer' },
+  { id: 1, cover: "./images/ali.png", name: "Ali Shoja", job: "UIUX designer" },
 
   {
     id: 2,
-    cover: './images/11112 1.svg',
-    name: 'Jason Williams',
-    job: 'product manager',
+    cover: "./images/profile1.svg",
+    name: "Hossein Bagherzadeh",
+    job: "product manager",
   },
   {
     id: 3,
-    cover: './images/profile2.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    cover: "./images/profile2.svg",
+    name: "Jason  Williams",
+    job: "Digital Camera Winner",
   },
   {
     id: 4,
-    cover: './images/profile3.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    cover: "./images/profile3.svg",
+    name: "Jason  Williams",
+    job: "Digital Camera Winner",
   },
   {
     id: 5,
-    cover: './images/profile4.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    cover: "./images/profile4.svg",
+    name: "Jason  Williams",
+    job: "Digital Camera Winner",
   },
   {
     id: 6,
-    cover: './images/profile5.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    cover: "./images/profile5.svg",
+    name: "Jason  Williams",
+    job: "Digital Camera Winner",
   },
-]
+];
 
 export default function Client() {
   return (
@@ -77,5 +77,5 @@ export default function Client() {
         </div>
       </Box>
     </div>
-  )
+  );
 }

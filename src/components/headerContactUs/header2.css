@@ -36,12 +36,4 @@
   .phone-mobile1 {
     display: none;
   }
-  .headerContactUs{
-    height: 900px !important;
-  }
-}
-@media only screen and (min-width: 1240px){
-  .headerContactUs{
-    height: 1100px !important;
-  }
 }
