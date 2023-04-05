@@ -1,10 +1,9 @@
 import React from "react";
 import Header from "../Header/HeaderComponent";
-import "./headerContainer.css";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
-import { RxEnvelopeClosed } from "react-icons/rx";
 import { Link } from "react-router-dom";
+import "./headerContainer.css";
 
 export default function HeaderContainer() {
   return (
@@ -37,8 +36,8 @@ export default function HeaderContainer() {
                 <button className="button-headerContainer-send button-email-portfolio">
                   <Link to="/SendOrder" className="linkHeaderPortfolio">
                     <img
-                      src="../images/path73.svg"
-                      alt="path73"
+                      src="../images/send-order.svg"
+                      alt="send order"
                       className="envelope"
                     />
                     <IoIosArrowForward />
