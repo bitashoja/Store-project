@@ -37,8 +37,8 @@ export default function HeaderContainer() {
                 <button className="button-headerContainer-send button-email-portfolio">
                   <Link to="/SendOrder" className="linkHeaderPortfolio">
                     <img
-                      src="../images/path73.svg"
-                      alt="path73"
+                      src="../images/send-order.svg"
+                      alt="send order"
                       className="envelope"
                     />
                     <IoIosArrowForward />
