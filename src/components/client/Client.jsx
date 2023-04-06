@@ -15,26 +15,26 @@ const profiles = [
   {
     id: 3,
     cover: './images/profile2.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    name: 'Harry Maguire',
+    job: 'Graphic designer',
   },
   {
     id: 4,
     cover: './images/profile3.svg',
-    name: 'Jason  Williams',
+    name: 'Sara Fooden',
     job: 'Digital Camera Winner',
   },
   {
     id: 5,
     cover: './images/profile4.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    name: 'Maria Kane',
+    job: 'Web Developer',
   },
   {
     id: 6,
     cover: './images/profile5.svg',
-    name: 'Jason  Williams',
-    job: 'Digital Camera Winner',
+    name: 'Harry Kean ',
+    job: 'Marketing manager',
   },
 ]
 
