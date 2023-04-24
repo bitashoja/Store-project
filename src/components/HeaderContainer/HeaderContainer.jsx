@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "../Header/HeaderComponent";
-import { BsTelephoneFill } from "react-icons/bs";
-import { IoIosArrowForward } from "react-icons/io";
-import { Link } from "react-router-dom";
-import "./headerContainer.css";
+import React from 'react'
+import Header from '../Header/HeaderComponent'
+import { BsTelephoneFill } from 'react-icons/bs'
+import { IoIosArrowForward } from 'react-icons/io'
+import { Link } from 'react-router-dom'
+import './headerContainer.css'
 
 export default function HeaderContainer() {
   return (
@@ -16,12 +16,12 @@ export default function HeaderContainer() {
           </div>
           <div className="headerBoxText-home">
             <h3>
-              Software <br /> Development
+              Beyond IT <br /> Solutions:
             </h3>
-            <p>Do you like sensitive and difficult work?</p>
+
             <p>
-              Beyond IT provides you with the best quality website design
-              services by expert and experienced people.
+              Up-to-date technology at your service. Experience excellent user
+              experience with Beyond IT Solutions' technology services.
             </p>
 
             <div className="button-header-portfolio button-headerContainer">
@@ -50,5 +50,5 @@ export default function HeaderContainer() {
         </div>
       </div>
     </>
-  );
+  )
 }

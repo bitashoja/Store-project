@@ -3,7 +3,7 @@ import "./ServiceBox.css";
 import { Link } from "react-router-dom";
 import ShinyCard from "../ShinyCard/ShinyCard";
 
-export default function ServicesBox({ src, title }) {
+export default function ServicesBox({ src, title , text }) {
   return (
     <ShinyCard>
       <div className="box">
@@ -12,9 +12,7 @@ export default function ServicesBox({ src, title }) {
         </div>
         <p className="paraBox">{title}</p>
         <span className="box-text">
-          Most of the IT projects demand the deployment of their key developer’s
-          onsite at the client’s location followed by their deployment at the
-          ....
+          { text }
         </span>
         <Link to="/Portfolio">
           <button className="seeMore">SEE MORE</button>

@@ -23,6 +23,7 @@
   font-weight: 400;
   color: var(--gray);
   line-height: 21px;
+  height: 80px;
 }
 .paraBox {
   font-weight: 600;

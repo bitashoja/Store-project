@@ -46,10 +46,7 @@ export default function Client() {
           <div className="commentsProfile">
             <h3 className="comments">Comments of some of our customers...</h3>
             <p className="paraComments">
-              Team consists of professional and experienced consultants,
-              technicians, engineers, designers and solution architects who work
-              with you to find the best possible solution for your IT
-              environment.
+            See what our clients have to say about our services
             </p>
           </div>
           {profiles.map((user, index) => (
