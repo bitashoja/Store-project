@@ -18,26 +18,25 @@ export default function AboutTeam() {
           About BEYOND <span>IT</span> team
         </h3>
         <span>
-          For more than 15 years, our team's experts have been working in the
-          field of digital technologies. The experience of these years has shown
-          us that digital media can play a key role in increasing the quality of
-          life for all of us. It was exactly this view that made us get down to
-          business and focus on creating a company. In the hope that we can play
-          a small role in the improvement and development of digital media.
+          We started our activities in 2021 with the belief that a customer can
+          be a true friend and partner. Our motto is "We consider our customers
+          as friends and partners, and we do our best to satisfy them."
           <br />
+          We aim to provide high-quality services and create a unique experience
+          for our customers. To achieve this goal, we try to be distinguished in
+          providing services with our expertise and experience. Furthermore, we
+          always consider excellent customer support and after-sales services as
+          a necessity.
           <br />
-          Our message is simple and clear. A successful collection is not
-          created by advertising and millions of prizes. Success will happen
-          when you see your customers as real people. Humans who think and make
-          decisions. Growth means that you put your thoughts and energy into
-          improving the lives of these people.
+          In providing our services to customers, we use advanced technologies
+          and innovative methods, and strive to provide the best solutions to
+          our customers. With this approach, we are taking steps towards
+          achieving our goals and mission, including customer satisfaction,
+          growth, and further development.
           <br />
-          We are going to start a new chapter in (digital) business marketing
-          with you. And in the new approach we want businesses to have a
-          long-term vision. A vision that connects today's income and short-term
-          advertising solutions with quality, transparency, education and
-          intimacy. A look that emphasizes on creating stable relationships with
-          customers.
+          Finally, we take pride in being a reliable and effective partner for
+          our customers and have reached a mutually beneficial relationship.
+          Trust us, and we will provide you with the best services.
         </span>
       </div>
     </div>

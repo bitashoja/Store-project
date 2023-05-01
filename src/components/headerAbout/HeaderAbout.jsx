@@ -13,14 +13,15 @@ export default function HeaderAbout() {
         <h3>About us</h3>
         <div className="header-about">
           <p>
-            Providing specialized web and information
-            <br /> technology services, website design and <br /> SEO, portal
-            design and dedicated CMS along
-            <br /> with professional web hosting and
+            The beyond IT development team started its activity
+            <br /> in early 2021 by designing and building several <br />{" "}
+            applications and sites for friends. This good
+            <br /> experience made us take bigger steps with <br /> more
+            seriousness and with the aim of providing fair <br />
+            and professional services to all businesses. Our slogan is always:
             <br />
-            dedicated virtual server for businesses and
-            <br /> organizations. We provide it to our <br /> customers with the
-            highest quality.
+            We consider customers as our friends <br />
+            and partners and will do our best to satisfy them.
           </p>
           <div className="headerBoxButton" id="buttons-about">
             <button className="button-number-headerContainer">
