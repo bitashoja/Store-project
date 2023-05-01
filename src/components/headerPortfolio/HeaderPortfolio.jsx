@@ -36,7 +36,7 @@ export default function HeaderPortfolio() {
             <div className="button-email-portfolio">
               <button className="button-headerContainer-send button-email-portfolio">
                 <img
-                  src="../images/path73.svg"
+                  src="../images/send-order.svg"
                   alt="path73"
                   className="envelope"
                 />

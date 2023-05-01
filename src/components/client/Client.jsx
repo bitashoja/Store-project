@@ -1,42 +1,42 @@
-import React from "react";
-import Box from "../Box/Box";
-import ShinyCard from "../ShinyCard/ShinyCard";
-import "./client.css";
+import React from 'react'
+import Box from '../Box/Box'
+import ShinyCard from '../ShinyCard/ShinyCard'
+import './client.css'
 
 const profiles = [
-  { id: 1, cover: "./images/ali.png", name: "Ali Shoja", job: "UIUX designer" },
+  { id: 1, cover: './images/stefan.svg', name: 'Travis Anderson', job: 'UIUX designer' },
 
   {
     id: 2,
-    cover: "./images/profile1.svg",
-    name: "Hossein Bagherzadeh",
-    job: "product manager",
+    cover: './images/11112 1.svg',
+    name: 'Jason Williams',
+    job: 'product manager',
   },
   {
     id: 3,
-    cover: "./images/profile2.svg",
-    name: "Jason  Williams",
-    job: "Digital Camera Winner",
+    cover: './images/profile2.svg',
+    name: 'Harry Maguire',
+    job: 'Graphic designer',
   },
   {
     id: 4,
-    cover: "./images/profile3.svg",
-    name: "Jason  Williams",
-    job: "Digital Camera Winner",
+    cover: './images/profile3.svg',
+    name: 'Sara Fooden',
+    job: 'Digital Camera Winner',
   },
   {
     id: 5,
-    cover: "./images/profile4.svg",
-    name: "Jason  Williams",
-    job: "Digital Camera Winner",
+    cover: './images/profile4.svg',
+    name: 'Maria Kane',
+    job: 'Web Developer',
   },
   {
     id: 6,
-    cover: "./images/profile5.svg",
-    name: "Jason  Williams",
-    job: "Digital Camera Winner",
+    cover: './images/profile5.svg',
+    name: 'Harry Kean ',
+    job: 'Marketing manager',
   },
-];
+]
 
 export default function Client() {
   return (
@@ -46,10 +46,7 @@ export default function Client() {
           <div className="commentsProfile">
             <h3 className="comments">Comments of some of our customers...</h3>
             <p className="paraComments">
-              Team consists of professional and experienced consultants,
-              technicians, engineers, designers and solution architects who work
-              with you to find the best possible solution for your IT
-              environment.
+            See what our clients have to say about our services
             </p>
           </div>
           {profiles.map((user, index) => (
@@ -77,5 +74,5 @@ export default function Client() {
         </div>
       </Box>
     </div>
-  );
+  )
 }

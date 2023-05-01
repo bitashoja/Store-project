@@ -1,6 +1,6 @@
-import React from "react";
-import ServiceIcon from "../serviceIcon/ServiceIcon";
-import "./service.css";
+import React from 'react'
+import ServiceIcon from '../serviceIcon/ServiceIcon'
+import './service.css'
 
 export default function Service() {
   return (
@@ -8,12 +8,13 @@ export default function Service() {
       <div className="serviceP">
         <h3>Some of our services</h3>
         <p>
-          Team consists of professional and experienced consultants,
-          technicians, engineers, designers and solution architects who work
-          with you to find the best possible solution for your IT environment.
+          With a wide range of services including website design, graphic
+          design, mobile app development, hosting services , domain
+          registration, and digital marketing, we at Beyond IT can help you
+          enhance your online presence in the best possible way.
         </p>
       </div>
       <ServiceIcon />
     </div>
-  );
+  )
 }
