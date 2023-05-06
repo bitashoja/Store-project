@@ -14,7 +14,7 @@ export default function HeaderAbout() {
         <div className="header-about">
           <p>
             The beyond IT development team started its activity
-            <br /> in early 2021 by designing and building several <br />{" "}
+            <br /> in early 2021 by designing and building several <br />
             applications and sites for friends. This good
             <br /> experience made us take bigger steps with <br /> more
             seriousness and with the aim of providing fair <br />

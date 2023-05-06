@@ -20,7 +20,7 @@ export default function AboutTeam() {
         <span>
           We started our activities in 2021 with the belief that a customer can
           be a true friend and partner. Our motto is "We consider our customers
-          as friends and partners, and we do our best to satisfy them."
+          as friends and partners, and we do our best to satisfy them.
           <br />
           We aim to provide high-quality services and create a unique experience
           for our customers. To achieve this goal, we try to be distinguished in
